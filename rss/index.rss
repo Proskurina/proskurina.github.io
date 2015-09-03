@@ -1,4 +1,24 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 02 Sep 2015 22:58:02 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 2</title><description>&lt;p&gt;Standups (our morning and afternoon meetings) are when you are actually standing up! It makes meetings shorter. And surprisingly more efficient. If only all meetings in business were like this.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 09:00:25 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Red Green Refactor</title><description>&lt;p&gt;Today we've been given a task of researching what "Red Green Refactor" is.&lt;/p&gt;
+
+&lt;p&gt;And there are 3 simple steps:&lt;/p&gt;
+
+&lt;p&gt;Red - making your test fail&lt;/p&gt;
+
+&lt;p&gt;Green - writing a piece of code to make your test pass&lt;/p&gt;
+
+&lt;p&gt;Refactor - cleaning up you mess (making your code look nicer AND work)&lt;/p&gt;</description><link>http://localhost:2368/red-green-refactor/</link><guid isPermaLink="false">5b5a2f2b-6b6d-4492-9b43-7e668c42b7f0</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 03 Sep 2015 09:00:15 GMT</pubDate><content:encoded>&lt;p&gt;Today we've been given a task of researching what "Red Green Refactor" is.&lt;/p&gt;
+
+&lt;p&gt;And there are 3 simple steps:&lt;/p&gt;
+
+&lt;p&gt;Red - making your test fail&lt;/p&gt;
+
+&lt;p&gt;Green - writing a piece of code to make your test pass&lt;/p&gt;
+
+&lt;p&gt;Refactor - cleaning up you mess (making your code look nicer AND work)&lt;/p&gt;
+
+&lt;p&gt;Simple enough process but quite powerful!&lt;/p&gt;
+
+&lt;p&gt;Research: DONE!&lt;/p&gt;</content:encoded></item><item><title>Day 2</title><description>&lt;p&gt;Standups (our morning and afternoon meetings) are when you are actually standing up! It makes meetings shorter. And surprisingly more efficient. If only all meetings in business were like this.&lt;/p&gt;
 
 &lt;p&gt;Pair programming violently ruins stereotypes about programmers, siting along at home and coding. Programmers communicate more then anyone from the&lt;/p&gt;</description><link>http://localhost:2368/day-2/</link><guid isPermaLink="false">b3be5463-0807-4a23-9bcd-8c9ecaa2d5f0</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Wed, 02 Sep 2015 22:57:18 GMT</pubDate><content:encoded>&lt;p&gt;Standups (our morning and afternoon meetings) are when you are actually standing up! It makes meetings shorter. And surprisingly more efficient. If only all meetings in business were like this.&lt;/p&gt;
 
