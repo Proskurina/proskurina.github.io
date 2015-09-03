@@ -1,30 +1,40 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 09:02:26 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Red Green Refactor</title><description>&lt;p&gt;Today we've been given a task of researching what "Red Green Refactor" is.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 21:51:54 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 3 - Curiouser and curiouser</title><description>&lt;p&gt;Another intense and productive day.&lt;/p&gt;
 
-&lt;p&gt;And there are 3 simple steps:&lt;/p&gt;
+&lt;p&gt;Our coach is fantastic! WHAT A SPEED! I need the whole day to assimilate information I receive in 15-20 minutes.&lt;/p&gt;
+
+&lt;p&gt;Pair programming is good, had another great pair today, very calm and friendly. Together we have finished Post Challenge 3. The code is messy but&lt;/p&gt;</description><link>http://localhost:2368/day-3-curiouser-and-curiouser/</link><guid isPermaLink="false">32435b9e-0dc4-4073-bcdf-b7e533be8feb</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 03 Sep 2015 21:47:53 GMT</pubDate><content:encoded>&lt;p&gt;Another intense and productive day.&lt;/p&gt;
+
+&lt;p&gt;Our coach is fantastic! WHAT A SPEED! I need the whole day to assimilate information I receive in 15-20 minutes.&lt;/p&gt;
+
+&lt;p&gt;Pair programming is good, had another great pair today, very calm and friendly. Together we have finished Post Challenge 3. The code is messy but all tests pass! Refactoring stage is badly required (see the previous post for details).&lt;/p&gt;
+
+&lt;p&gt;Really struggling in writing tests, but getting better in it I hope... (a voice in my head keeps repeating TRUST US TRUST US TRUST US)...&lt;/p&gt;
+
+&lt;p&gt;In tube started to read Practical object-oriented design in Ruby by Sandi Metz.  So far seems like an excellent book.&lt;/p&gt;</content:encoded></item><item><title>Red Green Refactor</title><description>&lt;p&gt;Today we've been given a task of researching what "Red Green Refactor" is. Basically it is the motto of TDD.&lt;/p&gt;
+
+&lt;p&gt;There are 3 simple steps:&lt;/p&gt;
 
 &lt;p&gt;Red - making your test fail&lt;/p&gt;
 
 &lt;p&gt;Green - writing a piece of code to make your test pass&lt;/p&gt;
 
-&lt;p&gt;Refactor - cleaning up you mess (making your code look nicer AND work)&lt;/p&gt;</description><link>http://localhost:2368/red-green-refactor/</link><guid isPermaLink="false">5b5a2f2b-6b6d-4492-9b43-7e668c42b7f0</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 03 Sep 2015 09:00:15 GMT</pubDate><content:encoded>&lt;p&gt;Today we've been given a task of researching what "Red Green Refactor" is.&lt;/p&gt;
+&lt;p&gt;Refactor - cleaning up you mess aka&lt;/p&gt;</description><link>http://localhost:2368/red-green-refactor/</link><guid isPermaLink="false">5b5a2f2b-6b6d-4492-9b43-7e668c42b7f0</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 03 Sep 2015 09:00:15 GMT</pubDate><content:encoded>&lt;p&gt;Today we've been given a task of researching what "Red Green Refactor" is. Basically it is the motto of TDD.&lt;/p&gt;
 
-&lt;p&gt;And there are 3 simple steps:&lt;/p&gt;
+&lt;p&gt;There are 3 simple steps:&lt;/p&gt;
 
 &lt;p&gt;Red - making your test fail&lt;/p&gt;
 
 &lt;p&gt;Green - writing a piece of code to make your test pass&lt;/p&gt;
 
-&lt;p&gt;Refactor - cleaning up you mess (making your code look nicer AND work)&lt;/p&gt;
+&lt;p&gt;Refactor - cleaning up you mess aka DRY (making your code look nicer AND work)&lt;/p&gt;
 
 &lt;p&gt;Simple enough process but quite powerful!&lt;/p&gt;
 
-&lt;p&gt;Research: DONE! &lt;/p&gt;
-
 &lt;p&gt;Thanks Archie for making it nice and simple! You are the best!&lt;/p&gt;</content:encoded></item><item><title>Day 2</title><description>&lt;p&gt;Standups (our morning and afternoon meetings) are when you are actually standing up! It makes meetings shorter. And surprisingly more efficient. If only all meetings in business were like this.&lt;/p&gt;
 
-&lt;p&gt;Pair programming violently ruins stereotypes about programmers, siting along at home and coding. Programmers communicate more then anyone from the&lt;/p&gt;</description><link>http://localhost:2368/day-2/</link><guid isPermaLink="false">b3be5463-0807-4a23-9bcd-8c9ecaa2d5f0</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Wed, 02 Sep 2015 22:57:18 GMT</pubDate><content:encoded>&lt;p&gt;Standups (our morning and afternoon meetings) are when you are actually standing up! It makes meetings shorter. And surprisingly more efficient. If only all meetings in business were like this.&lt;/p&gt;
+&lt;p&gt;Pair programming violently ruins stereotypes about programmers, siting along at home and coding. Programmers communicate more than anyone from the&lt;/p&gt;</description><link>http://localhost:2368/day-2/</link><guid isPermaLink="false">b3be5463-0807-4a23-9bcd-8c9ecaa2d5f0</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Wed, 02 Sep 2015 22:57:18 GMT</pubDate><content:encoded>&lt;p&gt;Standups (our morning and afternoon meetings) are when you are actually standing up! It makes meetings shorter. And surprisingly more efficient. If only all meetings in business were like this.&lt;/p&gt;
 
-&lt;p&gt;Pair programming violently ruins stereotypes about programmers, siting along at home and coding. Programmers communicate more then anyone from the outside world could ever imagine! And it seems like a very good idea. I had a wonderful pair programming partner today, very positive and committed. It helps a lot to have someone to discuss stuff and it is generally more fun. We did a good part of legendary Boris Bike exercise today. Should finish it by the end of the week.   &lt;/p&gt;
+&lt;p&gt;Pair programming violently ruins stereotypes about programmers, siting along at home and coding. Programmers communicate more than anyone from the outside world could ever imagine! And it seems like a very good idea. I had a wonderful pair programming partner today, very positive and committed. It helps a lot to have someone to discuss stuff and it is generally more fun. We did a good part of legendary Boris Bike exercise today. Should finish it by the end of the week.   &lt;/p&gt;
 
 &lt;p&gt;RSpec is ... well … unusual.  First you write a test, make it fail (I never thought failures could be so exiting!) and only then write code and test it.  But it is super important. &lt;br&gt;
 In consulting, people say that you can find 70% of an answer in a question,  but here you can find 70% of your code in tests and errors. Tests seem to be something like a skeleton of the code, that does not let the code fall apart. If you change something in one part of the code, tests immediately inform you if this change ruined something in another part of the code. &lt;/p&gt;
