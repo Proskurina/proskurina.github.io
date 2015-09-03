@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 09:00:25 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Red Green Refactor</title><description>&lt;p&gt;Today we've been given a task of researching what "Red Green Refactor" is.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 09:02:26 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Red Green Refactor</title><description>&lt;p&gt;Today we've been given a task of researching what "Red Green Refactor" is.&lt;/p&gt;
 
 &lt;p&gt;And there are 3 simple steps:&lt;/p&gt;
 
@@ -18,7 +18,9 @@
 
 &lt;p&gt;Simple enough process but quite powerful!&lt;/p&gt;
 
-&lt;p&gt;Research: DONE!&lt;/p&gt;</content:encoded></item><item><title>Day 2</title><description>&lt;p&gt;Standups (our morning and afternoon meetings) are when you are actually standing up! It makes meetings shorter. And surprisingly more efficient. If only all meetings in business were like this.&lt;/p&gt;
+&lt;p&gt;Research: DONE! &lt;/p&gt;
+
+&lt;p&gt;Thanks Archie for making it nice and simple! You are the best!&lt;/p&gt;</content:encoded></item><item><title>Day 2</title><description>&lt;p&gt;Standups (our morning and afternoon meetings) are when you are actually standing up! It makes meetings shorter. And surprisingly more efficient. If only all meetings in business were like this.&lt;/p&gt;
 
 &lt;p&gt;Pair programming violently ruins stereotypes about programmers, siting along at home and coding. Programmers communicate more then anyone from the&lt;/p&gt;</description><link>http://localhost:2368/day-2/</link><guid isPermaLink="false">b3be5463-0807-4a23-9bcd-8c9ecaa2d5f0</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Wed, 02 Sep 2015 22:57:18 GMT</pubDate><content:encoded>&lt;p&gt;Standups (our morning and afternoon meetings) are when you are actually standing up! It makes meetings shorter. And surprisingly more efficient. If only all meetings in business were like this.&lt;/p&gt;
 
