@@ -1,4 +1,35 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 21:51:54 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 3 - Curiouser and curiouser</title><description>&lt;p&gt;Another intense and productive day.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 06 Sep 2015 21:39:58 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 5-6 First weekend challenge</title><description>&lt;p&gt;I can not believe it is already Sunday and it is 11 pm!!!&lt;/p&gt;
+
+&lt;p&gt;I just sat on a sofa with my computer 5 minutes ago and it was only Saturday, 9 am.&lt;/p&gt;
+
+&lt;p&gt;That's all I want to say about our first weekend challenge.&lt;/p&gt;
+
+&lt;p&gt;Kidding. It was not so bad. It&lt;/p&gt;</description><link>http://localhost:2368/day-5-6-first-weekend-challenge/</link><guid isPermaLink="false">f8985ec9-c679-4ea3-80a8-137f3161d698</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 06 Sep 2015 21:39:01 GMT</pubDate><content:encoded>&lt;p&gt;I can not believe it is already Sunday and it is 11 pm!!!&lt;/p&gt;
+
+&lt;p&gt;I just sat on a sofa with my computer 5 minutes ago and it was only Saturday, 9 am.&lt;/p&gt;
+
+&lt;p&gt;That's all I want to say about our first weekend challenge.&lt;/p&gt;
+
+&lt;p&gt;Kidding. It was not so bad. It covered everything we had done during the week. And it was good to go through all materials one more time. I hate tests and I love tests. They are awful. But they help a lot. If you have 20 tests, and then do a little change in your program and suddenly all 20 do not pass, it is a nice little hint that something might be wrong with what you are doing. &lt;/p&gt;
+
+&lt;p&gt;But all end up well. And &lt;a href="https://travis-ci.org/"&gt;Travis&lt;/a&gt; is my new best friend.&lt;/p&gt;
+
+&lt;p&gt;Now to sleep.&lt;/p&gt;
+
+&lt;p&gt;Z-z-z-Z-Z-z-z...&lt;/p&gt;</content:encoded></item><item><title>Day 4 - Friday!</title><description>&lt;p&gt;Even if you love what you do  - Fridays are always great!&lt;/p&gt;
+
+&lt;p&gt;I had an excellent pair, he was so calm and nice, and SO attentive to details. I liked his way of learning very much, and from no on my motto is 'go slow!' It is important now&lt;/p&gt;</description><link>http://localhost:2368/day-4-friday/</link><guid isPermaLink="false">bb6526f6-173b-4312-9265-c5ec7704aa5e</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Fri, 04 Sep 2015 18:24:00 GMT</pubDate><content:encoded>&lt;p&gt;Even if you love what you do  - Fridays are always great!&lt;/p&gt;
+
+&lt;p&gt;I had an excellent pair, he was so calm and nice, and SO attentive to details. I liked his way of learning very much, and from no on my motto is 'go slow!' It is important now to understand every little detail, it will help a lot later.&lt;/p&gt;
+
+&lt;p&gt;On Fridays we have a group lunch. Everybody come to a room with their lunches and discuss stuff with each other, nothing formal, no agenda, just one more opportunity to have a chat with someone from your cohort, or with a senior or a coach. I talked with several people and it is so interesting that we all share very similar story about our old life: good work, enough money, but no energy, awful mornings when you have to go to work (especially Monday of course), and the worst part of the week is Sunday evening... And then (dream)Makers appeared in our lives! &lt;/p&gt;
+
+&lt;p&gt;I plan to try to do this blog more technical starting from the next week.&lt;/p&gt;
+
+&lt;p&gt;But now it is Friday evening, and there is a free beer on the kitchen at the Makers! &lt;br&gt;
+First week at Makers passed as 1 day. &lt;br&gt;
+And it was a great day! &lt;br&gt;
+Cheers!&lt;/p&gt;</content:encoded></item><item><title>Day 3 - Curiouser and curiouser</title><description>&lt;p&gt;Another intense and productive day.&lt;/p&gt;
 
 &lt;p&gt;Our coach is fantastic! WHAT A SPEED! I need the whole day to assimilate information I receive in 15-20 minutes.&lt;/p&gt;
 
