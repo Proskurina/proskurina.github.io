@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Mon, 07 Sep 2015 22:00:47 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 7  - Love Mondays!</title><description>&lt;p&gt;New week - new project. &lt;br&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Mon, 07 Sep 2015 22:03:49 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 7  - Love Mondays!</title><description>&lt;p&gt;New week - new project. &lt;br&gt;
 This week we are supposed to improve our skills in OOP.&lt;/p&gt;
 
 &lt;p&gt;OOP is object oriented programming. As it comes from the title, object is the main thing here. Same as in real life. And as in real life objects can communicate with each other. &lt;br&gt;
@@ -23,14 +23,18 @@ To make an object first you need to make a class (it is like a blueprint, from w
 end  
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;And then you can make a real object from this class!&lt;/p&gt;
+&lt;p&gt;Then you can make a real object from this class!&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;my_dog = Dog.new('Shokky!')  
-puts my_dog.name  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And use this object to do stuff:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;puts my_dog.name  
 puts my_dog.bark
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;The result will be:  &lt;/p&gt;
+&lt;p&gt;The result will be:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Shokky!  
 Woof!  
