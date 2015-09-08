@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 08 Sep 2015 21:55:17 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 8 - Fantastic day!</title><description>&lt;p&gt;Today started with a research that you can see in my previous post, and somehow it took sooooo much time, that we were not able to start Battle Ships before lunch. &lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 08 Sep 2015 21:57:32 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 8 - Fantastic day!</title><description>&lt;p&gt;Today started with a research that you can see in my previous post, and somehow it took sooooo much time, that we were not able to start Battle Ships before lunch. &lt;/p&gt;
 
 &lt;p&gt;During lunchtime yesterday and today we had Lunch talks. One more great thing in the Makers!&lt;/p&gt;
 
@@ -30,7 +30,8 @@
 
 &lt;p&gt;&lt;img src="http://i.imgur.com/bbI4aht.jpg" alt="Imgur"&gt;&lt;/p&gt;
 
-&lt;p&gt;I wonder what will be my result after 12 weeks in Makers!&lt;/p&gt;</content:encoded></item><item><title>Dependency inversion</title><description>&lt;p&gt;Today we received a task to research the Dependency Inversion principle (one of the SOLID principles).&lt;/p&gt;
+&lt;p&gt;Is it just me, or is there a clear connection here? &lt;br&gt;
+I wonder what my result will be!&lt;/p&gt;</content:encoded></item><item><title>Dependency inversion</title><description>&lt;p&gt;Today we received a task to research the Dependency Inversion principle (one of the SOLID principles).&lt;/p&gt;
 
 &lt;p&gt;Dependency appears between two classes when one class has to use instances of the other. &lt;/p&gt;
 
