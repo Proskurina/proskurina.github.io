@@ -1,4 +1,97 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Mon, 07 Sep 2015 22:11:28 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 7  - Love Mondays!</title><description>&lt;p&gt;New week - new project. &lt;br&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 08 Sep 2015 11:16:13 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Dependency inversion</title><description>&lt;p&gt;Today we received a task to research the Dependency Inversion principle (one of the SOLID principles).&lt;/p&gt;
+
+&lt;p&gt;Dependency appears between two classes when one class has to use instances of the other. &lt;/p&gt;
+
+&lt;p&gt;Following the Dependency Injection principle can help you to avoid many complications.&lt;/p&gt;
+
+&lt;p&gt;The Dependency Inversion Principle has two parts:&lt;/p&gt;</description><link>http://localhost:2368/solid/</link><guid isPermaLink="false">0f5176f7-da03-498e-a462-d8cff08291d0</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 08 Sep 2015 11:14:51 GMT</pubDate><content:encoded>&lt;p&gt;Today we received a task to research the Dependency Inversion principle (one of the SOLID principles).&lt;/p&gt;
+
+&lt;p&gt;Dependency appears between two classes when one class has to use instances of the other. &lt;/p&gt;
+
+&lt;p&gt;Following the Dependency Injection principle can help you to avoid many complications.&lt;/p&gt;
+
+&lt;p&gt;The Dependency Inversion Principle has two parts:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;High-level modules should not depend on low-level modules. Both should depend on abstractions.&lt;/li&gt;
+&lt;li&gt;Abstractions should not depend upon details. Details should depend upon abstractions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A bit unclear, right? Much easier to explain it with an example. &lt;br&gt;
+Here is a simple code.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Airport
+
+  def traffic_control
+    rain = Rain.new
+    puts "Bad weather" if rain.heavy?
+  end
+
+end
+
+class Rain
+
+  def heavy?
+    rand &amp;lt; 0.7
+  end
+
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the code above Rain is instantiated directly inside #traffic_control.&lt;/p&gt;
+
+&lt;p&gt;But what if we need to check if it snows, not rains? And we have this new Snow class.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Snow
+
+  def heavy?
+    rand &amp;lt; 0.2
+  end
+
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the initial example we have to change the code inside the method.&lt;/p&gt;
+
+&lt;p&gt;But below is an example of better practice, following this principle:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Airport
+
+  def traffic_control (condition = Rain.new)
+    puts "Bad weather" if condition.heavy?
+  end
+
+end
+
+class Rain
+
+  def heavy?
+    rand &amp;lt; 0.7
+  end
+
+end
+
+class Snow
+
+  def heavy?
+    rand &amp;lt; 0.2
+  end
+
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now without changing the code, we can check either rain or snow conditions:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;airport = Airport.new  
+airport.traffic_control  
+airport.traffic_control(Snow.new)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Also injection could be done through the initialize method.&lt;/p&gt;
+
+&lt;p&gt;Additionally, you can put your "injection" into a separate module, and then include this module into as many classes as you want!&lt;/p&gt;
+
+&lt;p&gt;Thanks Tim!!!&lt;/p&gt;</content:encoded></item><item><title>Day 7  - Love Mondays!</title><description>&lt;p&gt;New week - new project. &lt;br&gt;
 This week we are supposed to continue improving our skills in OOP (last week's task and weekend challenge were also about using OOP). &lt;/p&gt;
 
 &lt;p&gt;OOP is object oriented programming. As it comes from the title, object is the main thing here. Same as in real life.&lt;/p&gt;</description><link>http://localhost:2368/day-7/</link><guid isPermaLink="false">8bcc0d4c-513a-437f-9bee-b7ce782edb37</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Mon, 07 Sep 2015 21:54:38 GMT</pubDate><content:encoded>&lt;p&gt;New week - new project. &lt;br&gt;
