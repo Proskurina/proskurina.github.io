@@ -1,4 +1,36 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 08 Sep 2015 11:16:13 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Dependency inversion</title><description>&lt;p&gt;Today we received a task to research the Dependency Inversion principle (one of the SOLID principles).&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 08 Sep 2015 21:55:17 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 8 - Fantastic day!</title><description>&lt;p&gt;Today started with a research that you can see in my previous post, and somehow it took sooooo much time, that we were not able to start Battle Ships before lunch. &lt;/p&gt;
+
+&lt;p&gt;During lunchtime yesterday and today we had Lunch talks. One more great thing in the Makers!&lt;/p&gt;
+
+&lt;p&gt;Yesterday as a&lt;/p&gt;</description><link>http://localhost:2368/untitled/</link><guid isPermaLink="false">f64a8df9-5174-4de5-826f-11d1ef1d762e</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 08 Sep 2015 21:54:36 GMT</pubDate><content:encoded>&lt;p&gt;Today started with a research that you can see in my previous post, and somehow it took sooooo much time, that we were not able to start Battle Ships before lunch. &lt;/p&gt;
+
+&lt;p&gt;During lunchtime yesterday and today we had Lunch talks. One more great thing in the Makers!&lt;/p&gt;
+
+&lt;p&gt;Yesterday as a guest we had a Director of &lt;a href="http://www.createeducation.co.uk/"&gt;CREATE Education Project&lt;/a&gt;. He told us a lot of pretty amazing stuff about 3D printing and how &lt;a href="https://ultimaker.com/"&gt;Ultimaker 3D Printers&lt;/a&gt; can be used for education. &lt;/p&gt;
+
+&lt;p&gt;And today the founder of &lt;a href="https://www.lexoo.co.uk/"&gt;Lexoo&lt;/a&gt;, who also have a huge experience in development, gave us couple of advises on how to become a good developer (write no code!).&lt;/p&gt;
+
+&lt;p&gt;After the talk and meditation we came back to our main project.&lt;/p&gt;
+
+&lt;p&gt;And I am so proud of myself today, because:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I managed to go slow, and go through each detail in MVP,&lt;/li&gt;
+&lt;li&gt;I managed to explain to my partner some very important things about testing,&lt;/li&gt;
+&lt;li&gt;We had a dramatic breakthrough in Battle Ships!!! &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What a happy day!&lt;/p&gt;
+
+&lt;p&gt;On the way home was thinking about my progress...&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/m6TL3ak.jpg" alt="Imgur"&gt;&lt;/p&gt;
+
+&lt;p&gt;And then saw this!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/bbI4aht.jpg" alt="Imgur"&gt;&lt;/p&gt;
+
+&lt;p&gt;I wonder what will be my result after 12 weeks in Makers!&lt;/p&gt;</content:encoded></item><item><title>Dependency inversion</title><description>&lt;p&gt;Today we received a task to research the Dependency Inversion principle (one of the SOLID principles).&lt;/p&gt;
 
 &lt;p&gt;Dependency appears between two classes when one class has to use instances of the other. &lt;/p&gt;
 
@@ -89,7 +121,7 @@ airport.traffic_control(Snow.new)
 
 &lt;p&gt;Also injection could be done through the initialize method.&lt;/p&gt;
 
-&lt;p&gt;Additionally, you can put your "injection" into a separate module, and then include this module into as many classes as you want!&lt;/p&gt;
+&lt;p&gt;And it works the same way with modules!&lt;/p&gt;
 
 &lt;p&gt;Thanks Tim!!!&lt;/p&gt;</content:encoded></item><item><title>Day 7  - Love Mondays!</title><description>&lt;p&gt;New week - new project. &lt;br&gt;
 This week we are supposed to continue improving our skills in OOP (last week's task and weekend challenge were also about using OOP). &lt;/p&gt;
