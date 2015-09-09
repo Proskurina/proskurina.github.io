@@ -1,4 +1,74 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 08 Sep 2015 21:57:32 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 8 - Fantastic day!</title><description>&lt;p&gt;Today started with a research that you can see in my previous post, and somehow it took sooooo much time, that we were not able to start Battle Ships before lunch. &lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 09 Sep 2015 17:36:09 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Research time!</title><description>&lt;p&gt;Today we have to ​describe the difference between &lt;strong&gt;composition and inheritance&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;Well, Zed A. Shaw explained it nicely and clearly &lt;a href="http://learnrubythehardway.org/book/ex44.html"&gt;here&lt;/a&gt;. I do not think I can do better!&lt;/p&gt;
+
+&lt;h6 id="whataresomeofthedangersofinheritance"&gt;What are some of the dangers of inheritance?&lt;/h6&gt;
+
+&lt;p&gt;First, you can inherit only from one class, so it is important to&lt;/p&gt;</description><link>http://localhost:2368/research-time/</link><guid isPermaLink="false">f8727d70-1507-4b7a-b8f8-886a366d8f37</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Wed, 09 Sep 2015 17:34:25 GMT</pubDate><content:encoded>&lt;p&gt;Today we have to ​describe the difference between &lt;strong&gt;composition and inheritance&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;Well, Zed A. Shaw explained it nicely and clearly &lt;a href="http://learnrubythehardway.org/book/ex44.html"&gt;here&lt;/a&gt;. I do not think I can do better!&lt;/p&gt;
+
+&lt;h6 id="whataresomeofthedangersofinheritance"&gt;What are some of the dangers of inheritance?&lt;/h6&gt;
+
+&lt;p&gt;First, you can inherit only from one class, so it is important to choose carefully. &lt;br&gt;
+And of course it is important to apply logic here, as though a  plane and a bike might have some similarities (take you from point 1 to point be, can be broken, etc.), it does not mean that logically Bike can be a sub-class of a Plane or vice versa. &lt;br&gt;
+It can be hard to test classes that reuse code from a super-class (everything about super class or super-super class should be at hand).&lt;/p&gt;
+
+&lt;h6 id="whywouldweprefercompositionoverinheritance"&gt;Why would we prefer composition over inheritance?&lt;/h6&gt;
+
+&lt;p&gt;We can include as many modules to a class as we want, not just one. And they are easy to implement (no additional difficulties comparing to classes)! We can avoid a lot of repetition with them (DRY principle!). &lt;/p&gt;
+
+&lt;p&gt;It is also possible to do composition using other classes but it is more complicated then with modules.&lt;/p&gt;
+
+&lt;p&gt;And below is some real life example!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Ship
+
+  attr_reader :position, :direction, :size, :hits
+
+  def initialize(position, direction)
+    @position = position
+    @direction = direction
+    @size = 1
+    @hits = 0
+  end
+
+  def was_hit
+    @hits += 1
+  end
+
+  def sunk?
+    @hits == @size
+  end
+
+end
+
+class Submarine &amp;lt; Ship
+
+  def initialize(position, direction)
+    super(position, direction)
+    @size = 2
+  end
+
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And when you print this:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sub = Submarine.new('C3', :E)  
+p sub.size  
+p sub.hits  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You get this:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;2  
+0  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;All works!&lt;/p&gt;
+
+&lt;p&gt;And thank you Jongmin!!! It would not work without you!!!&lt;/p&gt;</content:encoded></item><item><title>Day 8 - Fantastic day!</title><description>&lt;p&gt;Today started with a research that you can see in my previous post, and somehow it took sooooo much time, that we were not able to start Battle Ships before lunch. &lt;/p&gt;
 
 &lt;p&gt;During lunchtime yesterday and today we had Lunch talks. One more great thing in the Makers!&lt;/p&gt;
 
