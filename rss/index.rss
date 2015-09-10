@@ -1,20 +1,20 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 09 Sep 2015 21:38:46 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 9</title><description>&lt;p&gt;Very productive day. &lt;br&gt;
-With my today's partner (he is super smart!) we progressed a lot on the Battle ships. Can you imagine, that this game, that visually is all about grid, can work fine without making an actual grid!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 10 Sep 2015 06:47:39 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 9</title><description>&lt;p&gt;Very productive day. &lt;br&gt;
+With my today's partner (he is super smart!) we progressed a lot on the Battle ships. Can you imagine, that this game, that visually is all about grid, can work fine without an actual grid!&lt;/p&gt;
 
-&lt;p&gt;Also I had a great progress on doubles today (thanks to&lt;/p&gt;</description><link>http://localhost:2368/day-9/</link><guid isPermaLink="false">bfa52410-cac4-4b24-99b4-abb98377d7d0</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Wed, 09 Sep 2015 21:38:15 GMT</pubDate><content:encoded>&lt;p&gt;Very productive day. &lt;br&gt;
-With my today's partner (he is super smart!) we progressed a lot on the Battle ships. Can you imagine, that this game, that visually is all about grid, can work fine without making an actual grid!&lt;/p&gt;
+&lt;p&gt;Also I had a great progress on doubles today (thanks to my&lt;/p&gt;</description><link>http://localhost:2368/day-9/</link><guid isPermaLink="false">bfa52410-cac4-4b24-99b4-abb98377d7d0</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Wed, 09 Sep 2015 21:38:15 GMT</pubDate><content:encoded>&lt;p&gt;Very productive day. &lt;br&gt;
+With my today's partner (he is super smart!) we progressed a lot on the Battle ships. Can you imagine, that this game, that visually is all about grid, can work fine without an actual grid!&lt;/p&gt;
 
 &lt;p&gt;Also I had a great progress on doubles today (thanks to my coach!).&lt;/p&gt;
 
 &lt;p&gt;A couple of words on doubles.&lt;/p&gt;
 
-&lt;p&gt;When you test something in one class, if this something is dependant on the result of the communication with another class, you can end up testing both things (something you really want to test, and something that is happening in another class). That's when you make doubles.&lt;/p&gt;
+&lt;p&gt;When you test something in one class and this something is dependant on actions of another class, you can end up testing both things (something you really want to test, and something that is happening in another class). That's when you make doubles.&lt;/p&gt;
 
 &lt;p&gt;Doubles are a little bit like photos of people they put on chairs for Oscar ceremony rehearsal. The idea of this arrangement is probably to test sound, script, other things I cannot imagine, but not the actors behaviour.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="http://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/picture_this/public/2015/02/17/oscars-seats.jpg" alt="alt text"&gt;&lt;/p&gt;
 
-&lt;p&gt;In OOP it is the same! If you want to test something in one class, you make doubles (put 'photos') of other classes instances and methods to your tests. You know other classes will interact with the class you are testing in real life, but you do not want them to influence your tests.&lt;/p&gt;
+&lt;p&gt;In RSpec it is similar! If you want to test something in one class, you make doubles (put 'photos') of other classes instances and methods to your tests. You know that in real life other classes will interact with the class you are testing, but for now you do not want them to influence your tests.&lt;/p&gt;
 
 &lt;p&gt;You can feel that I am sleeping already and can not make clear sentences, right?.. &lt;/p&gt;</content:encoded></item><item><title>Research time!</title><description>&lt;p&gt;Today we have to ​describe the difference between &lt;strong&gt;composition and inheritance&lt;/strong&gt;. &lt;/p&gt;
 
