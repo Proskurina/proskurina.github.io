@@ -1,4 +1,19 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 10 Sep 2015 18:10:31 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Duck Typing</title><description>&lt;p&gt;We (myself and Kyle) bet that every research post today will start with this words:&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 10 Sep 2015 22:36:43 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 10</title><description>&lt;p&gt;My pair and I did so much today together! He is amazing! &lt;br&gt;
+We finished Bike version of BattleShips! &lt;br&gt;
+...my previous sentence does not make a lot of sense, right?...
+But just believe me - it is cool! &lt;br&gt;
+And most of our methods are not longer than 2-3 lines!&lt;/p&gt;
+
+&lt;p&gt;And I&lt;/p&gt;</description><link>http://localhost:2368/day-10/</link><guid isPermaLink="false">195600bc-a6d5-455f-a731-80fa04c60b85</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 10 Sep 2015 22:35:55 GMT</pubDate><content:encoded>&lt;p&gt;My pair and I did so much today together! He is amazing! &lt;br&gt;
+We finished Bike version of BattleShips! &lt;br&gt;
+...my previous sentence does not make a lot of sense, right?...
+But just believe me - it is cool! &lt;br&gt;
+And most of our methods are not longer than 2-3 lines!&lt;/p&gt;
+
+&lt;p&gt;And I cannot stop coding till now... &lt;br&gt;
+I finished Motobike version (also does not make a lot of sense, right? but it is even cooler than Bike!) and A LOT of refactoring, niiiiice refactoring.&lt;/p&gt;
+
+&lt;p&gt;Now I am trying to refactor tests using verifying doubles. What a smart creatures... Now for each line of code, I have 15 lines of test... Crazy... Probably should come back to regular ones... or go to sleep ... or to regular ones... or to sleep... or ...&lt;/p&gt;</content:encoded></item><item><title>Duck Typing</title><description>&lt;p&gt;We (myself and Kyle) bet that every research post today will start with this words:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Don't check whether it IS-a duck: check whether it QUACKS-like-a duck, WALKS-like-a duck, etc, etc,&lt;/p&gt;
