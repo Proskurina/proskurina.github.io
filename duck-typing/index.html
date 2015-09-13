@@ -22,7 +22,7 @@
     <meta property="og:description" content="We (myself and Kyle) bet that every research post today will start with this words:   Don't check whether it IS-a duck: check whether it QUACKS-like-a duck, WALKS-like-a duck, etc, etc, In other words, what's important is a behaviour (in our...">
     <meta property="og:url" content="http://localhost:2368/duck-typing/">
     <meta property="article:published_time" content="2015-09-10T10:24:14.010Z">
-    <meta property="article:modified_time" content="2015-09-10T10:24:14.009Z">
+    <meta property="article:modified_time" content="2015-09-13T22:08:17.864Z">
     
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Duck Typing">
@@ -44,7 +44,7 @@
     "headline": "Duck Typing",
     "url": "http://localhost:2368/duck-typing/",
     "datePublished": "2015-09-10T10:24:14.010Z",
-    "dateModified": "2015-09-10T10:24:14.009Z",
+    "dateModified": "2015-09-13T22:08:17.864Z",
     "description": "We (myself and Kyle) bet that every research post today will start with this words:   Don&#x27;t check whether it IS-a duck: check whether it QUACKS-like-a duck, WALKS-like-a duck, etc, etc, In other words, what&#x27;s important is a behaviour (in our..."
 }
     </script>
@@ -96,13 +96,13 @@
   <p>Don't check whether it IS-a duck: check whether it QUACKS-like-a duck, WALKS-like-a duck, etc, etc,</p>
 </blockquote>
 
-<p>In other words, what's important is a behaviour (in our case message sent) rather than name (in our case Class name).</p>
+<p>In other words, what's important is a behaviour (in our case message sent) rather than a name (in our case Class name).</p>
 
 <p>For example, if I ask someone a question and receive a satisfying answer, I do not care if this person is a teacher or a lawyer or a cleaner.</p>
 
-<p>And now code example!</p>
+<p>And now a code example!</p>
 
-<p>Today we decided to use an example from Sandi Metz book (she is my Goddess), this example really helped us to understand what duck typing is!</p>
+<p>Today we decided to use an example from Sandi Metz book (she is the best), this example really helped us to understand what duck typing is!</p>
 
 <p>Without duck typing we really care about Class names and have to specify a particular method each different Class uses. Example:</p>
 
@@ -152,7 +152,7 @@ class Driver
 end
 </code></pre>
 
-<p>And now a perfect example of using duck typing. We do not care about Classes anymore, we care only if they can prepare_trip!</p>
+<p>And now a perfect example of using duck typing. We do not care about Classes anymore, we care only if they can prepare_trip! All classes have this method now, and it makes out code much shorter and easier to change if needed.</p>
 
 <pre><code>class Trip  
 attr_reader :bicycles, :customers, :vehicle

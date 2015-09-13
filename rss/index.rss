@@ -1,4 +1,35 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 13 Sep 2015 14:14:14 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Blocks, procs and lambdas.</title><description>&lt;p&gt;This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 13 Sep 2015 22:11:44 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Days 12-13 : Second weekend</title><description>&lt;p&gt;On the second weekend we had two weekend challenges! &lt;br&gt;
+And the only thing I hope, that it does not mean that we will have three on the third!&lt;/p&gt;
+
+&lt;p&gt;You can easily see everything that happened to me during this weekend in two previous posts. Blocks and procs happened and gems&lt;/p&gt;</description><link>http://localhost:2368/days-12-13-second-weekend/</link><guid isPermaLink="false">df174c6a-ed55-4481-ac9b-470804cae9f7</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 13 Sep 2015 22:03:51 GMT</pubDate><content:encoded>&lt;p&gt;On the second weekend we had two weekend challenges! &lt;br&gt;
+And the only thing I hope, that it does not mean that we will have three on the third!&lt;/p&gt;
+
+&lt;p&gt;You can easily see everything that happened to me during this weekend in two previous posts. Blocks and procs happened and gems happened.&lt;/p&gt;
+
+&lt;p&gt;Still, was a great weekend. And I love Sunday evenings now.&lt;/p&gt;</content:encoded></item><item><title>Gems</title><description>&lt;p&gt;Makers' pill on gems is very good. So I will write here in few words what I read there.&lt;/p&gt;
+
+&lt;p&gt;Gems are ruby libraries that can be easily reused. There are lots of ruby gems.&lt;/p&gt;
+
+&lt;p&gt;You can install ruby gem using a command &lt;code&gt;gem install &amp;lt;gem_name&amp;gt;&lt;/code&gt;. &lt;/p&gt;
+
+&lt;p&gt;But for&lt;/p&gt;</description><link>http://localhost:2368/gems/</link><guid isPermaLink="false">41c72686-12bb-4d84-884a-e4ef8f955d46</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 13 Sep 2015 21:38:40 GMT</pubDate><content:encoded>&lt;p&gt;Makers' pill on gems is very good. So I will write here in few words what I read there.&lt;/p&gt;
+
+&lt;p&gt;Gems are ruby libraries that can be easily reused. There are lots of ruby gems.&lt;/p&gt;
+
+&lt;p&gt;You can install ruby gem using a command &lt;code&gt;gem install &amp;lt;gem_name&amp;gt;&lt;/code&gt;. &lt;/p&gt;
+
+&lt;p&gt;But for real developers there is a better way! Bundler!&lt;/p&gt;
+
+&lt;p&gt;Bundler is a gem itself, and its purpose is to manage other gems (to install it write &lt;code&gt;gem install bundler&lt;/code&gt; in the command line).&lt;/p&gt;
+
+&lt;p&gt;To tell bundler what gems are needed for particular program, &lt;code&gt;Gemfile&lt;/code&gt; should be created in the root directory of the project. &lt;code&gt;Gemfile&lt;/code&gt; contains this self-explaining line &lt;code&gt;source 'https://rubygems.org'&lt;/code&gt; and a list of gems.&lt;/p&gt;
+
+&lt;p&gt;To use a gem in your code you should require gem, like this for example:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require 'dotenv'  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Gems are great, cause you can use other people's code. But they are not so great because of the same reason.&lt;/p&gt;</content:encoded></item><item><title>Blocks, procs and lambdas.</title><description>&lt;p&gt;This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
 
 &lt;h6 id="blocks"&gt;Blocks&lt;/h6&gt;
 
@@ -165,7 +196,27 @@ To call this method you can do, for example:  &lt;/p&gt;
 
 &lt;p&gt;3) Procs and lambdas treat &lt;code&gt;return&lt;/code&gt; differently. If you use &lt;code&gt;return&lt;/code&gt; inside lambda, it will take you out from the body of lambda to the code after lambda. If you use &lt;code&gt;return&lt;/code&gt; inside proc it will take you out from the method in which the proc was called(not only from the proc itself). &lt;/p&gt;
 
-&lt;p&gt;There is more about blocks, procs and lambdas, of course, but it is the next level of enlightenment. &lt;/p&gt;</content:encoded></item><item><title>Day 10</title><description>&lt;p&gt;My pair and I did so much together today! He is amazing! &lt;br&gt;
+&lt;p&gt;There is more about blocks, procs and lambdas, of course, but it is the next level of enlightenment. &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;And below... well.. maybe not so apparent visualisation of&lt;/p&gt;
+
+&lt;p&gt;a block&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/gKmly4Q.jpg" alt="Imgur"&gt;&lt;/p&gt;
+
+&lt;p&gt;and a proc&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/qq3PSAl.jpg" alt="Imgur"&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 11 - Party time</title><description>&lt;p&gt;This week was fantastic but also very exhausting.&lt;/p&gt;
+
+&lt;p&gt;And we had our first party at the Makers!&lt;/p&gt;
+
+&lt;p&gt;And... I have a feeling my Friday posts will always be very short...&lt;/p&gt;</description><link>http://localhost:2368/day-11-party-time/</link><guid isPermaLink="false">94091eb9-2267-42a4-9972-ff82ae308689</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Fri, 11 Sep 2015 21:56:00 GMT</pubDate><content:encoded>&lt;p&gt;This week was fantastic but also very exhausting.&lt;/p&gt;
+
+&lt;p&gt;And we had our first party at the Makers!&lt;/p&gt;
+
+&lt;p&gt;And... I have a feeling my Friday posts will always be very short...&lt;/p&gt;</content:encoded></item><item><title>Day 10</title><description>&lt;p&gt;My pair and I did so much together today! He is amazing! &lt;br&gt;
 We finished Bike version of BattleShips! &lt;br&gt;
 ...my previous sentence does not make a lot of sense, right?...
 But just believe me - it is cool! &lt;br&gt;
@@ -180,25 +231,27 @@ And most of our methods are not longer than 2-3 lines!&lt;/p&gt;
 &lt;p&gt;And I cannot stop coding till now... &lt;br&gt;
 I finished Motobike version (also does not make a lot of sense, right? but it is even cooler than Bike!) and A LOT of refactoring, niiiiice refactoring.&lt;/p&gt;
 
-&lt;p&gt;Now I am trying to refactor tests using verifying doubles. What a smart creatures... Now for each line of code, I have 15 lines of test... Crazy... Probably should come back to regular ones... or go to sleep ... or to regular ones... or to sleep... or ...&lt;/p&gt;</content:encoded></item><item><title>Duck Typing</title><description>&lt;p&gt;We (myself and Kyle) bet that every research post today will start with this words:&lt;/p&gt;
+&lt;p&gt;Now it is a good place to tell a few words about MVP (that's the reason I write about Bikes and Motobikes here), but...&lt;/p&gt;
+
+&lt;p&gt;...I can not stop trying to refactor tests using verifying doubles. What a smart creatures... Now for each line of code, I have 15 lines of test... Crazy... Probably should come back to regular ones... or go to sleep ... or to regular ones... or to sleep... or ...&lt;/p&gt;</content:encoded></item><item><title>Duck Typing</title><description>&lt;p&gt;We (myself and Kyle) bet that every research post today will start with this words:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Don't check whether it IS-a duck: check whether it QUACKS-like-a duck, WALKS-like-a duck, etc, etc,&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;In other words, what's important is a behaviour (in our case message sent) rather than name (in our case Class&lt;/p&gt;</description><link>http://localhost:2368/duck-typing/</link><guid isPermaLink="false">2e54ce6e-de6a-4d28-8ae4-e25ce298d1ea</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 10 Sep 2015 10:24:14 GMT</pubDate><content:encoded>&lt;p&gt;We (myself and Kyle) bet that every research post today will start with this words:&lt;/p&gt;
+&lt;p&gt;In other words, what's important is a behaviour (in our case message sent) rather than a name (in our case&lt;/p&gt;</description><link>http://localhost:2368/duck-typing/</link><guid isPermaLink="false">2e54ce6e-de6a-4d28-8ae4-e25ce298d1ea</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 10 Sep 2015 10:24:14 GMT</pubDate><content:encoded>&lt;p&gt;We (myself and Kyle) bet that every research post today will start with this words:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Don't check whether it IS-a duck: check whether it QUACKS-like-a duck, WALKS-like-a duck, etc, etc,&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;In other words, what's important is a behaviour (in our case message sent) rather than name (in our case Class name).&lt;/p&gt;
+&lt;p&gt;In other words, what's important is a behaviour (in our case message sent) rather than a name (in our case Class name).&lt;/p&gt;
 
 &lt;p&gt;For example, if I ask someone a question and receive a satisfying answer, I do not care if this person is a teacher or a lawyer or a cleaner.&lt;/p&gt;
 
-&lt;p&gt;And now code example!&lt;/p&gt;
+&lt;p&gt;And now a code example!&lt;/p&gt;
 
-&lt;p&gt;Today we decided to use an example from Sandi Metz book (she is my Goddess), this example really helped us to understand what duck typing is!&lt;/p&gt;
+&lt;p&gt;Today we decided to use an example from Sandi Metz book (she is the best), this example really helped us to understand what duck typing is!&lt;/p&gt;
 
 &lt;p&gt;Without duck typing we really care about Class names and have to specify a particular method each different Class uses. Example:&lt;/p&gt;
 
@@ -248,7 +301,7 @@ class Driver
 end
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;And now a perfect example of using duck typing. We do not care about Classes anymore, we care only if they can prepare_trip!&lt;/p&gt;
+&lt;p&gt;And now a perfect example of using duck typing. We do not care about Classes anymore, we care only if they can prepare_trip! All classes have this method now, and it makes out code much shorter and easier to change if needed.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;class Trip  
 attr_reader :bicycles, :customers, :vehicle
@@ -617,103 +670,4 @@ Cheers!&lt;/p&gt;</content:encoded></item><item><title>Day 3 - Curiouser and cur
 
 &lt;p&gt;Simple enough process but quite powerful!&lt;/p&gt;
 
-&lt;p&gt;Thanks Archie for making it nice and simple! You are the best!&lt;/p&gt;</content:encoded></item><item><title>Day 2</title><description>&lt;p&gt;Standups (our morning and afternoon meetings) are when you are actually standing up! It makes meetings shorter. And surprisingly more efficient. If only all meetings in business were like this.&lt;/p&gt;
-
-&lt;p&gt;Pair programming violently ruins stereotypes about programmers, siting along at home and coding. Programmers communicate more than anyone from the&lt;/p&gt;</description><link>http://localhost:2368/day-2/</link><guid isPermaLink="false">b3be5463-0807-4a23-9bcd-8c9ecaa2d5f0</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Wed, 02 Sep 2015 22:57:18 GMT</pubDate><content:encoded>&lt;p&gt;Standups (our morning and afternoon meetings) are when you are actually standing up! It makes meetings shorter. And surprisingly more efficient. If only all meetings in business were like this.&lt;/p&gt;
-
-&lt;p&gt;Pair programming violently ruins stereotypes about programmers, siting along at home and coding. Programmers communicate more than anyone from the outside world could ever imagine! And it seems like a very good idea. I had a wonderful pair programming partner today, very positive and committed. It helps a lot to have someone to discuss stuff and it is generally more fun. We did a good part of legendary Boris Bike exercise today. Should finish it by the end of the week.   &lt;/p&gt;
-
-&lt;p&gt;RSpec is ... well … unusual.  First you write a test, make it fail (I never thought failures could be so exiting!) and only then write code and test it.  But it is super important. &lt;br&gt;
-In consulting, people say that you can find 70% of an answer in a question,  but here you can find 70% of your code in tests and errors. Tests seem to be something like a skeleton of the code, that does not let the code fall apart. If you change something in one part of the code, tests immediately inform you if this change ruined something in another part of the code. &lt;/p&gt;
-
-&lt;p&gt;Meditation. The second best thing after sleeping! Love it!&lt;/p&gt;
-
-&lt;p&gt;As I am still fighting for my social life, I went to Ronnie Scott to see Monty Alexander trio today. They were amazing!&lt;/p&gt;
-
-&lt;p&gt;And more about social life –  my partner tried to buy tickets to Dismaland today. Could someone write a good code for Banksy to manage a queue on the day when tickets go on sale?! It is such an awful mess! Grrrrr...&lt;/p&gt;</content:encoded></item><item><title>Day 1 - Induction</title><description>&lt;p&gt;Today was the first day in a month with NO CODING! Surprise!&lt;/p&gt;
-
-&lt;p&gt;But anyway the day was very intense and productive. &lt;/p&gt;
-
-&lt;p&gt;During the day I had plenty of opportunities to chat with people from our cohort and the conclusion is... Our cohort is awesome! I have not seen so many&lt;/p&gt;</description><link>http://localhost:2368/day-1-induction/</link><guid isPermaLink="false">1948fbab-deef-48ea-b96a-4b63305dc2ad</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 01 Sep 2015 21:30:14 GMT</pubDate><content:encoded>&lt;p&gt;Today was the first day in a month with NO CODING! Surprise!&lt;/p&gt;
-
-&lt;p&gt;But anyway the day was very intense and productive. &lt;/p&gt;
-
-&lt;p&gt;During the day I had plenty of opportunities to chat with people from our cohort and the conclusion is... Our cohort is awesome! I have not seen so many positive open smart beautiful and different people in one room for a long time.  Harry from Cornwall, Philip from Gloucestershire, Michael from North York, Lucy from Melbourne, Matt from Cheshire and all 30+ of us from all over the world. &lt;/p&gt;
-
-&lt;p&gt;And thinking about the induction itself, well, the main words are: very professional, clever and thoughtful. &lt;/p&gt;
-
-&lt;p&gt;New words learned: CJO (I wish every company had this position!), educational psychology (!), slackoverflow.&lt;/p&gt;
-
-&lt;p&gt;Had some Northern Line madness in the end, got home in 2.5 hours. I do not think I will ever leave Makers before 8 pm again!&lt;/p&gt;</content:encoded></item><item><title>Pre-course</title><description>&lt;p&gt;So, I joined the Makers Academy September cohort. &lt;/p&gt;
-
-&lt;p&gt;We start on September 1st, but before that we have to finish the Pre-course. We are well equipped with several tools to go through the pre-course: &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;MA lessons, &lt;/li&gt;
-&lt;li&gt;Slack (where we can help each other) &lt;/li&gt;
-&lt;li&gt;and Google (where strangers can help us)&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/pre-course/</link><guid isPermaLink="false">12ef853f-5e4e-4efb-aa8b-43ecaffa7460</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Mon, 31 Aug 2015 15:14:09 GMT</pubDate><content:encoded>&lt;p&gt;So, I joined the Makers Academy September cohort. &lt;/p&gt;
-
-&lt;p&gt;We start on September 1st, but before that we have to finish the Pre-course. We are well equipped with several tools to go through the pre-course: &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;MA lessons, &lt;/li&gt;
-&lt;li&gt;Slack (where we can help each other) &lt;/li&gt;
-&lt;li&gt;and Google (where strangers can help us)!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id="week1commandline"&gt;Week 1: Command line&lt;/h6&gt;
-
-&lt;p&gt;Command line interface (CLI) allows you to communicate directly with your computer, with underlying code of your computer, to be precise. You do not need support of graphical user interface (GUI) to create new files and folders, move between the folders and see what's inside, change access to files, to find stuff, etc. &lt;/p&gt;
-
-&lt;p&gt;Changing GUI to CLI feels a bit like removing training wheels form a bicycle. At first it is uncomfortable but later you appreciate the freedom you get. &lt;/p&gt;
-
-&lt;p&gt;Maker's lesson on CL is very informative and clear, very easy to read and understand even for a newbie (like myself!).&lt;/p&gt;
-
-&lt;p&gt;New words learned: &lt;code&gt;pwd, ls, cd, mkdir, rmdir, rm, touch, cp, mv&lt;/code&gt; (renaming a file is actually moving a file!), &lt;code&gt;cat, less, chmod, man, find, grep, sudo, shebang&lt;/code&gt; and many many others. Also learned how to use | &amp;lt; &gt; &amp;lt;&amp;lt; to redirect streams. &lt;/p&gt;
-
-&lt;p&gt;So with all these knowledge and trembling hands I successfully finished the first pre-course challenge. Only 3 weeks later I can say that it was just a kid's stuff...&lt;/p&gt;
-
-&lt;h6 id="week2gitandgithub"&gt;Week 2: Git and Github&lt;/h6&gt;
-
-&lt;p&gt;Week 2 started on Friday! I had a trip planned for the whole week 2, so had to finish my learnings for the week before it even has started.&lt;/p&gt;
-
-&lt;p&gt;Learning git is like receiving an access to a new universe. Because Github is a new universe! Populated with developers only. &lt;/p&gt;
-
-&lt;p&gt;Git is a version control system. And you cannot overrate the importance of using it. It helps you to save you work on different stages, to work on different versions of a program, to work on a project with a team, etc. You have to develop a habit to use it but it pays off.&lt;/p&gt;
-
-&lt;p&gt;The best thing is GitHub! It is like a huge open library of source code. You can keep your code there, but you can also browse through other developers code, fork it, clone it, even improve it (well, I am soooooo far from that now).&lt;/p&gt;
-
-&lt;p&gt;As a developer you are your Github profile. Feeling exposed! &lt;/p&gt;
-
-&lt;h6 id="weeks3ruby"&gt;Weeks 3: Ruby&lt;/h6&gt;
-
-&lt;p&gt;From the beginning I thought that making mistakes and asking for help could be the most difficult things for me on this course.&lt;/p&gt;
-
-&lt;p&gt;But Makers are so good in helping you to ask for help! &lt;br&gt;
-There is Slack, where you can communicate with your cohort and seniors, there are Github issues, where you can ask questions, and on week 3 of pre-course you get a mentor! No way you are left on your own!&lt;/p&gt;
-
-&lt;p&gt;When you start learning actual programming language you need help more and more.&lt;/p&gt;
-
-&lt;p&gt;Ruby is a very popular programming language and a very elegant one! The more you learn it the more you appreciate how smart it is. My vocabulary expanded dramatically with words like &lt;code&gt;object, class, method, variable, string, array, hash&lt;/code&gt; and tonns and tonns of method names...&lt;/p&gt;
-
-&lt;p&gt;This week I finished Chris Pine book, finished sections 1 and 2 of Ruby Kickstart, and (the most exciting) started to play on codewars!&lt;/p&gt;
-
-&lt;p&gt;Codewars are addictive. I have an awful mess at home, barely walk with my dog, and my partner is getting used to this absent look, when I pretend to participate in a conversation but actually can not stop thinking about an unresolved kata... you know...&lt;/p&gt;
-
-&lt;p&gt;At some point I forced myself to stick to 7 and 8 kyu kata, to learn how to write more elegant 'ruby style' code. Solving a problem is one thing but solving it with a nice code is so much more satisfying! My favourite trick now is to write &lt;code&gt;if...else..end&lt;/code&gt; sentence in one line with &lt;code&gt;&amp;lt;condition&amp;gt; ? &amp;lt;if true&amp;gt; : &amp;lt;if false&amp;gt;&lt;/code&gt;. It makes a code look much lighter!&lt;/p&gt;
-
-&lt;p&gt;So this week's challenge to reach 70 points on codewars was more fun then challenge! &lt;a href="http://stackoverflow.com/"&gt;Stackoverflow&lt;/a&gt; helps a lot, of course.&lt;/p&gt;
-
-&lt;p&gt;During this week I also had my first session of pair programming with my tutor. Loved it!&lt;/p&gt;
-
-&lt;p&gt;Oh! And I also learned to use some Markdown to make my page look nicer!&lt;/p&gt;
-
-&lt;h6 id="week4moreruby"&gt;Week 4: More Ruby&lt;/h6&gt;
-
-&lt;p&gt;This week I was in Edinburgh for Fringe festival! Watched tonnes of great shows! And I must say that technology is everywhere, even in the &lt;a href="https://english.komische-oper-berlin.de/schedule/magic-flute/"&gt;opera&lt;/a&gt;! And of course in &lt;a href="http://lacaserne.net/index2.php/theatre/eight_eight_seven/"&gt;theatre&lt;/a&gt;! &lt;/p&gt;
-
-&lt;p&gt;My learning this week was between the shows, but 4 hour train to Edinburgh and back helped a lot. I covered most part of the Well-Grounded Rubyist by David A. Black. The book is so good! A real page-turner. It is also very smart for the publisher to give you a free ebook (password protected) when you buy a hardcopy. &lt;/p&gt;
-
-&lt;p&gt;Also I did some more katas and started reading about rspec.&lt;/p&gt;
-
-&lt;p&gt;And I spent my last day before the course writing this post! The fun begins in 15 hours!&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Thanks Archie for making it nice and simple! You are the best!&lt;/p&gt;</content:encoded></item></channel></rss>
