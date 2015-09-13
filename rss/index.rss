@@ -1,4 +1,168 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 13 Sep 2015 10:14:39 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 10</title><description>&lt;p&gt;My pair and I did so much together today! He is amazing! &lt;br&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 13 Sep 2015 10:15:54 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Blocks, procs and lambdas.</title><description>&lt;p&gt;One of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
+
+&lt;h6 id="blocks"&gt;Blocks&lt;/h6&gt;
+
+&lt;p&gt;Block is everything between &lt;code&gt;do&lt;/code&gt; end &lt;code&gt;end&lt;/code&gt; or between &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; (if it is not a hash of course)&lt;/p&gt;</description><link>http://localhost:2368/blocks-procs-and-lambdas/</link><guid isPermaLink="false">a2c5448f-d8ae-493c-94a6-eb8cd5c0f0a2</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 13 Sep 2015 10:15:49 GMT</pubDate><content:encoded>&lt;p&gt;One of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
+
+&lt;h6 id="blocks"&gt;Blocks&lt;/h6&gt;
+
+&lt;p&gt;Block is everything between &lt;code&gt;do&lt;/code&gt; end &lt;code&gt;end&lt;/code&gt; or between &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; (if it is not a hash of course).&lt;/p&gt;
+
+&lt;p&gt;For example, in  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;arr = ["1", "2", "3", "4"]  
+arr.map {|digit| digit.to_i}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;{|digit| digit.to_i}&lt;/code&gt; is a block. It also could be written like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;arr.map do |digit|  
+          digit.to_i
+        end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There are arguments of the block inside pipes &lt;code&gt;|arg|&lt;/code&gt;. In this case it is digit.&lt;/p&gt;
+
+&lt;p&gt;Block is not an object. And it is also not an argument of the method map! or any method. Because it is not an object.&lt;/p&gt;
+
+&lt;p&gt;But how do you pass a block to a method if it is not an argument? Is it even possible?&lt;/p&gt;
+
+&lt;p&gt;And yes, it is. In a way. But first few words about procs.&lt;/p&gt;
+
+&lt;h6 id="procs"&gt;Procs&lt;/h6&gt;
+
+&lt;p&gt;In simple words proc is a block with a name. A block assigned to a variable. Like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;p1 = Proc.new {|digit| digit.to_i}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;p2 = Proc.new do |m, n|  
+       (m+n)*2
+     end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In these examples digit, m and n are arguments of the procs.&lt;/p&gt;
+
+&lt;p&gt;Procs are objects, so they can be method arguments and you can easily pass procs to a method. Like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def new_method(proc)  
+  proc.call
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or with arguments:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def new_method2(arg, proc)  
+  puts proc.call(arg)
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then you call the method with particular arguments and a particular proc (proc should already exist when you call a method):  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;new_method2("1", p1)  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And the result will be 1.&lt;/p&gt;
+
+&lt;p&gt;Now...&lt;/p&gt;
+
+&lt;h6 id="backtoblocks"&gt;Back to blocks&lt;/h6&gt;
+
+&lt;p&gt;To pass a block to a method you do something like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def another_method (&amp;amp;block)  
+  block.call
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Very similar to procs, right? But note the &lt;strong&gt;&amp;amp;&lt;/strong&gt; sign. It is very important, will write about it soon.&lt;/p&gt;
+
+&lt;p&gt;To call the method you need to provide a block directly to the method. This block does not exist until you call the method.  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;another_method {puts "I am a block"}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You see curly braces, that is because it is a block, not an argument. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;result:  
+&amp;gt;I am a block
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And if your block requires an argument, you might do  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def another_method2 (arg1, &amp;amp;block)  
+  block.call(arg1)
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Also very similar to proc. &lt;br&gt;
+To call this method you can do, for example:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;another_method2(5) {|num| puts num+2}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which is the same as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;another_method2(5) do |num|  
+                  puts num+2
+                end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and one more example with the same method  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;another_method2('good') {|word| puts word+'bye'}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Predictable outputs here are 7 and 'goodbye'.&lt;/p&gt;
+
+&lt;p&gt;Interesting thing is that actual method arguments are 5 in the first example and 'good' in the second example, they are in regular braces, and blocks are again in curly braces(because block is not an argument!).&lt;/p&gt;
+
+&lt;p&gt;Now about &lt;strong&gt;&amp;amp;&lt;/strong&gt; sign.&lt;/p&gt;
+
+&lt;p&gt;The purpose of this sign is to make a proc from your block! So when you call your method and provide some block, ruby makes a proc from this block, and then inside the method calls the proc that was just created! &lt;/p&gt;
+
+&lt;p&gt;&amp;amp; is equal to a method to_proc, but you cannot write block.to_proc while providing block to your method, ruby will not understand it. So you have to use &amp;amp; instead.&lt;/p&gt;
+
+&lt;p&gt;You can also use &lt;strong&gt;&amp;amp;&lt;/strong&gt; sign (which is "a wrapper around a method to_proc") to symbols.&lt;/p&gt;
+
+&lt;p&gt;So instead of writing  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;map {|digit| digit.to_i}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;you can wright  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;map(&amp;amp;:to_i)  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where &lt;code&gt;&amp;amp;&lt;/code&gt; is to_proc method, and &lt;code&gt;:to_i&lt;/code&gt; is a symbol, "that is interpreted as a message to be sent to each element of the array".&lt;/p&gt;
+
+&lt;h6 id="lambdas"&gt;Lambdas&lt;/h6&gt;
+
+&lt;p&gt;Lambda is a proc, but there are couple of differences:&lt;/p&gt;
+
+&lt;p&gt;1) Procs do not care much about their arguments. Lambdas do(the same way as methods).&lt;/p&gt;
+
+&lt;p&gt;So, if you make a proc  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;p1 = Proc.new {|digit| digit.to_i}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then do &lt;br&gt;
+&lt;code&gt;p1.call("1", "2", "3")&lt;/code&gt;, the result will be &lt;code&gt;1&lt;/code&gt;, proc will not inform you that there is wrong number of arguments, it will just run on the first one.&lt;/p&gt;
+
+&lt;p&gt;But if you do  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;l1 = lambda {|digit| digit.to_i}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then &lt;code&gt;l1.call("1", "2", "3")&lt;/code&gt;, the result will be ArgumentError: wrong number of arguments.&lt;/p&gt;
+
+&lt;p&gt;2) You can not create lambda with &lt;code&gt;&amp;amp;&lt;/code&gt;, so if you need lambda, not a proc, you have to create it before passing it into a method.&lt;/p&gt;
+
+&lt;p&gt;3) Procs and lambdas treat &lt;code&gt;return&lt;/code&gt; differently. If you use &lt;code&gt;return&lt;/code&gt; inside lambda, it will take you out from the body of lambda to the code after lambda. If you use &lt;code&gt;return&lt;/code&gt; inside proc it will take you out from the method in which the proc was called(not only from the proc itself). &lt;/p&gt;</content:encoded></item><item><title>Day 10</title><description>&lt;p&gt;My pair and I did so much together today! He is amazing! &lt;br&gt;
 We finished Bike version of BattleShips! &lt;br&gt;
 ...my previous sentence does not make a lot of sense, right?...
 But just believe me - it is cool! &lt;br&gt;
@@ -549,12 +713,4 @@ There is Slack, where you can communicate with your cohort and seniors, there ar
 
 &lt;p&gt;Also I did some more katas and started reading about rspec.&lt;/p&gt;
 
-&lt;p&gt;And I spent my last day before the course writing this post! The fun begins in 15 hours!&lt;/p&gt;</content:encoded></item><item><title>Hello, world</title><description>&lt;p&gt;I can't believe it is happening :)&lt;/p&gt;
-
-&lt;p&gt;More to follow.&lt;/p&gt;
-
-&lt;p&gt;p.s. Thanks Usman for &lt;a href="http://usmanj.github.io/setting-up-a-ghost-blog-on-github/"&gt;this post.&lt;/a&gt;&lt;/p&gt;</description><link>http://localhost:2368/hello-world/</link><guid isPermaLink="false">697e047f-6461-4673-9379-209dfba95189</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Fri, 21 Aug 2015 15:18:00 GMT</pubDate><content:encoded>&lt;p&gt;I can't believe it is happening :)&lt;/p&gt;
-
-&lt;p&gt;More to follow.&lt;/p&gt;
-
-&lt;p&gt;p.s. Thanks Usman for &lt;a href="http://usmanj.github.io/setting-up-a-ghost-blog-on-github/"&gt;this post.&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;And I spent my last day before the course writing this post! The fun begins in 15 hours!&lt;/p&gt;</content:encoded></item></channel></rss>
