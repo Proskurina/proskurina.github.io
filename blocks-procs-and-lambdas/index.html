@@ -11,7 +11,7 @@
 
     <link rel="shortcut icon" href="../favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=8f2785648c">
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=bbacf23d13">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
 
     <link rel="canonical" href="index.html">
@@ -19,14 +19,14 @@
     <meta property="og:site_name" content="Learn to code">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Blocks, procs and lambdas.">
-    <meta property="og:description" content="One of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help! Blocks Block is everything between do end end or...">
+    <meta property="og:description" content="This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help! Blocks Block is everything between do end...">
     <meta property="og:url" content="http://localhost:2368/blocks-procs-and-lambdas/">
     <meta property="article:published_time" content="2015-09-13T10:15:49.280Z">
-    <meta property="article:modified_time" content="2015-09-13T10:50:42.700Z">
+    <meta property="article:modified_time" content="2015-09-13T14:11:52.439Z">
     
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Blocks, procs and lambdas.">
-    <meta name="twitter:description" content="One of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help! Blocks Block is everything between do end end or...">
+    <meta name="twitter:description" content="This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help! Blocks Block is everything between do end...">
     <meta name="twitter:url" content="http://localhost:2368/blocks-procs-and-lambdas/">
     
     <script type="application/ld+json">
@@ -44,8 +44,8 @@
     "headline": "Blocks, procs and lambdas.",
     "url": "http://localhost:2368/blocks-procs-and-lambdas/",
     "datePublished": "2015-09-13T10:15:49.280Z",
-    "dateModified": "2015-09-13T10:50:42.700Z",
-    "description": "One of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help! Blocks Block is everything between do end end or..."
+    "dateModified": "2015-09-13T14:11:52.439Z",
+    "description": "This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help! Blocks Block is everything between do end..."
 }
     </script>
 
@@ -90,11 +90,11 @@
         </header>
 
         <section class="post-content">
-            <p>One of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!</p>
+            <p>This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!</p>
 
 <h6 id="blocks">Blocks</h6>
 
-<p>Block is everything between <code>do</code> end <code>end</code> or between <code>{</code> and <code>}</code> (if it is not a hash of course).</p>
+<p>Block is everything between <code>do</code> end <code>end</code> or between <code>{</code> and <code>}</code> (if it is not a hash, of course).</p>
 
 <p>For example, in  </p>
 
@@ -109,11 +109,11 @@ arr.map {|digit| digit.to_i}
         end
 </code></pre>
 
-<p>There are arguments of the block inside pipes <code>|arg|</code>. In this case it is digit.</p>
+<p>Blocks can have arguments. Arguments of the block are always inside the pipes <code>|arg|</code>. In this case it is <code>|digit|</code>.</p>
 
-<p>Block is not an object. And it is also not an argument of the method map! or any method. Because it is not an object.</p>
+<p>Block is not an object. And it is also not an argument of the map method! or any method. Because it is not an object.</p>
 
-<p>But how do you pass a block to a method if it is not an argument? Is it even possible?</p>
+<p>But how do you pass a block to a method if it is not an object and can not be an argument? Is it even possible?</p>
 
 <p>And yes, it is. In a way. But first few words about procs.</p>
 
@@ -133,11 +133,17 @@ arr.map {|digit| digit.to_i}
 
 <p>In these examples digit, m and n are arguments of the procs.</p>
 
-<p>Procs are objects, so they can be method arguments and you can easily pass procs to a method. Like this:</p>
+<p>Procs are objects, so they can be method arguments and you can easily pass procs to a method. And then activate (call) the proc inside the method. Like this:</p>
 
 <pre><code>def new_method(proc)  
   proc.call
-end  
+end
+
+p = Proc.new {puts "I am proc"}
+
+new_method(p)
+
+&gt; I am proc
 </code></pre>
 
 <p>Or with arguments:  </p>
@@ -162,21 +168,16 @@ end
 
 <pre><code>def another_method (&amp;block)  
   block.call
-end  
+end
+
+another_method {puts "I am a block or a proc.."}
+
+&gt; I am a block or a proc..
 </code></pre>
 
 <p>Very similar to procs, right? But note the <strong>&amp;</strong> sign. It is very important, will write about it soon.</p>
 
-<p>To call the method you need to provide a block directly to the method. This block does not exist until you call the method.  </p>
-
-<pre><code>another_method {puts "I am a block"}  
-</code></pre>
-
-<p>You see curly braces, that is because it is a block, not an argument. </p>
-
-<pre><code>result:  
-&gt;I am a block
-</code></pre>
+<p>Another difference is that to call the method you need to provide a block directly to the method (it was not and cannot be pre-written). You also see curly braces after the method name, inside them is a block, not an argument. </p>
 
 <p>And if your block requires an argument, you might do  </p>
 
@@ -209,7 +210,7 @@ To call this method you can do, for example:  </p>
 
 <p>Now about <strong>&amp;</strong> sign.</p>
 
-<p>The purpose of this sign is to make a proc from your block! So when you call your method and provide some block, ruby makes a proc from this block, and then inside the method calls the proc that was just created! </p>
+<p>The purpose of this sign is to create a proc from your block! So when you call your method and provide a block to it, ruby makes a proc from this block, and then inside the method calls the proc that was just created! </p>
 
 <p>&amp; is equal to a method to_proc, but you cannot write block.to_proc while providing block to your method, ruby will not understand it. So you have to use &amp; instead.</p>
 
@@ -252,7 +253,7 @@ To call this method you can do, for example:  </p>
 
 <p>3) Procs and lambdas treat <code>return</code> differently. If you use <code>return</code> inside lambda, it will take you out from the body of lambda to the code after lambda. If you use <code>return</code> inside proc it will take you out from the method in which the proc was called(not only from the proc itself). </p>
 
-<p>There is more about blocks, procs and lambdas, of course, but it is the next level of enlightenment. Hope will be there soon.</p>
+<p>There is more about blocks, procs and lambdas, of course, but it is the next level of enlightenment. </p>
         </section>
 
         <footer class="post-footer">
@@ -306,9 +307,9 @@ To call this method you can do, for example:  </p>
 
     </div>
 
-    <script src="../public/jquery.js?v=8f2785648c"></script>
+    <script src="../public/jquery.js?v=bbacf23d13"></script>
 
-    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=8f2785648c"></script>
-    <script type="text/javascript" src="../assets/js/index.js?v=8f2785648c"></script>
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=bbacf23d13"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=bbacf23d13"></script>
 
 </body>

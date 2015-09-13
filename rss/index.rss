@@ -1,12 +1,12 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 13 Sep 2015 10:50:51 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Blocks, procs and lambdas.</title><description>&lt;p&gt;One of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 13 Sep 2015 14:12:14 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Blocks, procs and lambdas.</title><description>&lt;p&gt;This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
 
 &lt;h6 id="blocks"&gt;Blocks&lt;/h6&gt;
 
-&lt;p&gt;Block is everything between &lt;code&gt;do&lt;/code&gt; end &lt;code&gt;end&lt;/code&gt; or between &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; (if it is not a hash of course)&lt;/p&gt;</description><link>http://localhost:2368/blocks-procs-and-lambdas/</link><guid isPermaLink="false">a2c5448f-d8ae-493c-94a6-eb8cd5c0f0a2</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 13 Sep 2015 10:15:49 GMT</pubDate><content:encoded>&lt;p&gt;One of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
+&lt;p&gt;Block is everything between &lt;code&gt;do&lt;/code&gt; end &lt;code&gt;end&lt;/code&gt; or between &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; (if it is not a hash,&lt;/p&gt;</description><link>http://localhost:2368/blocks-procs-and-lambdas/</link><guid isPermaLink="false">a2c5448f-d8ae-493c-94a6-eb8cd5c0f0a2</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 13 Sep 2015 10:15:49 GMT</pubDate><content:encoded>&lt;p&gt;This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
 
 &lt;h6 id="blocks"&gt;Blocks&lt;/h6&gt;
 
-&lt;p&gt;Block is everything between &lt;code&gt;do&lt;/code&gt; end &lt;code&gt;end&lt;/code&gt; or between &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; (if it is not a hash of course).&lt;/p&gt;
+&lt;p&gt;Block is everything between &lt;code&gt;do&lt;/code&gt; end &lt;code&gt;end&lt;/code&gt; or between &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; (if it is not a hash, of course).&lt;/p&gt;
 
 &lt;p&gt;For example, in  &lt;/p&gt;
 
@@ -21,11 +21,11 @@ arr.map {|digit| digit.to_i}
         end
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;There are arguments of the block inside pipes &lt;code&gt;|arg|&lt;/code&gt;. In this case it is digit.&lt;/p&gt;
+&lt;p&gt;Blocks can have arguments. Arguments of the block are always inside the pipes &lt;code&gt;|arg|&lt;/code&gt;. In this case it is &lt;code&gt;|digit|&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Block is not an object. And it is also not an argument of the method map! or any method. Because it is not an object.&lt;/p&gt;
+&lt;p&gt;Block is not an object. And it is also not an argument of the map method! or any method. Because it is not an object.&lt;/p&gt;
 
-&lt;p&gt;But how do you pass a block to a method if it is not an argument? Is it even possible?&lt;/p&gt;
+&lt;p&gt;But how do you pass a block to a method if it is not an object and can not be an argument? Is it even possible?&lt;/p&gt;
 
 &lt;p&gt;And yes, it is. In a way. But first few words about procs.&lt;/p&gt;
 
@@ -45,11 +45,17 @@ arr.map {|digit| digit.to_i}
 
 &lt;p&gt;In these examples digit, m and n are arguments of the procs.&lt;/p&gt;
 
-&lt;p&gt;Procs are objects, so they can be method arguments and you can easily pass procs to a method. Like this:&lt;/p&gt;
+&lt;p&gt;Procs are objects, so they can be method arguments and you can easily pass procs to a method. And then activate (call) the proc inside the method. Like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;def new_method(proc)  
   proc.call
-end  
+end
+
+p = Proc.new {puts "I am proc"}
+
+new_method(p)
+
+&amp;gt; I am proc
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Or with arguments:  &lt;/p&gt;
@@ -74,21 +80,16 @@ end
 
 &lt;pre&gt;&lt;code&gt;def another_method (&amp;amp;block)  
   block.call
-end  
+end
+
+another_method {puts "I am a block or a proc.."}
+
+&amp;gt; I am a block or a proc..
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Very similar to procs, right? But note the &lt;strong&gt;&amp;amp;&lt;/strong&gt; sign. It is very important, will write about it soon.&lt;/p&gt;
 
-&lt;p&gt;To call the method you need to provide a block directly to the method. This block does not exist until you call the method.  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;another_method {puts "I am a block"}  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You see curly braces, that is because it is a block, not an argument. &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;result:  
-&amp;gt;I am a block
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Another difference is that to call the method you need to provide a block directly to the method (it was not and cannot be pre-written). You also see curly braces after the method name, inside them is a block, not an argument. &lt;/p&gt;
 
 &lt;p&gt;And if your block requires an argument, you might do  &lt;/p&gt;
 
@@ -121,7 +122,7 @@ To call this method you can do, for example:  &lt;/p&gt;
 
 &lt;p&gt;Now about &lt;strong&gt;&amp;amp;&lt;/strong&gt; sign.&lt;/p&gt;
 
-&lt;p&gt;The purpose of this sign is to make a proc from your block! So when you call your method and provide some block, ruby makes a proc from this block, and then inside the method calls the proc that was just created! &lt;/p&gt;
+&lt;p&gt;The purpose of this sign is to create a proc from your block! So when you call your method and provide a block to it, ruby makes a proc from this block, and then inside the method calls the proc that was just created! &lt;/p&gt;
 
 &lt;p&gt;&amp;amp; is equal to a method to_proc, but you cannot write block.to_proc while providing block to your method, ruby will not understand it. So you have to use &amp;amp; instead.&lt;/p&gt;
 
@@ -164,7 +165,7 @@ To call this method you can do, for example:  &lt;/p&gt;
 
 &lt;p&gt;3) Procs and lambdas treat &lt;code&gt;return&lt;/code&gt; differently. If you use &lt;code&gt;return&lt;/code&gt; inside lambda, it will take you out from the body of lambda to the code after lambda. If you use &lt;code&gt;return&lt;/code&gt; inside proc it will take you out from the method in which the proc was called(not only from the proc itself). &lt;/p&gt;
 
-&lt;p&gt;There is more about blocks, procs and lambdas, of course, but it is the next level of enlightenment. Hope will be there soon.&lt;/p&gt;</content:encoded></item><item><title>Day 10</title><description>&lt;p&gt;My pair and I did so much together today! He is amazing! &lt;br&gt;
+&lt;p&gt;There is more about blocks, procs and lambdas, of course, but it is the next level of enlightenment. &lt;/p&gt;</content:encoded></item><item><title>Day 10</title><description>&lt;p&gt;My pair and I did so much together today! He is amazing! &lt;br&gt;
 We finished Bike version of BattleShips! &lt;br&gt;
 ...my previous sentence does not make a lot of sense, right?...
 But just believe me - it is cool! &lt;br&gt;
