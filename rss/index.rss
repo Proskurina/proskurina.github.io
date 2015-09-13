@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 13 Sep 2015 10:15:54 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Blocks, procs and lambdas.</title><description>&lt;p&gt;One of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 13 Sep 2015 10:50:51 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Blocks, procs and lambdas.</title><description>&lt;p&gt;One of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
 
 &lt;h6 id="blocks"&gt;Blocks&lt;/h6&gt;
 
@@ -162,7 +162,9 @@ To call this method you can do, for example:  &lt;/p&gt;
 
 &lt;p&gt;2) You can not create lambda with &lt;code&gt;&amp;amp;&lt;/code&gt;, so if you need lambda, not a proc, you have to create it before passing it into a method.&lt;/p&gt;
 
-&lt;p&gt;3) Procs and lambdas treat &lt;code&gt;return&lt;/code&gt; differently. If you use &lt;code&gt;return&lt;/code&gt; inside lambda, it will take you out from the body of lambda to the code after lambda. If you use &lt;code&gt;return&lt;/code&gt; inside proc it will take you out from the method in which the proc was called(not only from the proc itself). &lt;/p&gt;</content:encoded></item><item><title>Day 10</title><description>&lt;p&gt;My pair and I did so much together today! He is amazing! &lt;br&gt;
+&lt;p&gt;3) Procs and lambdas treat &lt;code&gt;return&lt;/code&gt; differently. If you use &lt;code&gt;return&lt;/code&gt; inside lambda, it will take you out from the body of lambda to the code after lambda. If you use &lt;code&gt;return&lt;/code&gt; inside proc it will take you out from the method in which the proc was called(not only from the proc itself). &lt;/p&gt;
+
+&lt;p&gt;There is more about blocks, procs and lambdas, of course, but it is the next level of enlightenment. Hope will be there soon.&lt;/p&gt;</content:encoded></item><item><title>Day 10</title><description>&lt;p&gt;My pair and I did so much together today! He is amazing! &lt;br&gt;
 We finished Bike version of BattleShips! &lt;br&gt;
 ...my previous sentence does not make a lot of sense, right?...
 But just believe me - it is cool! &lt;br&gt;
