@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 13 Sep 2015 14:12:14 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Blocks, procs and lambdas.</title><description>&lt;p&gt;This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 13 Sep 2015 14:14:14 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Blocks, procs and lambdas.</title><description>&lt;p&gt;This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
 
 &lt;h6 id="blocks"&gt;Blocks&lt;/h6&gt;
 
@@ -51,11 +51,11 @@ arr.map {|digit| digit.to_i}
   proc.call
 end
 
-p = Proc.new {puts "I am proc"}
+p = Proc.new {puts "I am a proc"}
 
 new_method(p)
 
-&amp;gt; I am proc
+&amp;gt; I am a proc
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Or with arguments:  &lt;/p&gt;

@@ -22,7 +22,7 @@
     <meta property="og:description" content="This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help! Blocks Block is everything between do end...">
     <meta property="og:url" content="http://localhost:2368/blocks-procs-and-lambdas/">
     <meta property="article:published_time" content="2015-09-13T10:15:49.280Z">
-    <meta property="article:modified_time" content="2015-09-13T14:11:52.439Z">
+    <meta property="article:modified_time" content="2015-09-13T14:14:10.755Z">
     
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Blocks, procs and lambdas.">
@@ -44,7 +44,7 @@
     "headline": "Blocks, procs and lambdas.",
     "url": "http://localhost:2368/blocks-procs-and-lambdas/",
     "datePublished": "2015-09-13T10:15:49.280Z",
-    "dateModified": "2015-09-13T14:11:52.439Z",
+    "dateModified": "2015-09-13T14:14:10.755Z",
     "description": "This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help! Blocks Block is everything between do end..."
 }
     </script>
@@ -139,11 +139,11 @@ arr.map {|digit| digit.to_i}
   proc.call
 end
 
-p = Proc.new {puts "I am proc"}
+p = Proc.new {puts "I am a proc"}
 
 new_method(p)
 
-&gt; I am proc
+&gt; I am a proc
 </code></pre>
 
 <p>Or with arguments:  </p>
