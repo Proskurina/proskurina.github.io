@@ -1,4 +1,12 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 13 Sep 2015 22:11:44 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Days 12-13 : Second weekend</title><description>&lt;p&gt;On the second weekend we had two weekend challenges! &lt;br&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Mon, 14 Sep 2015 21:24:53 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 14</title><description>&lt;p&gt;This week we are going online!&lt;/p&gt;
+
+&lt;p&gt;It means that by the end of the week we should be reasonably comfortable with HTML, CSS, erb, Sinatra and Capybara. And I might post a link to a beautiful Battleship game here! Or not so beautiful, but working. Or I will just have&lt;/p&gt;</description><link>http://localhost:2368/day-14/</link><guid isPermaLink="false">e51dc90c-0997-42ca-8e13-a26a713acb8d</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Mon, 14 Sep 2015 21:03:32 GMT</pubDate><content:encoded>&lt;p&gt;This week we are going online!&lt;/p&gt;
+
+&lt;p&gt;It means that by the end of the week we should be reasonably comfortable with HTML, CSS, erb, Sinatra and Capybara. And I might post a link to a beautiful Battleship game here! Or not so beautiful, but working. Or I will just have fun during the week.&lt;/p&gt;
+
+&lt;p&gt;Today also was the launch night for the October cohort. Which means there will be new juniors, which means we are becoming seniors, which means we will have our mentees soon! Unbelievable!&lt;/p&gt;
+
+&lt;p&gt;And our launch night was only 6 weeks ago! Good old days.. Only 6 weeks passed but I can not imagine myself without coding anymore.&lt;/p&gt;</content:encoded></item><item><title>Days 12-13 : Second weekend</title><description>&lt;p&gt;On the second weekend we had two weekend challenges! &lt;br&gt;
 And the only thing I hope, that it does not mean that we will have three on the third!&lt;/p&gt;
 
 &lt;p&gt;You can easily see everything that happened to me during this weekend in two previous posts. Blocks and procs happened and gems&lt;/p&gt;</description><link>http://localhost:2368/days-12-13-second-weekend/</link><guid isPermaLink="false">df174c6a-ed55-4481-ac9b-470804cae9f7</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 13 Sep 2015 22:03:51 GMT</pubDate><content:encoded>&lt;p&gt;On the second weekend we had two weekend challenges! &lt;br&gt;
@@ -204,11 +212,11 @@ To call this method you can do, for example:  &lt;/p&gt;
 
 &lt;p&gt;a block&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://i.imgur.com/gKmly4Q.jpg" alt="Imgur"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://www.independent.co.uk/incoming/article10059835.ece/alternates/w620/chocolate.jpg" alt=""&gt;&lt;/p&gt;
 
 &lt;p&gt;and a proc&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://i.imgur.com/qq3PSAl.jpg" alt="Imgur"&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 11 - Party time</title><description>&lt;p&gt;This week was fantastic but also very exhausting.&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://cdn.chocolategourmet.co.uk/products/gold_box_lg_yellow.jpg" alt=""&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 11 - Party time</title><description>&lt;p&gt;This week was fantastic but also very exhausting.&lt;/p&gt;
 
 &lt;p&gt;And we had our first party at the Makers!&lt;/p&gt;
 
@@ -650,24 +658,4 @@ Cheers!&lt;/p&gt;</content:encoded></item><item><title>Day 3 - Curiouser and cur
 
 &lt;p&gt;Really struggling in writing tests, but getting better in it I hope... (a voice in my head keeps repeating TRUST US TRUST US TRUST US)...&lt;/p&gt;
 
-&lt;p&gt;In tube started to read Practical object-oriented design in Ruby by Sandi Metz.  So far seems like an excellent book.&lt;/p&gt;</content:encoded></item><item><title>Red Green Refactor</title><description>&lt;p&gt;Today we've been given a task of researching what "Red Green Refactor" is. Basically it is the motto of TDD.&lt;/p&gt;
-
-&lt;p&gt;There are 3 simple steps:&lt;/p&gt;
-
-&lt;p&gt;Red - making your test fail&lt;/p&gt;
-
-&lt;p&gt;Green - writing a piece of code to make your test pass&lt;/p&gt;
-
-&lt;p&gt;Refactor - cleaning up you mess aka&lt;/p&gt;</description><link>http://localhost:2368/red-green-refactor/</link><guid isPermaLink="false">5b5a2f2b-6b6d-4492-9b43-7e668c42b7f0</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 03 Sep 2015 09:00:15 GMT</pubDate><content:encoded>&lt;p&gt;Today we've been given a task of researching what "Red Green Refactor" is. Basically it is the motto of TDD.&lt;/p&gt;
-
-&lt;p&gt;There are 3 simple steps:&lt;/p&gt;
-
-&lt;p&gt;Red - making your test fail&lt;/p&gt;
-
-&lt;p&gt;Green - writing a piece of code to make your test pass&lt;/p&gt;
-
-&lt;p&gt;Refactor - cleaning up you mess aka DRY (making your code look nicer AND work)&lt;/p&gt;
-
-&lt;p&gt;Simple enough process but quite powerful!&lt;/p&gt;
-
-&lt;p&gt;Thanks Archie for making it nice and simple! You are the best!&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;In tube started to read Practical object-oriented design in Ruby by Sandi Metz.  So far seems like an excellent book.&lt;/p&gt;</content:encoded></item></channel></rss>
