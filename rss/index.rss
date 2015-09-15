@@ -1,4 +1,10 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Mon, 14 Sep 2015 21:24:53 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 14</title><description>&lt;p&gt;This week we are going online!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 15 Sep 2015 21:48:16 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 15</title><description>&lt;p&gt;Today we learned a lot about communication between a client(mainly a browser) and a server, how a client(browser) sends request, a server receives it, executes some code and sends a response back to the client. Servers have to do the hardest work, I will try to write something&lt;/p&gt;</description><link>http://localhost:2368/day-15/</link><guid isPermaLink="false">b41c1a01-2523-40ce-9e4a-de346174b6d3</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 15 Sep 2015 21:38:17 GMT</pubDate><content:encoded>&lt;p&gt;Today we learned a lot about communication between a client(mainly a browser) and a server, how a client(browser) sends request, a server receives it, executes some code and sends a response back to the client. Servers have to do the hardest work, I will try to write something about it later this week.&lt;/p&gt;
+
+&lt;p&gt;Also when we write a program that server should execute on request from a client, we use ruby, html and css, and we should keep them in separate files, and it seems now as a rather tricky part, maybe will also write something about it later.&lt;/p&gt;
+
+&lt;p&gt;p.s. Capybara is unbelievably cool!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://www.rainforest-alliance.org/sites/default/files/styles/responsive_breakpoints_theme_rainforest_wide_1x/public/slideshow/header/capybara_0.jpg?itok=G1uvWT23" alt=""&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 14</title><description>&lt;p&gt;This week we are going online!&lt;/p&gt;
 
 &lt;p&gt;It means that by the end of the week we should be reasonably comfortable with HTML, CSS, erb, Sinatra and Capybara. And I might post a link to a beautiful Battleship game here! Or not so beautiful, but working. Or I will just have&lt;/p&gt;</description><link>http://localhost:2368/day-14/</link><guid isPermaLink="false">e51dc90c-0997-42ca-8e13-a26a713acb8d</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Mon, 14 Sep 2015 21:03:32 GMT</pubDate><content:encoded>&lt;p&gt;This week we are going online!&lt;/p&gt;
 
@@ -646,16 +652,4 @@ Harry arranged a cake and we sang a birthday song! That was great! Best moment o
 &lt;p&gt;But now it is Friday evening, and there is a free beer on the kitchen at the Makers! &lt;br&gt;
 First week at Makers passed as 1 day. &lt;br&gt;
 And it was a great day! &lt;br&gt;
-Cheers!&lt;/p&gt;</content:encoded></item><item><title>Day 3 - Curiouser and curiouser</title><description>&lt;p&gt;Another intense and productive day.&lt;/p&gt;
-
-&lt;p&gt;Our coach is fantastic! WHAT A SPEED! I need the whole day to assimilate information I receive in 15-20 minutes.&lt;/p&gt;
-
-&lt;p&gt;Pair programming is good, had another great pair today, very calm and friendly. Together we have finished Post Challenge 3. The code is messy but&lt;/p&gt;</description><link>http://localhost:2368/day-3-curiouser-and-curiouser/</link><guid isPermaLink="false">32435b9e-0dc4-4073-bcdf-b7e533be8feb</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 03 Sep 2015 21:47:53 GMT</pubDate><content:encoded>&lt;p&gt;Another intense and productive day.&lt;/p&gt;
-
-&lt;p&gt;Our coach is fantastic! WHAT A SPEED! I need the whole day to assimilate information I receive in 15-20 minutes.&lt;/p&gt;
-
-&lt;p&gt;Pair programming is good, had another great pair today, very calm and friendly. Together we have finished Post Challenge 3. The code is messy but all tests pass! Refactoring stage is badly required (see the previous post for details).&lt;/p&gt;
-
-&lt;p&gt;Really struggling in writing tests, but getting better in it I hope... (a voice in my head keeps repeating TRUST US TRUST US TRUST US)...&lt;/p&gt;
-
-&lt;p&gt;In tube started to read Practical object-oriented design in Ruby by Sandi Metz.  So far seems like an excellent book.&lt;/p&gt;</content:encoded></item></channel></rss>
+Cheers!&lt;/p&gt;</content:encoded></item></channel></rss>
