@@ -1,4 +1,32 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 15 Sep 2015 21:48:16 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 15</title><description>&lt;p&gt;Today we learned a lot about communication between a client(mainly a browser) and a server, how a client(browser) sends request, a server receives it, executes some code and sends a response back to the client. Servers have to do the hardest work, I will try to write something&lt;/p&gt;</description><link>http://localhost:2368/day-15/</link><guid isPermaLink="false">b41c1a01-2523-40ce-9e4a-de346174b6d3</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 15 Sep 2015 21:38:17 GMT</pubDate><content:encoded>&lt;p&gt;Today we learned a lot about communication between a client(mainly a browser) and a server, how a client(browser) sends request, a server receives it, executes some code and sends a response back to the client. Servers have to do the hardest work, I will try to write something about it later this week.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 20 Sep 2015 20:11:42 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Days 19-20</title><description>&lt;p&gt;Weeeeekeeeeeeend!&lt;/p&gt;
+
+&lt;p&gt;Managed to write a very simple version of "rock, paper, scissors" in under couple of hours!&lt;/p&gt;
+
+&lt;p&gt;And then was refactoring it for 2 days. And playing for... 5 minutes. Very satisfying.&lt;/p&gt;
+
+&lt;p&gt;Great weekend anyway. 2 parties + 2 theatre evenings. &lt;/p&gt;</description><link>http://localhost:2368/days-19-20/</link><guid isPermaLink="false">e51f7179-1e5b-4781-8c51-73e1924bcf75</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 20 Sep 2015 20:10:03 GMT</pubDate><content:encoded>&lt;p&gt;Weeeeekeeeeeeend!&lt;/p&gt;
+
+&lt;p&gt;Managed to write a very simple version of "rock, paper, scissors" in under couple of hours!&lt;/p&gt;
+
+&lt;p&gt;And then was refactoring it for 2 days. And playing for... 5 minutes. Very satisfying.&lt;/p&gt;
+
+&lt;p&gt;Great weekend anyway. 2 parties + 2 theatre evenings. &lt;/p&gt;</content:encoded></item><item><title>Days 16-18: Gone online!</title><description>&lt;p&gt;I learned a lot of new stuff this week:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;how a client (browser) communicates with server using request/response mechanism,&lt;/li&gt;
+&lt;li&gt;what server does when it receives request(in very simple words, request first gets to a particular port, then goes through security procedures, than middleware translates it from a string&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/days-16-18-gone-online/</link><guid isPermaLink="false">fe51bdc6-d306-4ce8-8caa-a58a85d1698c</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Fri, 18 Sep 2015 20:08:00 GMT</pubDate><content:encoded>&lt;p&gt;I learned a lot of new stuff this week:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;how a client (browser) communicates with server using request/response mechanism,&lt;/li&gt;
+&lt;li&gt;what server does when it receives request(in very simple words, request first gets to a particular port, then goes through security procedures, than middleware translates it from a string to ruby(in our case), then controller replies (with the help of model and views), and the response goes all the way back to the client(browser),&lt;/li&gt;
+&lt;li&gt;how a program works when a request received (first finds a requested method and a path in a controller, from there to a model(program logic) if needed, and then to views folder (where templates are, we use erb to write them), then you can see the result on your page. But if the result is a form, after you fill in the form and press a button, then the form probably will redirect you to a post method with a particular path, and from there probably to another get method, that will send you to another template in views, and then you will see the result on the screen),&lt;/li&gt;
+&lt;li&gt;how params hash and session hash work in Sinatra, how session is connected with cookies, and how you can make a multiplayer game using global variable (though it is not the best way to do it),&lt;/li&gt;
+&lt;li&gt;how to write tests in Capybara and how to force yourself to do it...&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And it is important to keep your program simple and readable! Seems impossible, right?&lt;/p&gt;
+
+&lt;p&gt;The result of the week: I can play my own battleships game with a computer. And sometimes I can even win. But I am not sure that anyone except a computer and myself would be able to read this code ever... &lt;/p&gt;</content:encoded></item><item><title>Day 15</title><description>&lt;p&gt;Today we learned a lot about communication between a client(mainly a browser) and a server, how a client(browser) sends request, a server receives it, executes some code and sends a response back to the client. Servers have to do the hardest work, I will try to write something&lt;/p&gt;</description><link>http://localhost:2368/day-15/</link><guid isPermaLink="false">b41c1a01-2523-40ce-9e4a-de346174b6d3</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 15 Sep 2015 21:38:17 GMT</pubDate><content:encoded>&lt;p&gt;Today we learned a lot about communication between a client(mainly a browser) and a server, how a client(browser) sends request, a server receives it, executes some code and sends a response back to the client. Servers have to do the hardest work, I will try to write something about it later this week.&lt;/p&gt;
 
 &lt;p&gt;Also when we write a program that server should execute on request from a client, we use ruby, html and css, and we should keep them in separate files, and it seems now as a rather tricky part, maybe will also write something about it later.&lt;/p&gt;
 
@@ -621,35 +649,4 @@ Woof!
 &lt;p&gt;Love it!&lt;/p&gt;
 
 &lt;p&gt;Oh! And also today was David's birthday! Happy birthday David! &lt;br&gt;
-Harry arranged a cake and we sang a birthday song! That was great! Best moment of the day.&lt;/p&gt;</content:encoded></item><item><title>Day 5-6 First weekend challenge</title><description>&lt;p&gt;I can not believe it is already Sunday and it is 11 pm!!!&lt;/p&gt;
-
-&lt;p&gt;I just sat on a sofa with my computer 5 minutes ago and it was only Saturday, 9 am.&lt;/p&gt;
-
-&lt;p&gt;That's all I want to say about our first weekend challenge.&lt;/p&gt;
-
-&lt;p&gt;Kidding. It was not so bad. It&lt;/p&gt;</description><link>http://localhost:2368/day-5-6-first-weekend-challenge/</link><guid isPermaLink="false">f8985ec9-c679-4ea3-80a8-137f3161d698</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 06 Sep 2015 21:39:01 GMT</pubDate><content:encoded>&lt;p&gt;I can not believe it is already Sunday and it is 11 pm!!!&lt;/p&gt;
-
-&lt;p&gt;I just sat on a sofa with my computer 5 minutes ago and it was only Saturday, 9 am.&lt;/p&gt;
-
-&lt;p&gt;That's all I want to say about our first weekend challenge.&lt;/p&gt;
-
-&lt;p&gt;Kidding. It was not so bad. It covered everything we had done during the week. And it was good to go through all materials one more time. I hate tests and I love tests. They are awful. But they help a lot. If you have 20 tests, and then do a little change in your program and suddenly all 20 do not pass, it is a nice little hint that something might be wrong with what you are doing. &lt;/p&gt;
-
-&lt;p&gt;But all end up well. And &lt;a href="https://travis-ci.org/"&gt;Travis&lt;/a&gt; is my new best friend.&lt;/p&gt;
-
-&lt;p&gt;Now to sleep.&lt;/p&gt;
-
-&lt;p&gt;Z-z-z-Z-Z-z-z...&lt;/p&gt;</content:encoded></item><item><title>Day 4 - Friday!</title><description>&lt;p&gt;Even if you love what you do  - Fridays are always great!&lt;/p&gt;
-
-&lt;p&gt;I had an excellent pair, he was so calm and nice, and SO attentive to details. I liked his way of learning very much, and from now on my motto is 'go slow!' It is important now&lt;/p&gt;</description><link>http://localhost:2368/day-4-friday/</link><guid isPermaLink="false">bb6526f6-173b-4312-9265-c5ec7704aa5e</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Fri, 04 Sep 2015 18:24:00 GMT</pubDate><content:encoded>&lt;p&gt;Even if you love what you do  - Fridays are always great!&lt;/p&gt;
-
-&lt;p&gt;I had an excellent pair, he was so calm and nice, and SO attentive to details. I liked his way of learning very much, and from now on my motto is 'go slow!' It is important now to understand every little detail, it will help a lot later.&lt;/p&gt;
-
-&lt;p&gt;On Fridays we have a group lunch. Everybody come to a room with their lunches and discuss stuff with each other, nothing formal, no agenda, just one more opportunity to have a chat with someone from your cohort, or with a senior or a coach. I talked with several people and it is so interesting that we all share very similar story about our old life: good work, enough money, but no energy, awful mornings when you have to go to work (especially Monday of course), and the worst part of the week is Sunday evening... And then (dream)Makers appeared in our lives! &lt;/p&gt;
-
-&lt;p&gt;I plan to try to do this blog more technical starting from the next week.&lt;/p&gt;
-
-&lt;p&gt;But now it is Friday evening, and there is a free beer on the kitchen at the Makers! &lt;br&gt;
-First week at Makers passed as 1 day. &lt;br&gt;
-And it was a great day! &lt;br&gt;
-Cheers!&lt;/p&gt;</content:encoded></item></channel></rss>
+Harry arranged a cake and we sang a birthday song! That was great! Best moment of the day.&lt;/p&gt;</content:encoded></item></channel></rss>

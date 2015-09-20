@@ -1,0 +1,170 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Days 16-18: Gone online!</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=8fcb0afac6">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    
+    <meta property="og:site_name" content="Learn to code">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Days 16-18: Gone online!">
+    <meta property="og:description" content="I learned a lot of new stuff this week: how a client (browser) communicates with server using request/response mechanism, what server does when it receives request(in very simple words, request first gets to a particular port, then goes...">
+    <meta property="og:url" content="http://localhost:2368/days-16-18-gone-online/">
+    <meta property="article:published_time" content="2015-09-18T20:08:00.000Z">
+    <meta property="article:modified_time" content="2015-09-20T20:05:27.943Z">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Days 16-18: Gone online!">
+    <meta name="twitter:description" content="I learned a lot of new stuff this week: how a client (browser) communicates with server using request/response mechanism, what server does when it receives request(in very simple words, request first gets to a particular port, then goes...">
+    <meta name="twitter:url" content="http://localhost:2368/days-16-18-gone-online/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Learn to code",
+    "author": {
+        "@type": "Person",
+        "name": "Yana Proskurina",
+        "url": "http://localhost:2368/author/yana",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "Days 16-18: Gone online!",
+    "url": "http://localhost:2368/days-16-18-gone-online/",
+    "datePublished": "2015-09-18T20:08:00.000Z",
+    "dateModified": "2015-09-20T20:05:27.943Z",
+    "description": "I learned a lot of new stuff this week: how a client (browser) communicates with server using request/response mechanism, what server does when it receives request(in very simple words, request first gets to a particular port, then goes..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.6">
+    <link rel="alternate" type="application/rss+xml" title="Learn to code" href="../rss/index.html">
+</head>
+<body class="post-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../">Home</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">Days 16-18: Gone online!</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-09-18">18 September 2015</time> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>I learned a lot of new stuff this week:</p>
+
+<ul>
+<li>how a client (browser) communicates with server using request/response mechanism,</li>
+<li>what server does when it receives request(in very simple words, request first gets to a particular port, then goes through security procedures, than middleware translates it from a string to ruby(in our case), then controller replies (with the help of model and views), and the response goes all the way back to the client(browser),</li>
+<li>how a program works when a request received (first finds a requested method and a path in a controller, from there to a model(program logic) if needed, and then to views folder (where templates are, we use erb to write them), then you can see the result on your page. But if the result is a form, after you fill in the form and press a button, then the form probably will redirect you to a post method with a particular path, and from there probably to another get method, that will send you to another template in views, and then you will see the result on the screen),</li>
+<li>how params hash and session hash work in Sinatra, how session is connected with cookies, and how you can make a multiplayer game using global variable (though it is not the best way to do it),</li>
+<li>how to write tests in Capybara and how to force yourself to do it...</li>
+</ul>
+
+<p>And it is important to keep your program simple and readable! Seems impossible, right?</p>
+
+<p>The result of the week: I can play my own battleships game with a computer. And sometimes I can even win. But I am not sure that anyone except a computer and myself would be able to read this code ever... </p>
+        </section>
+
+        <footer class="post-footer">
+
+
+
+            <section class="author">
+                <h4><a href="../author/yana/">Yana Proskurina</a></h4>
+
+                    <p>Read <a href="../author/yana/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=Days%2016-18%3A%20Gone%20online!&amp;url=http://localhost:2368/days-16-18-gone-online/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/days-16-18-gone-online/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/days-16-18-gone-online/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="../days-19-20/">
+        <section class="post">
+            <h2>Days 19-20</h2>
+            <p>Weeeeekeeeeeeend! Managed to write a very simple version of "rock, paper, scissors" in under couple of hours! And then…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev no-cover" href="../day-15/">
+        <section class="post">
+            <h2>Day 15</h2>
+            <p>Today we learned a lot about communication between a client(mainly a browser) and a server, how a client(…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">Learn to code</a> © 2015</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script src="../public/jquery.js?v=8fcb0afac6"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=8fcb0afac6"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=8fcb0afac6"></script>
+
+</body>
