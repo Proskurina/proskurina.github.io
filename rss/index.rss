@@ -1,16 +1,26 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 20 Sep 2015 20:11:42 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Days 19-20</title><description>&lt;p&gt;Weeeeekeeeeeeend!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Mon, 21 Sep 2015 17:46:26 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 21</title><description>&lt;p&gt;The topic of this week is Databases. &lt;br&gt;
+We are going to build bookmark manager, so that a user could manage his links easily.&lt;/p&gt;
+
+&lt;p&gt;We will use SQL of course, PostgreSQL, DataMapper and many other cool stuff.&lt;/p&gt;
+
+&lt;p&gt;As for now it all seems pretty logical and intuitive, so hope to have&lt;/p&gt;</description><link>http://localhost:2368/day-21/</link><guid isPermaLink="false">eb90b3ac-05df-4240-8c9a-394d7abb8823</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Mon, 21 Sep 2015 17:40:54 GMT</pubDate><content:encoded>&lt;p&gt;The topic of this week is Databases. &lt;br&gt;
+We are going to build bookmark manager, so that a user could manage his links easily.&lt;/p&gt;
+
+&lt;p&gt;We will use SQL of course, PostgreSQL, DataMapper and many other cool stuff.&lt;/p&gt;
+
+&lt;p&gt;As for now it all seems pretty logical and intuitive, so hope to have another nice and productive week.&lt;/p&gt;</content:encoded></item><item><title>Days 19-20</title><description>&lt;p&gt;Weeeeekeeeeeeend!&lt;/p&gt;
 
 &lt;p&gt;Managed to write a very simple version of "rock, paper, scissors" in under couple of hours!&lt;/p&gt;
 
 &lt;p&gt;And then was refactoring it for 2 days. And playing for... 5 minutes. Very satisfying.&lt;/p&gt;
 
-&lt;p&gt;Great weekend anyway. 2 parties + 2 theatre evenings. &lt;/p&gt;</description><link>http://localhost:2368/days-19-20/</link><guid isPermaLink="false">e51f7179-1e5b-4781-8c51-73e1924bcf75</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 20 Sep 2015 20:10:03 GMT</pubDate><content:encoded>&lt;p&gt;Weeeeekeeeeeeend!&lt;/p&gt;
+&lt;p&gt;Great weekend anyway. 2 parties + 2 theatre evenings in 2 days! Seems that challenge was not so challenging&lt;/p&gt;</description><link>http://localhost:2368/days-19-20/</link><guid isPermaLink="false">e51f7179-1e5b-4781-8c51-73e1924bcf75</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 20 Sep 2015 20:10:03 GMT</pubDate><content:encoded>&lt;p&gt;Weeeeekeeeeeeend!&lt;/p&gt;
 
 &lt;p&gt;Managed to write a very simple version of "rock, paper, scissors" in under couple of hours!&lt;/p&gt;
 
 &lt;p&gt;And then was refactoring it for 2 days. And playing for... 5 minutes. Very satisfying.&lt;/p&gt;
 
-&lt;p&gt;Great weekend anyway. 2 parties + 2 theatre evenings. &lt;/p&gt;</content:encoded></item><item><title>Days 16-18: Gone online!</title><description>&lt;p&gt;I learned a lot of new stuff this week:&lt;/p&gt;
+&lt;p&gt;Great weekend anyway. 2 parties + 2 theatre evenings in 2 days! Seems that challenge was not so challenging this time!&lt;/p&gt;</content:encoded></item><item><title>Days 16-18: Gone online!</title><description>&lt;p&gt;I learned a lot of new stuff this week:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;how a client (browser) communicates with server using request/response mechanism,&lt;/li&gt;
@@ -597,56 +607,4 @@ airport.traffic_control(Snow.new)
 
 &lt;p&gt;And it works the same way with modules!&lt;/p&gt;
 
-&lt;p&gt;Thanks Tim!!!&lt;/p&gt;</content:encoded></item><item><title>Day 7  - Love Mondays!</title><description>&lt;p&gt;New week - new project. &lt;br&gt;
-This week we are supposed to continue improving our skills in OOP (last week's task and weekend challenge were also about using OOP). &lt;/p&gt;
-
-&lt;p&gt;OOP is object oriented programming. As it comes from the title, object is the main thing here. Same as in real life.&lt;/p&gt;</description><link>http://localhost:2368/day-7/</link><guid isPermaLink="false">8bcc0d4c-513a-437f-9bee-b7ce782edb37</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Mon, 07 Sep 2015 21:54:38 GMT</pubDate><content:encoded>&lt;p&gt;New week - new project. &lt;br&gt;
-This week we are supposed to continue improving our skills in OOP (last week's task and weekend challenge were also about using OOP). &lt;/p&gt;
-
-&lt;p&gt;OOP is object oriented programming. As it comes from the title, object is the main thing here. Same as in real life. And as in real life objects can communicate with each other. &lt;br&gt;
-To make an object first you need to make a class (it is like a blueprint, from which you can create objects). You can write a class, like this&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-ruby"&gt;class Dog
-
-  attr_reader :name  
-
-  def initialize (name)
-    @name = name
-  end
-
-  def bark
-    "Woof!"
-  end
-
-end  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then you can make a real object from this class!&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;my_dog = Dog.new('Shokky!')  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And use this object to do stuff:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;puts my_dog.name  
-puts my_dog.bark
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The result will be:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Shokky!  
-Woof!  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Easy, right?&lt;/p&gt;
-
-&lt;p&gt;So using this simple technic this week we are supposed to make Battle Ships game! And this time the instructions are minimal. We are working on our own!&lt;/p&gt;
-
-&lt;p&gt;Such a great field for creativity!&lt;/p&gt;
-
-&lt;p&gt;What classes should there be? how they should communicate with each other? who knows more - a ship or a board? do we need a board at all? are there any missiles involved? what are the rules? should we play this game first for an hour or so for the inspiration?  &lt;/p&gt;
-
-&lt;p&gt;Love it!&lt;/p&gt;
-
-&lt;p&gt;Oh! And also today was David's birthday! Happy birthday David! &lt;br&gt;
-Harry arranged a cake and we sang a birthday song! That was great! Best moment of the day.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Thanks Tim!!!&lt;/p&gt;</content:encoded></item></channel></rss>
