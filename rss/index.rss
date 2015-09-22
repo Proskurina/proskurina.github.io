@@ -1,4 +1,103 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Mon, 21 Sep 2015 17:46:26 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 21</title><description>&lt;p&gt;The topic of this week is Databases. &lt;br&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 22 Sep 2015 20:53:54 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 22</title><description>&lt;p&gt;2 main things I learned today are: &lt;br&gt;
+- how to structure your program,
+- how to deploy it to heroku.&lt;/p&gt;
+
+&lt;p&gt;The most difficult thing in structure is to create all necessary files and to connect them. &lt;/p&gt;
+
+&lt;p&gt;That is how a structure of our simple project looks like now.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;project  
+|___.git(&lt;/code&gt;&lt;/pre&gt;</description><link>http://localhost:2368/day-22/</link><guid isPermaLink="false">8203f8cd-0a1f-4ae1-955d-771c1f0fe808</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 22 Sep 2015 20:53:24 GMT</pubDate><content:encoded>&lt;p&gt;2 main things I learned today are: &lt;br&gt;
+- how to structure your program,
+- how to deploy it to heroku.&lt;/p&gt;
+
+&lt;p&gt;The most difficult thing in structure is to create all necessary files and to connect them. &lt;/p&gt;
+
+&lt;p&gt;That is how a structure of our simple project looks like now.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;project  
+|___.git(folder, lots of things going on here)
+|___Gemfile
+|___Gemfile.lock
+|___app
+|   |__app.rb
+|   |__data_mapper_setup.rb
+|   |
+|   |__models
+|   |  |__first_model.rb
+|   |  |__second_model.rb
+|   |
+|   |__views
+|      |__index.erb
+|      |__first_page
+|         |__new.erb
+|         |__old.erb
+|
+|___config.ru
+|
+|___.rspec
+|___spec
+    |___features
+    |   |__first_feature_test_spec.spec
+    |   |__second_feature_test_spec.spec
+    |   |__third_feature_test_spec.spec
+    |
+    |___spec_helper.spec
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Only three weeks of learning and I understand what each file is needed for! Well, I think I do.&lt;/p&gt;
+
+&lt;p&gt;App folder is all about our app, spec folder is about tests (same as .rspec file), .git is a folder with version control files, Gemfiles are about gems and config is to start our program.&lt;/p&gt;
+
+&lt;p&gt;Connecting all these files is a separate story. We use &lt;code&gt;require&lt;/code&gt; or &lt;code&gt;require_relative&lt;/code&gt; to connect files:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;app.rb (our controller file for now) requires data_mapper_setup.rb, data_mapper_setup.rb requires model files (and that's how app.rb also knows about model files);&lt;/li&gt;
+&lt;li&gt;in .rspec we require spec_helper and spec_helper.rb  in its turn requires app.rb and also data_mapper_setup.rb (only now while writing this post I realised I can do that instead of requiring data_mapper_setup from each test!);&lt;/li&gt;
+&lt;li&gt;in addition we require sinatra in app.rb, data mapper in data_mapper_setup, capybara and database cleaner in spec_helper.spec.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All clear and very logical, right? &lt;/p&gt;
+
+&lt;p&gt;In addition we had a very nice adventure to deploy our little bookmark manager program to heroku!&lt;/p&gt;
+
+&lt;p&gt;Heroku is very nice and simple, until your program needs a database. &lt;/p&gt;
+
+&lt;p&gt;And here we had to learn the importance of environment in Sinatra. By pure coincidence I read "Jump start Sinatra" in a tube in the morning, and there was a little chapter called 'Environments'. &lt;/p&gt;
+
+&lt;p&gt;So, "... there are three predefined environments: development, production(when your app is live on the server), and test... To check what environment the app is running in, the helper methods &lt;code&gt;production?&lt;/code&gt;, &lt;code&gt;development?&lt;/code&gt; and &lt;code&gt;test?&lt;/code&gt; will return &lt;code&gt;true&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt;..."&lt;/p&gt;
+
+&lt;p&gt;We used this couple of times in Gemfile, like this:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;group :test do  
+  gem 'rspec'
+  gem 'capybara'
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But I never paid attention. &lt;/p&gt;
+
+&lt;p&gt;What it actually means, is that depending on environment particular gems will or will not be used. &lt;/p&gt;
+
+&lt;p&gt;And for Data mapper it means, that depending on environment, path to a database will be different (when on local, database will be on your computer, when online using heroku database should be on ... heroku! Obvious, right?). So, in data_mapper_setup.rb we needed to indicate a path to a database depending on environment in which our program is running!&lt;/p&gt;
+
+&lt;p&gt;In our case:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;for test environment we used database postgres://localhost/bookmark_manager_test&lt;/li&gt;
+&lt;li&gt;for development environment we used database postgres://localhost/bookmark_manager_development&lt;/li&gt;
+&lt;li&gt;and for production environment in heroku it is &lt;code&gt;ENV['DATABASE_URL']&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To copy your database to heroku you do &lt;code&gt;heroku run console&lt;/code&gt; and...&lt;/p&gt;
+
+&lt;p&gt;Well, I am not sure, will check it tomorrow.&lt;/p&gt;
+
+&lt;p&gt;And here is the link to what we have so far:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://serene-scrubland-3780.herokuapp.com/"&gt;https://serene-scrubland-3780.herokuapp.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Not much, but I am soooooooo proud!&lt;/p&gt;</content:encoded></item><item><title>Day 21</title><description>&lt;p&gt;The topic of this week is Databases. &lt;br&gt;
 We are going to build bookmark manager, so that a user could manage his links easily.&lt;/p&gt;
 
 &lt;p&gt;We will use SQL of course, PostgreSQL, DataMapper and many other cool stuff.&lt;/p&gt;
@@ -514,97 +613,4 @@ p sub.hits
 &lt;p&gt;&lt;img src="http://i.imgur.com/bbI4aht.jpg" alt="Imgur"&gt;&lt;/p&gt;
 
 &lt;p&gt;Is it just me, or is there a clear connection here? &lt;br&gt;
-I wonder what my result will be!&lt;/p&gt;</content:encoded></item><item><title>Dependency inversion</title><description>&lt;p&gt;Today we received a task to research the Dependency Inversion principle (one of the SOLID principles).&lt;/p&gt;
-
-&lt;p&gt;Dependency appears between two classes when one class has to use instances of the other. &lt;/p&gt;
-
-&lt;p&gt;Following the Dependency Injection principle can help you to avoid many complications.&lt;/p&gt;
-
-&lt;p&gt;The Dependency Inversion Principle has two parts:&lt;/p&gt;</description><link>http://localhost:2368/solid/</link><guid isPermaLink="false">0f5176f7-da03-498e-a462-d8cff08291d0</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 08 Sep 2015 11:14:51 GMT</pubDate><content:encoded>&lt;p&gt;Today we received a task to research the Dependency Inversion principle (one of the SOLID principles).&lt;/p&gt;
-
-&lt;p&gt;Dependency appears between two classes when one class has to use instances of the other. &lt;/p&gt;
-
-&lt;p&gt;Following the Dependency Injection principle can help you to avoid many complications.&lt;/p&gt;
-
-&lt;p&gt;The Dependency Inversion Principle has two parts:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;High-level modules should not depend on low-level modules. Both should depend on abstractions.&lt;/li&gt;
-&lt;li&gt;Abstractions should not depend upon details. Details should depend upon abstractions.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A bit unclear, right? Much easier to explain it with an example. &lt;br&gt;
-Here is a simple code.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;class Airport
-
-  def traffic_control
-    rain = Rain.new
-    puts "Bad weather" if rain.heavy?
-  end
-
-end
-
-class Rain
-
-  def heavy?
-    rand &amp;lt; 0.7
-  end
-
-end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In the code above Rain is instantiated directly inside #traffic_control.&lt;/p&gt;
-
-&lt;p&gt;But what if we need to check if it snows, not rains? And we have this new Snow class.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;class Snow
-
-  def heavy?
-    rand &amp;lt; 0.2
-  end
-
-end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In the initial example we have to change the code inside the method.&lt;/p&gt;
-
-&lt;p&gt;But below is an example of better practice, following this principle:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;class Airport
-
-  def traffic_control (condition = Rain.new)
-    puts "Bad weather" if condition.heavy?
-  end
-
-end
-
-class Rain
-
-  def heavy?
-    rand &amp;lt; 0.7
-  end
-
-end
-
-class Snow
-
-  def heavy?
-    rand &amp;lt; 0.2
-  end
-
-end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now without changing the code, we can check either rain or snow conditions:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;airport = Airport.new  
-airport.traffic_control  
-airport.traffic_control(Snow.new)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Also injection could be done through the initialize method.&lt;/p&gt;
-
-&lt;p&gt;And it works the same way with modules!&lt;/p&gt;
-
-&lt;p&gt;Thanks Tim!!!&lt;/p&gt;</content:encoded></item></channel></rss>
+I wonder what my result will be!&lt;/p&gt;</content:encoded></item></channel></rss>
