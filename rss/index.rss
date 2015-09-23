@@ -1,15 +1,21 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 23 Sep 2015 16:42:44 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 22: It gets serious!</title><description>&lt;p&gt;2 main things I learned today are: &lt;br&gt;
-- how to structure your program,
-- how to deploy it to heroku.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 23 Sep 2015 16:52:07 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 22: It gets serious!</title><description>&lt;p&gt;2 main things I learned today are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;how to structure your program,&lt;/li&gt;
+&lt;li&gt;how to deploy it to heroku.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;The most difficult thing in structure is to create all necessary files and to connect them. &lt;/p&gt;
 
 &lt;p&gt;That is how a structure of our simple project looks like now.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;project  
-|___.git(&lt;/code&gt;&lt;/pre&gt;</description><link>http://localhost:2368/day-22/</link><guid isPermaLink="false">8203f8cd-0a1f-4ae1-955d-771c1f0fe808</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 22 Sep 2015 20:53:24 GMT</pubDate><content:encoded>&lt;p&gt;2 main things I learned today are: &lt;br&gt;
-- how to structure your program,
-- how to deploy it to heroku.&lt;/p&gt;
+|___.git(folder, lots&lt;/code&gt;&lt;/pre&gt;</description><link>http://localhost:2368/day-22/</link><guid isPermaLink="false">8203f8cd-0a1f-4ae1-955d-771c1f0fe808</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 22 Sep 2015 20:53:24 GMT</pubDate><content:encoded>&lt;p&gt;2 main things I learned today are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;how to structure your program,&lt;/li&gt;
+&lt;li&gt;how to deploy it to heroku.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;The most difficult thing in structure is to create all necessary files and to connect them. &lt;/p&gt;
 
