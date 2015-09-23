@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 22 Sep 2015 20:55:19 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 22: It gets serious!</title><description>&lt;p&gt;2 main things I learned today are: &lt;br&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 23 Sep 2015 16:42:44 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 22: It gets serious!</title><description>&lt;p&gt;2 main things I learned today are: &lt;br&gt;
 - how to structure your program,
 - how to deploy it to heroku.&lt;/p&gt;
 
@@ -61,7 +61,7 @@
 
 &lt;p&gt;In addition we had a very nice adventure to deploy our little bookmark manager program to heroku!&lt;/p&gt;
 
-&lt;p&gt;Heroku is very nice and simple, until your program needs a database. &lt;/p&gt;
+&lt;p&gt;Heroku is super cool and simple, but when you use it for the first time and your program needs a database... it might be not so straightforward.&lt;/p&gt;
 
 &lt;p&gt;And here we had to learn the importance of environment in Sinatra. By pure coincidence I read "Jump start Sinatra" in a tube in the morning, and there was a little chapter called 'Environments'. &lt;/p&gt;
 
@@ -79,7 +79,7 @@ end
 
 &lt;p&gt;What it actually means, is that depending on environment particular gems will or will not be used. &lt;/p&gt;
 
-&lt;p&gt;And for Data mapper it means, that depending on environment, path to a database will be different (when on local, database will be on your computer, when online using heroku database should be on ... heroku! Obvious, right?). So, in data_mapper_setup.rb we needed to indicate a path to a database depending on environment in which our program is running!&lt;/p&gt;
+&lt;p&gt;And when you use database it means, that depending on environment, path to a database will be different (when on local, database will be on your computer, when online using heroku database should be on ... heroku! Obvious, right?). So, we need to tell heroku to create database first, and in data_mapper_setup.rb we needed to indicate a path to a database depending on environment in which our program is running!&lt;/p&gt;
 
 &lt;p&gt;In our case:&lt;/p&gt;
 
@@ -93,9 +93,7 @@ end
 
 &lt;p&gt;Well, I am not sure, will check it tomorrow.&lt;/p&gt;
 
-&lt;p&gt;And here is the link to what we have so far:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://serene-scrubland-3780.herokuapp.com/"&gt;https://serene-scrubland-3780.herokuapp.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And &lt;a href="https://serene-scrubland-3780.herokuapp.com/"&gt;this is&lt;/a&gt; what we have so far.&lt;/p&gt;
 
 &lt;p&gt;Not much, but I am soooooooo proud!&lt;/p&gt;</content:encoded></item><item><title>Day 21</title><description>&lt;p&gt;The topic of this week is Databases. &lt;br&gt;
 We are going to build bookmark manager, so that a user could manage his links easily.&lt;/p&gt;
