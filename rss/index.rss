@@ -1,4 +1,29 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 23 Sep 2015 16:52:07 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 22: It gets serious!</title><description>&lt;p&gt;2 main things I learned today are:&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 24 Sep 2015 14:49:27 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 23-24: Bugs days</title><description>&lt;p&gt;It all started with Apple iPhone Software Update (to version 9.0). iPhone just stuck and did not want to move anywhere from the page 'slide to upgrade'.&lt;/p&gt;
+
+&lt;p&gt;Bugs that we catch during our learning process are not so epic of course, but sometimes an extra letter, a typo, lack&lt;/p&gt;</description><link>http://localhost:2368/day-23-24-bug-days/</link><guid isPermaLink="false">ef32a28d-f47e-4ec8-8f6e-8b5f842aa8f8</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 24 Sep 2015 14:49:08 GMT</pubDate><content:encoded>&lt;p&gt;It all started with Apple iPhone Software Update (to version 9.0). iPhone just stuck and did not want to move anywhere from the page 'slide to upgrade'.&lt;/p&gt;
+
+&lt;p&gt;Bugs that we catch during our learning process are not so epic of course, but sometimes an extra letter, a typo, lack of a dot or comma can easily ruin several hours of your life.&lt;/p&gt;
+
+&lt;p&gt;And now I got a flue bug, had to stay at home and decided to write this post.&lt;/p&gt;
+
+&lt;p&gt;So, how to find a bug?&lt;/p&gt;
+
+&lt;p&gt;For me, as a beginner, the easiest way to catch a bug is to print out everything that's going on in my code. I put a print (&lt;code&gt;p&lt;/code&gt; or &lt;code&gt;puts&lt;/code&gt;) statement before and after every line of my code, with a short explanation of what I am printing. Then I literally can read when and where a bug appears.&lt;/p&gt;
+
+&lt;p&gt;But there are better ways. For example, using &lt;code&gt;pry&lt;/code&gt; or &lt;code&gt;byebug&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pry is very similar to irb, but has some extra features. &lt;br&gt;
+To use pry, first you need to install it using &lt;code&gt;gem install pry&lt;/code&gt; or include &lt;code&gt;gem 'pry'&lt;/code&gt; to your &lt;code&gt;Gemfile&lt;/code&gt; and run &lt;code&gt;bundle install&lt;/code&gt;. &lt;/p&gt;
+
+&lt;p&gt;Then you need to &lt;code&gt;require pry&lt;/code&gt; in a file, where you want to find a bug, and print &lt;code&gt;binding.pry&lt;/code&gt; before the place where you think the bug can be. When you run your program, it will stop at &lt;code&gt;binding.pry&lt;/code&gt; point. And then you can print next lines in pry, receiving feedback on what is going on after each line.&lt;/p&gt;
+
+&lt;p&gt;Using byebug is similar. You install it using &lt;code&gt;gem install byebug&lt;/code&gt; or include it into your &lt;code&gt;Gemfile&lt;/code&gt; and run &lt;code&gt;bundle install&lt;/code&gt;. Then you &lt;code&gt;require byebug&lt;/code&gt; in a file anf print &lt;code&gt;byebug&lt;/code&gt; in your file where you want your program to stop running. And then you can play with byebug, the same way as you play with irb or pry. &lt;/p&gt;
+
+&lt;p&gt;If you still cannot catch your bug as a last resource you can try this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://etm.freshegg.com/customModules/apuldramRoses/products/images/PROVADO%20ULTIMATE%20BUG%20KILLER%20CONCENTRATE.jpg" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Add says it always helps!&lt;/p&gt;</content:encoded></item><item><title>Day 22: It gets serious!</title><description>&lt;p&gt;2 main things I learned today are:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;how to structure your program,&lt;/li&gt;
@@ -584,37 +609,4 @@ p sub.hits
 
 &lt;p&gt;All works!&lt;/p&gt;
 
-&lt;p&gt;And thank you Jongmin!!! It would not work without you!!!&lt;/p&gt;</content:encoded></item><item><title>Day 8 - Fantastic day!</title><description>&lt;p&gt;Today started with a research that you can see in my previous post, and somehow it took sooooo much time, that we were not able to start Battle Ships before lunch. &lt;/p&gt;
-
-&lt;p&gt;During lunchtime yesterday and today we had Lunch talks. One more great thing in the Makers!&lt;/p&gt;
-
-&lt;p&gt;Yesterday as a&lt;/p&gt;</description><link>http://localhost:2368/untitled/</link><guid isPermaLink="false">f64a8df9-5174-4de5-826f-11d1ef1d762e</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 08 Sep 2015 21:54:36 GMT</pubDate><content:encoded>&lt;p&gt;Today started with a research that you can see in my previous post, and somehow it took sooooo much time, that we were not able to start Battle Ships before lunch. &lt;/p&gt;
-
-&lt;p&gt;During lunchtime yesterday and today we had Lunch talks. One more great thing in the Makers!&lt;/p&gt;
-
-&lt;p&gt;Yesterday as a guest we had a Director of &lt;a href="http://www.createeducation.co.uk/"&gt;CREATE Education Project&lt;/a&gt;. He told us a lot of pretty amazing stuff about 3D printing and how &lt;a href="https://ultimaker.com/"&gt;Ultimaker 3D Printers&lt;/a&gt; can be used for education. &lt;/p&gt;
-
-&lt;p&gt;And today the founder of &lt;a href="https://www.lexoo.co.uk/"&gt;Lexoo&lt;/a&gt;, who also have a huge experience in development, gave us couple of advises on how to become a good developer (write no code!).&lt;/p&gt;
-
-&lt;p&gt;After the talk and meditation we came back to our main project.&lt;/p&gt;
-
-&lt;p&gt;And I am so proud of myself today, because:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I managed to go slow, and go through each detail in MVP,&lt;/li&gt;
-&lt;li&gt;I managed to explain to my partner some very important things about testing,&lt;/li&gt;
-&lt;li&gt;We had a dramatic breakthrough in Battle Ships!!! &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What a happy day!&lt;/p&gt;
-
-&lt;p&gt;On the way home was thinking about my progress...&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.imgur.com/m6TL3ak.jpg" alt="Imgur"&gt;&lt;/p&gt;
-
-&lt;p&gt;And then saw this!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.imgur.com/bbI4aht.jpg" alt="Imgur"&gt;&lt;/p&gt;
-
-&lt;p&gt;Is it just me, or is there a clear connection here? &lt;br&gt;
-I wonder what my result will be!&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;And thank you Jongmin!!! It would not work without you!!!&lt;/p&gt;</content:encoded></item></channel></rss>
