@@ -1,4 +1,32 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 24 Sep 2015 14:51:09 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 23-24: Bugs days</title><description>&lt;p&gt;It all started with Apple iPhone Software Update (to version 9.0). iPhone just stuck and did not want to move anywhere from the page 'slide to upgrade'.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 27 Sep 2015 13:38:39 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Days 26-27. Proper weekend!</title><description>&lt;p&gt;This week we built a clone of Tweeter!&lt;/p&gt;
+
+&lt;p&gt;Well, very simple version of it, but still...&lt;/p&gt;
+
+&lt;p&gt;I think it was the most difficult weekend challenge so far. I started on Saturday at 9 am.&lt;/p&gt;
+
+&lt;p&gt;At 2 pm I had to have a break as I had tickets to Dismaland and&lt;/p&gt;</description><link>http://localhost:2368/days-26-27-proper-weekend/</link><guid isPermaLink="false">c3515be9-3498-4bec-b3db-bb6e0608cf13</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 27 Sep 2015 13:37:51 GMT</pubDate><content:encoded>&lt;p&gt;This week we built a clone of Tweeter!&lt;/p&gt;
+
+&lt;p&gt;Well, very simple version of it, but still...&lt;/p&gt;
+
+&lt;p&gt;I think it was the most difficult weekend challenge so far. I started on Saturday at 9 am.&lt;/p&gt;
+
+&lt;p&gt;At 2 pm I had to have a break as I had tickets to Dismaland and needed to catch 3pm train from Paddington.&lt;/p&gt;
+
+&lt;p&gt;I continued in a train. And a couple of times I was so stuck that I was literally ready to cry. When you have an error and you have no clue how to deal with it! And so many files and folders so you cannot figure out which one could be failing...  And no internet connection... And you do not know where you are and at what station you need to change the train!&lt;/p&gt;
+
+&lt;p&gt;But I finished it on my way back! And I have the whole Sunday for myself! For the first time since the course has started!&lt;/p&gt;
+
+&lt;p&gt;It was not so bad after all!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/IluepGs.jpg" alt="Imgur"&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 25</title><description>&lt;p&gt;By Friday I  realised that everything I wrote on Tuesday about project structure and connecting files was just a kids stuff.&lt;/p&gt;
+
+&lt;p&gt;Now our project has two times more folders, and files, and gems, etc.&lt;/p&gt;
+
+&lt;p&gt;I am amazed by the speed we learn things.&lt;/p&gt;</description><link>http://localhost:2368/day-25/</link><guid isPermaLink="false">6ad4aa8b-15de-4b13-af5e-0c56cea81ef4</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Fri, 25 Sep 2015 11:43:00 GMT</pubDate><content:encoded>&lt;p&gt;By Friday I  realised that everything I wrote on Tuesday about project structure and connecting files was just a kids stuff.&lt;/p&gt;
+
+&lt;p&gt;Now our project has two times more folders, and files, and gems, etc.&lt;/p&gt;
+
+&lt;p&gt;I am amazed by the speed we learn things.&lt;/p&gt;</content:encoded></item><item><title>Day 23-24: Bugs days</title><description>&lt;p&gt;It all started with Apple iPhone Software Update (to version 9.0). iPhone just stuck and did not want to move anywhere from the page 'slide to upgrade'.&lt;/p&gt;
 
 &lt;p&gt;Bugs that we make and catch during our learning process are not so epic of course, but sometimes an extra letter, a&lt;/p&gt;</description><link>http://localhost:2368/day-23-24-bug-days/</link><guid isPermaLink="false">ef32a28d-f47e-4ec8-8f6e-8b5f842aa8f8</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 24 Sep 2015 14:49:08 GMT</pubDate><content:encoded>&lt;p&gt;It all started with Apple iPhone Software Update (to version 9.0). iPhone just stuck and did not want to move anywhere from the page 'slide to upgrade'.&lt;/p&gt;
 
@@ -521,92 +549,4 @@ class Driver
 end
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;That's cool!&lt;/p&gt;</content:encoded></item><item><title>Day 9</title><description>&lt;p&gt;Very productive day. &lt;br&gt;
-With my today's partner (he is super smart!) we progressed a lot on the Battle ships. Can you imagine, that this game, that visually is all about grid, can work fine without an actual grid!&lt;/p&gt;
-
-&lt;p&gt;Also I had a great progress on doubles today (thanks to my&lt;/p&gt;</description><link>http://localhost:2368/day-9/</link><guid isPermaLink="false">bfa52410-cac4-4b24-99b4-abb98377d7d0</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Wed, 09 Sep 2015 21:38:15 GMT</pubDate><content:encoded>&lt;p&gt;Very productive day. &lt;br&gt;
-With my today's partner (he is super smart!) we progressed a lot on the Battle ships. Can you imagine, that this game, that visually is all about grid, can work fine without an actual grid!&lt;/p&gt;
-
-&lt;p&gt;Also I had a great progress on doubles today (thanks to my coach!).&lt;/p&gt;
-
-&lt;p&gt;A couple of words on doubles.&lt;/p&gt;
-
-&lt;p&gt;When you test something in one class and this something is dependant on actions of another class, you can end up testing both things (something you really want to test, and something that is happening in another class). That's when you make doubles.&lt;/p&gt;
-
-&lt;p&gt;Doubles are a little bit like photos of people they put on chairs for Oscar ceremony rehearsal. The idea of this arrangement is probably to test sound, script, other things I cannot imagine, but not the actors behaviour.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/picture_this/public/2015/02/17/oscars-seats.jpg" alt="alt text"&gt;&lt;/p&gt;
-
-&lt;p&gt;In RSpec it is similar! If you want to test something in one class, you make doubles (put 'photos') of other classes instances and methods to your tests. You know that in real life other classes will interact with the class you are testing, but for now you do not want them to influence your tests.&lt;/p&gt;
-
-&lt;p&gt;You can feel that I am sleeping already and can not make clear sentences, right?.. &lt;/p&gt;</content:encoded></item><item><title>Research time!</title><description>&lt;p&gt;Today we have to ​describe the difference between &lt;strong&gt;composition and inheritance&lt;/strong&gt;. &lt;/p&gt;
-
-&lt;p&gt;Well, Zed A. Shaw explained it nicely and clearly &lt;a href="http://learnrubythehardway.org/book/ex44.html"&gt;here&lt;/a&gt;. I do not think I can do better!&lt;/p&gt;
-
-&lt;h6 id="whataresomeofthedangersofinheritance"&gt;What are some of the dangers of inheritance?&lt;/h6&gt;
-
-&lt;p&gt;First, you can inherit only from one class, so it is important to&lt;/p&gt;</description><link>http://localhost:2368/research-time/</link><guid isPermaLink="false">f8727d70-1507-4b7a-b8f8-886a366d8f37</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Wed, 09 Sep 2015 17:34:25 GMT</pubDate><content:encoded>&lt;p&gt;Today we have to ​describe the difference between &lt;strong&gt;composition and inheritance&lt;/strong&gt;. &lt;/p&gt;
-
-&lt;p&gt;Well, Zed A. Shaw explained it nicely and clearly &lt;a href="http://learnrubythehardway.org/book/ex44.html"&gt;here&lt;/a&gt;. I do not think I can do better!&lt;/p&gt;
-
-&lt;h6 id="whataresomeofthedangersofinheritance"&gt;What are some of the dangers of inheritance?&lt;/h6&gt;
-
-&lt;p&gt;First, you can inherit only from one class, so it is important to choose carefully. &lt;br&gt;
-And of course it is important to apply logic here, as though a  plane and a bike might have some similarities (take you from point 1 to point be, can be broken, etc.), it does not mean that logically Bike can be a sub-class of a Plane or vice versa. &lt;br&gt;
-It can be hard to test classes that reuse code from a super-class (everything about super class or super-super class should be at hand).&lt;/p&gt;
-
-&lt;h6 id="whywouldweprefercompositionoverinheritance"&gt;Why would we prefer composition over inheritance?&lt;/h6&gt;
-
-&lt;p&gt;We can include as many modules to a class as we want, not just one. And they are easy to implement (no additional difficulties comparing to classes)! We can avoid a lot of repetition with them (DRY principle!). &lt;/p&gt;
-
-&lt;p&gt;It is also possible to do composition using other classes but it is more complicated then with modules.&lt;/p&gt;
-
-&lt;p&gt;And below is some real life example of class inheritance!&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;class Ship
-
-  attr_reader :position, :direction, :size, :hits
-
-  def initialize(position, direction)
-    @position = position
-    @direction = direction
-    @size = 1
-    @hits = 0
-  end
-
-  def was_hit
-    @hits += 1
-  end
-
-  def sunk?
-    @hits == @size
-  end
-
-end
-
-class Submarine &amp;lt; Ship
-
-  def initialize(position, direction)
-    super(position, direction)
-    @size = 2
-  end
-
-end  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And when you print this:  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sub = Submarine.new('C3', :E)  
-p sub.size  
-p sub.hits  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You get this:  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;2  
-0  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;All works!&lt;/p&gt;
-
-&lt;p&gt;And thank you Jongmin!!! It would not work without you!!!&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;That's cool!&lt;/p&gt;</content:encoded></item></channel></rss>
