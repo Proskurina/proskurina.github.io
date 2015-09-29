@@ -1,4 +1,10 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 27 Sep 2015 13:48:44 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Days 26-27. Proper weekend!</title><description>&lt;p&gt;This week we built a clone of Twitter!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 29 Sep 2015 21:47:35 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 28: JavaScript!</title><description>&lt;p&gt;Can we learn a new language in a week? I'll tell you on Friday!&lt;/p&gt;
+
+&lt;p&gt;But I can feel already that comparing to Ruby JS is pain. Syntax is crazy, and errors... well, it does not know much about what went wrong... and I do not know either! was it a&lt;/p&gt;</description><link>http://localhost:2368/day-28/</link><guid isPermaLink="false">56df40b1-0903-4f0d-adcc-9bfdab448218</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Mon, 28 Sep 2015 21:43:00 GMT</pubDate><content:encoded>&lt;p&gt;Can we learn a new language in a week? I'll tell you on Friday!&lt;/p&gt;
+
+&lt;p&gt;But I can feel already that comparing to Ruby JS is pain. Syntax is crazy, and errors... well, it does not know much about what went wrong... and I do not know either! was it a test, a code or just a stupid typo! All I know is that 'undefined is supposed to be true'...&lt;/p&gt;
+
+&lt;p&gt;console.log() is my best friend for the next 4 days!&lt;/p&gt;</content:encoded></item><item><title>Days 26-27. Proper weekend!</title><description>&lt;p&gt;This week we built a clone of Twitter!&lt;/p&gt;
 
 &lt;p&gt;Well, very simple version of it, but still...&lt;/p&gt;
 
@@ -47,11 +53,9 @@ To use pry, first you need to install it using &lt;code&gt;gem install pry&lt;/c
 
 &lt;p&gt;Using byebug is similar. You install it using &lt;code&gt;gem install byebug&lt;/code&gt; or include it into your &lt;code&gt;Gemfile&lt;/code&gt; and run &lt;code&gt;bundle install&lt;/code&gt;. Then you &lt;code&gt;require byebug&lt;/code&gt; in a file anf print &lt;code&gt;byebug&lt;/code&gt; in your file where you want your program to stop running. And then you can play with byebug, the same way as you play with irb or pry. &lt;/p&gt;
 
-&lt;p&gt;If you still cannot catch your bug as a last resource you can try this:&lt;/p&gt;
+&lt;p&gt;Bugs have no chances!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://etm.freshegg.com/customModules/apuldramRoses/products/images/PROVADO%20ULTIMATE%20BUG%20KILLER%20CONCENTRATE.jpg" alt=""&gt;&lt;/p&gt;
-
-&lt;p&gt;Add says it always helps!&lt;/p&gt;</content:encoded></item><item><title>Day 22: It gets serious!</title><description>&lt;p&gt;2 main things I learned today are:&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://etm.freshegg.com/customModules/apuldramRoses/products/images/PROVADO%20ULTIMATE%20BUG%20KILLER%20CONCENTRATE.jpg" alt=""&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 22: It gets serious!</title><description>&lt;p&gt;2 main things I learned today are:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;how to structure your program,&lt;/li&gt;
@@ -441,112 +445,4 @@ I finished Motobike version (also does not make a lot of sense, right? but it is
 
 &lt;p&gt;Now it is a good place to tell a few words about MVP (that's the reason I write about Bikes and Motobikes here), but...&lt;/p&gt;
 
-&lt;p&gt;...I can not stop trying to refactor tests using verifying doubles. What a smart creatures... Now for each line of code, I have 15 lines of test... Crazy... Probably should come back to regular ones... or go to sleep ... or to regular ones... or to sleep... or ...&lt;/p&gt;</content:encoded></item><item><title>Duck Typing</title><description>&lt;p&gt;We (myself and Kyle) bet that every research post today will start with this words:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Don't check whether it IS-a duck: check whether it QUACKS-like-a duck, WALKS-like-a duck, etc, etc,&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In other words, what's important is a behaviour (in our case message sent) rather than a name (in our case&lt;/p&gt;</description><link>http://localhost:2368/duck-typing/</link><guid isPermaLink="false">2e54ce6e-de6a-4d28-8ae4-e25ce298d1ea</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 10 Sep 2015 10:24:14 GMT</pubDate><content:encoded>&lt;p&gt;We (myself and Kyle) bet that every research post today will start with this words:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Don't check whether it IS-a duck: check whether it QUACKS-like-a duck, WALKS-like-a duck, etc, etc,&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In other words, what's important is a behaviour (in our case message sent) rather than a name (in our case Class name).&lt;/p&gt;
-
-&lt;p&gt;For example, if I ask someone a question and receive a satisfying answer, I do not care if this person is a teacher or a lawyer or a cleaner.&lt;/p&gt;
-
-&lt;p&gt;And now a code example!&lt;/p&gt;
-
-&lt;p&gt;Today we decided to use an example from Sandi Metz book (she is the best), this example really helped us to understand what duck typing is!&lt;/p&gt;
-
-&lt;p&gt;Without duck typing we really care about Class names and have to specify a particular method each different Class uses. Example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language- ruby"&gt;class Trip  
-  attr_reader :bicycles, :customers, :vehicle
-
-  def prepare(preparers)
-    preparers.each {|preparer|
-      case preparer
-      when Mechanic
-        preparer.prepare_bicycles(bicycles)
-      when TripCoordinator
-        preparer.buy_food(customers)
-      when Driver
-        preparer.gas_up(vehicle)
-        preparer.fill_water_tank(vehicle)
-      end
-    }
-  end
-end
-
-
-class Mechanic  
-  def prepare_bicycles(bicycles)
-    bicycles.each {|bicycle| prepare_bicycle(bicycle)}
-  end
-
-  def prepare_bicycle(bicycle)
-    #...
-  end
-end
-
-class TripCoordinator  
-  def buy_food(customers)
-    # ...
-  end
-end
-
-class Driver  
-  def gas_up(vehicle)
-    #...
-  end
-
-  def fill_water_tank(vehicle)
-    #...
-  end
-end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And now a perfect example of using duck typing. We do not care about Classes anymore, we care only if they can prepare_trip! All classes have this method now, and it makes out code much shorter and easier to change if needed.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;class Trip  
-attr_reader :bicycles, :customers, :vehicle
-
-  def prepare(preparers)
-    preparers.each {|preparer|
-    preparer.prepare_trip(self)}
-  end
-end
-
-# when every preparer is a Duck that responds to ‘prepare_trip’
-class Mechanic  
-  def prepare_trip(trip)
-    trip.bicycles.each {|bicycle|
-    prepare_bicycle(bicycle)}
-  end
-
-  # ...
-end
-
-class TripCoordinator  
-  def prepare_trip(trip)
-    buy_food(trip.customers)
-  end
-
-  # ...
-end
-
-class Driver  
-  def prepare_trip(trip)
-    vehicle = trip.vehicle
-    gas_up(vehicle)
-    fill_water_tank(vehicle)
-  end
-
-  # ...
-end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That's cool!&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;...I can not stop trying to refactor tests using verifying doubles. What a smart creatures... Now for each line of code, I have 15 lines of test... Crazy... Probably should come back to regular ones... or go to sleep ... or to regular ones... or to sleep... or ...&lt;/p&gt;</content:encoded></item></channel></rss>
