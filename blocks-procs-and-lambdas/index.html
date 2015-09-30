@@ -15,20 +15,20 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
 
     <link rel="canonical" href="index.html">
-
+    
     <meta property="og:site_name" content="Learn to code">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Blocks, procs and lambdas.">
     <meta property="og:description" content="This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help! Blocks Block is everything between do end...">
-    <meta property="og:url" content="http://proskurina.github.io/blocks-procs-and-lambdas/">
+    <meta property="og:url" content="http://localhost:2368/blocks-procs-and-lambdas/">
     <meta property="article:published_time" content="2015-09-13T10:15:49.280Z">
     <meta property="article:modified_time" content="2015-09-14T21:20:41.815Z">
-
+    
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Blocks, procs and lambdas.">
     <meta name="twitter:description" content="This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help! Blocks Block is everything between do end...">
-    <meta name="twitter:url" content="http://proskurina.github.io/blocks-procs-and-lambdas/">
-
+    <meta name="twitter:url" content="http://localhost:2368/blocks-procs-and-lambdas/">
+    
     <script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -37,12 +37,12 @@
     "author": {
         "@type": "Person",
         "name": "Yana Proskurina",
-        "url": "http://proskurina.github.io/author/yana",
+        "url": "http://localhost:2368/author/yana",
         "sameAs": null,
         "description": null
     },
     "headline": "Blocks, procs and lambdas.",
-    "url": "http://proskurina.github.io/blocks-procs-and-lambdas/",
+    "url": "http://localhost:2368/blocks-procs-and-lambdas/",
     "datePublished": "2015-09-13T10:15:49.280Z",
     "dateModified": "2015-09-14T21:20:41.815Z",
     "description": "This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help! Blocks Block is everything between do end..."
@@ -69,12 +69,12 @@
 
     <div class="site-wrapper">
 
-
+        
 
 
 <header class="main-header post-head no-cover">
     <nav class="main-nav  clearfix">
-
+        
             <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
     </nav>
 </header>
@@ -85,7 +85,7 @@
         <header class="post-header">
             <h1 class="post-title">Blocks, procs and lambdas.</h1>
             <section class="post-meta">
-                <time class="post-date" datetime="2015-09-13">13 September 2015</time>
+                <time class="post-date" datetime="2015-09-13">13 September 2015</time> 
             </section>
         </header>
 
@@ -98,13 +98,13 @@
 
 <p>For example, in  </p>
 
-<pre><code>arr = ["1", "2", "3", "4"]
-arr.map {|digit| digit.to_i}
+<pre><code>arr = ["1", "2", "3", "4"]  
+arr.map {|digit| digit.to_i}  
 </code></pre>
 
 <p><code>{|digit| digit.to_i}</code> is a block. It also could be written like this:</p>
 
-<pre><code>arr.map do |digit|
+<pre><code>arr.map do |digit|  
           digit.to_i
         end
 </code></pre>
@@ -121,12 +121,12 @@ arr.map {|digit| digit.to_i}
 
 <p>In simple words proc is a block with a name. A block assigned to a variable. Like this:</p>
 
-<pre><code>p1 = Proc.new {|digit| digit.to_i}
+<pre><code>p1 = Proc.new {|digit| digit.to_i}  
 </code></pre>
 
 <p>or</p>
 
-<pre><code>p2 = Proc.new do |m, n|
+<pre><code>p2 = Proc.new do |m, n|  
        (m+n)*2
      end
 </code></pre>
@@ -135,7 +135,7 @@ arr.map {|digit| digit.to_i}
 
 <p>Procs are objects, so they can be method arguments and you can easily pass procs to a method. And then activate (call) the proc inside the method. Like this:</p>
 
-<pre><code>def new_method(proc)
+<pre><code>def new_method(proc)  
   proc.call
 end
 
@@ -148,14 +148,14 @@ new_method(p)
 
 <p>Or with arguments:  </p>
 
-<pre><code>def new_method2(arg, proc)
+<pre><code>def new_method2(arg, proc)  
   puts proc.call(arg)
-end
+end  
 </code></pre>
 
 <p>Then you call the method with particular arguments and a particular proc (proc should already exist when you call a method):  </p>
 
-<pre><code>new_method2("1", p1)
+<pre><code>new_method2("1", p1)  
 </code></pre>
 
 <p>And the result will be 1.</p>
@@ -166,7 +166,7 @@ end
 
 <p>To pass a block to a method you do something like this</p>
 
-<pre><code>def another_method (&amp;block)
+<pre><code>def another_method (&amp;block)  
   block.call
 end
 
@@ -181,27 +181,27 @@ another_method {puts "I am a block or a proc.."}
 
 <p>And if your block requires an argument, you might do  </p>
 
-<pre><code>def another_method2 (arg1, &amp;block)
+<pre><code>def another_method2 (arg1, &amp;block)  
   block.call(arg1)
-end
+end  
 </code></pre>
 
 <p>Also very similar to proc. <br>
 To call this method you can do, for example:  </p>
 
-<pre><code>another_method2(5) {|num| puts num+2}
+<pre><code>another_method2(5) {|num| puts num+2}  
 </code></pre>
 
 <p>which is the same as</p>
 
-<pre><code>another_method2(5) do |num|
+<pre><code>another_method2(5) do |num|  
                   puts num+2
                 end
 </code></pre>
 
 <p>and one more example with the same method  </p>
 
-<pre><code>another_method2('good') {|word| puts word+'bye'}
+<pre><code>another_method2('good') {|word| puts word+'bye'}  
 </code></pre>
 
 <p>Predictable outputs here are 7 and 'goodbye'.</p>
@@ -218,12 +218,12 @@ To call this method you can do, for example:  </p>
 
 <p>So instead of writing  </p>
 
-<pre><code>map {|digit| digit.to_i}
+<pre><code>map {|digit| digit.to_i}  
 </code></pre>
 
 <p>you can wright  </p>
 
-<pre><code>map(&amp;:to_i)
+<pre><code>map(&amp;:to_i)  
 </code></pre>
 
 <p>where <code>&amp;</code> is to_proc method, and <code>:to_i</code> is a symbol, "that is interpreted as a message to be sent to each element of the array".</p>
@@ -236,7 +236,7 @@ To call this method you can do, for example:  </p>
 
 <p>So, if you make a proc  </p>
 
-<pre><code>p1 = Proc.new {|digit| digit.to_i}
+<pre><code>p1 = Proc.new {|digit| digit.to_i}  
 </code></pre>
 
 <p>and then do <br>
@@ -244,7 +244,7 @@ To call this method you can do, for example:  </p>
 
 <p>But if you do  </p>
 
-<pre><code>l1 = lambda {|digit| digit.to_i}
+<pre><code>l1 = lambda {|digit| digit.to_i}  
 </code></pre>
 
 <p>and then <code>l1.call("1", "2", "3")</code>, the result will be ArgumentError: wrong number of arguments.</p>
@@ -277,21 +277,21 @@ To call this method you can do, for example:  </p>
 
                     <p>Read <a href="../author/yana/">more posts</a> by this author.</p>
                 <div class="author-meta">
-
-
+                    
+                    
                 </div>
             </section>
 
 
             <section class="share">
                 <h4>Share this post</h4>
-                <a class="icon-twitter" href="https://twitter.com/share?text=Blocks%2C%20procs%20and%20lambdas.&amp;url=http://proskurina.github.io/blocks-procs-and-lambdas/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <a class="icon-twitter" href="https://twitter.com/share?text=Blocks%2C%20procs%20and%20lambdas.&amp;url=http://localhost:2368/blocks-procs-and-lambdas/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://proskurina.github.io/blocks-procs-and-lambdas/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/blocks-procs-and-lambdas/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://proskurina.github.io/blocks-procs-and-lambdas/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/blocks-procs-and-lambdas/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
             </section>
