@@ -1,0 +1,179 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Day 23-24: Bugs days</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=f8d21335b4">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    
+    <meta property="og:site_name" content="Learn to code">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Day 23-24: Bugs days">
+    <meta property="og:description" content="It all started with Apple iPhone Software Update (to version 9.0). iPhone just stuck and did not want to move anywhere from the page 'slide to upgrade'. Bugs that we make and catch during our learning process are not...">
+    <meta property="og:url" content="http://localhost:2368/day-23-24-bug-days/">
+    <meta property="article:published_time" content="2015-09-24T14:49:08.080Z">
+    <meta property="article:modified_time" content="2015-09-29T21:32:22.271Z">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Day 23-24: Bugs days">
+    <meta name="twitter:description" content="It all started with Apple iPhone Software Update (to version 9.0). iPhone just stuck and did not want to move anywhere from the page 'slide to upgrade'. Bugs that we make and catch during our learning process are not...">
+    <meta name="twitter:url" content="http://localhost:2368/day-23-24-bug-days/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Learn to code",
+    "author": {
+        "@type": "Person",
+        "name": "Yana Proskurina",
+        "url": "http://localhost:2368/author/yana",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "Day 23-24: Bugs days",
+    "url": "http://localhost:2368/day-23-24-bug-days/",
+    "datePublished": "2015-09-24T14:49:08.080Z",
+    "dateModified": "2015-09-29T21:32:22.271Z",
+    "description": "It all started with Apple iPhone Software Update (to version 9.0). iPhone just stuck and did not want to move anywhere from the page &#x27;slide to upgrade&#x27;. Bugs that we make and catch during our learning process are not..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.6">
+    <link rel="alternate" type="application/rss+xml" title="Learn to code" href="../rss/index.html">
+</head>
+<body class="post-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../">Home</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">Day 23-24: Bugs days</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-09-24">24 September 2015</time> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>It all started with Apple iPhone Software Update (to version 9.0). iPhone just stuck and did not want to move anywhere from the page 'slide to upgrade'.</p>
+
+<p>Bugs that we make and catch during our learning process are not so epic of course, but sometimes an extra letter, a typo, lack of a dot or comma can easily ruin several hours of your life.</p>
+
+<p>And now I got a flue bug, had to stay at home and decided to write this post.</p>
+
+<p>So, how to find a bug?</p>
+
+<p>For me, as a beginner, the easiest way to catch a bug is to print out everything that's going on in my code. I put a print (<code>p</code> or <code>puts</code>) statement before and after every line of my code, with a short explanation of what I am printing. Then I literally can read when and where a bug appears.</p>
+
+<p>But there are better ways. For example, using <code>pry</code> or <code>byebug</code>.</p>
+
+<p>Pry is very similar to irb, but has some extra features. <br>
+To use pry, first you need to install it using <code>gem install pry</code> or include <code>gem 'pry'</code> to your <code>Gemfile</code> and run <code>bundle install</code>. </p>
+
+<p>Then you need to <code>require pry</code> in a file, where you want to find a bug, and print <code>binding.pry</code> before the place where you think the bug can be. When you run your program, it will stop at <code>binding.pry</code> point. And then you can print next lines in pry, receiving feedback on what is going on after each line.</p>
+
+<p>Using byebug is similar. You install it using <code>gem install byebug</code> or include it into your <code>Gemfile</code> and run <code>bundle install</code>. Then you <code>require byebug</code> in a file anf print <code>byebug</code> in your file where you want your program to stop running. And then you can play with byebug, the same way as you play with irb or pry. </p>
+
+<p>Bugs have no chances!</p>
+
+<p><img src="http://etm.freshegg.com/customModules/apuldramRoses/products/images/PROVADO%20ULTIMATE%20BUG%20KILLER%20CONCENTRATE.jpg" alt=""></p>
+        </section>
+
+        <footer class="post-footer">
+
+
+
+            <section class="author">
+                <h4><a href="../author/yana/">Yana Proskurina</a></h4>
+
+                    <p>Read <a href="../author/yana/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=Day%2023-24%3A%20Bugs%20days&amp;url=http://localhost:2368/day-23-24-bug-days/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/day-23-24-bug-days/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/day-23-24-bug-days/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="../day-25/">
+        <section class="post">
+            <h2>Day 25</h2>
+            <p>By Friday I  realised that everything I wrote on Tuesday about project structure and connecting files was just a…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev no-cover" href="../day-22/">
+        <section class="post">
+            <h2>Day 22: It gets serious!</h2>
+            <p>2 main things I learned today are: how to structure your program, how to deploy it to heroku. The…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">Learn to code</a> © 2015</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script src="../public/jquery.js?v=f8d21335b4"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=f8d21335b4"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=f8d21335b4"></script>
+
+</body>

@@ -1,0 +1,448 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 30 Sep 2015 11:00:57 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 28: JavaScript!</title><description>&lt;p&gt;Can we learn a new language in a week? I'll tell you on Friday!&lt;/p&gt;
+
+&lt;p&gt;But I can feel already that comparing to Ruby JS is pain. Syntax is crazy, and errors... well, it does not know much about what went wrong... and I do not know either! was it a&lt;/p&gt;</description><link>http://localhost:2368/day-28/</link><guid isPermaLink="false">56df40b1-0903-4f0d-adcc-9bfdab448218</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Mon, 28 Sep 2015 21:43:00 GMT</pubDate><content:encoded>&lt;p&gt;Can we learn a new language in a week? I'll tell you on Friday!&lt;/p&gt;
+
+&lt;p&gt;But I can feel already that comparing to Ruby JS is pain. Syntax is crazy, and errors... well, it does not know much about what went wrong... and I do not know either! was it a test, a code or just a stupid typo! 'Expect undefined to be true'...&lt;/p&gt;
+
+&lt;p&gt;console.log() is my best friend for the next 4 days!&lt;/p&gt;</content:encoded></item><item><title>Days 26-27. Proper weekend!</title><description>&lt;p&gt;This week we built a clone of Twitter!&lt;/p&gt;
+
+&lt;p&gt;Well, very simple version of it, but still...&lt;/p&gt;
+
+&lt;p&gt;I think it was the most difficult weekend challenge so far. I started on Saturday at 9 am.&lt;/p&gt;
+
+&lt;p&gt;At 2 pm I had to have a break as I had tickets to Dismaland and&lt;/p&gt;</description><link>http://localhost:2368/days-26-27-proper-weekend/</link><guid isPermaLink="false">c3515be9-3498-4bec-b3db-bb6e0608cf13</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 27 Sep 2015 13:37:51 GMT</pubDate><content:encoded>&lt;p&gt;This week we built a clone of Twitter!&lt;/p&gt;
+
+&lt;p&gt;Well, very simple version of it, but still...&lt;/p&gt;
+
+&lt;p&gt;I think it was the most difficult weekend challenge so far. I started on Saturday at 9 am.&lt;/p&gt;
+
+&lt;p&gt;At 2 pm I had to have a break as I had tickets to Dismaland and needed to catch 3pm train from Paddington.&lt;/p&gt;
+
+&lt;p&gt;I continued in a train. And a couple of times I was so stuck that I was literally ready to cry. When you have an error and you have no clue how to deal with it! And so many files and folders so you cannot figure out which one could be failing...  And no internet connection... And you do not know where you are and at what station you need to change the train!&lt;/p&gt;
+
+&lt;p&gt;But I finished it on my way back! And I have the whole Sunday for myself! For the first time since the course has started!&lt;/p&gt;
+
+&lt;p&gt;It was not so bad after all!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/IluepGs.jpg" alt="Imgur"&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 25</title><description>&lt;p&gt;By Friday I  realised that everything I wrote on Tuesday about project structure and connecting files was just a kids stuff.&lt;/p&gt;
+
+&lt;p&gt;Now our project has two times more folders, and files, and gems, etc.&lt;/p&gt;
+
+&lt;p&gt;I am amazed by the speed we learn things.&lt;/p&gt;</description><link>http://localhost:2368/day-25/</link><guid isPermaLink="false">6ad4aa8b-15de-4b13-af5e-0c56cea81ef4</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Fri, 25 Sep 2015 11:43:00 GMT</pubDate><content:encoded>&lt;p&gt;By Friday I  realised that everything I wrote on Tuesday about project structure and connecting files was just a kids stuff.&lt;/p&gt;
+
+&lt;p&gt;Now our project has two times more folders, and files, and gems, etc.&lt;/p&gt;
+
+&lt;p&gt;I am amazed by the speed we learn things.&lt;/p&gt;</content:encoded></item><item><title>Day 23-24: Bugs days</title><description>&lt;p&gt;It all started with Apple iPhone Software Update (to version 9.0). iPhone just stuck and did not want to move anywhere from the page 'slide to upgrade'.&lt;/p&gt;
+
+&lt;p&gt;Bugs that we make and catch during our learning process are not so epic of course, but sometimes an extra letter, a&lt;/p&gt;</description><link>http://localhost:2368/day-23-24-bug-days/</link><guid isPermaLink="false">ef32a28d-f47e-4ec8-8f6e-8b5f842aa8f8</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 24 Sep 2015 14:49:08 GMT</pubDate><content:encoded>&lt;p&gt;It all started with Apple iPhone Software Update (to version 9.0). iPhone just stuck and did not want to move anywhere from the page 'slide to upgrade'.&lt;/p&gt;
+
+&lt;p&gt;Bugs that we make and catch during our learning process are not so epic of course, but sometimes an extra letter, a typo, lack of a dot or comma can easily ruin several hours of your life.&lt;/p&gt;
+
+&lt;p&gt;And now I got a flue bug, had to stay at home and decided to write this post.&lt;/p&gt;
+
+&lt;p&gt;So, how to find a bug?&lt;/p&gt;
+
+&lt;p&gt;For me, as a beginner, the easiest way to catch a bug is to print out everything that's going on in my code. I put a print (&lt;code&gt;p&lt;/code&gt; or &lt;code&gt;puts&lt;/code&gt;) statement before and after every line of my code, with a short explanation of what I am printing. Then I literally can read when and where a bug appears.&lt;/p&gt;
+
+&lt;p&gt;But there are better ways. For example, using &lt;code&gt;pry&lt;/code&gt; or &lt;code&gt;byebug&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pry is very similar to irb, but has some extra features. &lt;br&gt;
+To use pry, first you need to install it using &lt;code&gt;gem install pry&lt;/code&gt; or include &lt;code&gt;gem 'pry'&lt;/code&gt; to your &lt;code&gt;Gemfile&lt;/code&gt; and run &lt;code&gt;bundle install&lt;/code&gt;. &lt;/p&gt;
+
+&lt;p&gt;Then you need to &lt;code&gt;require pry&lt;/code&gt; in a file, where you want to find a bug, and print &lt;code&gt;binding.pry&lt;/code&gt; before the place where you think the bug can be. When you run your program, it will stop at &lt;code&gt;binding.pry&lt;/code&gt; point. And then you can print next lines in pry, receiving feedback on what is going on after each line.&lt;/p&gt;
+
+&lt;p&gt;Using byebug is similar. You install it using &lt;code&gt;gem install byebug&lt;/code&gt; or include it into your &lt;code&gt;Gemfile&lt;/code&gt; and run &lt;code&gt;bundle install&lt;/code&gt;. Then you &lt;code&gt;require byebug&lt;/code&gt; in a file anf print &lt;code&gt;byebug&lt;/code&gt; in your file where you want your program to stop running. And then you can play with byebug, the same way as you play with irb or pry. &lt;/p&gt;
+
+&lt;p&gt;Bugs have no chances!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://etm.freshegg.com/customModules/apuldramRoses/products/images/PROVADO%20ULTIMATE%20BUG%20KILLER%20CONCENTRATE.jpg" alt=""&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 22: It gets serious!</title><description>&lt;p&gt;2 main things I learned today are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;how to structure your program,&lt;/li&gt;
+&lt;li&gt;how to deploy it to heroku.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The most difficult thing in structure is to create all necessary files and to connect them. &lt;/p&gt;
+
+&lt;p&gt;That is how a structure of our simple project looks like now.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;project  
+|___.git(folder, lots&lt;/code&gt;&lt;/pre&gt;</description><link>http://localhost:2368/day-22/</link><guid isPermaLink="false">8203f8cd-0a1f-4ae1-955d-771c1f0fe808</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 22 Sep 2015 20:53:24 GMT</pubDate><content:encoded>&lt;p&gt;2 main things I learned today are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;how to structure your program,&lt;/li&gt;
+&lt;li&gt;how to deploy it to heroku.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The most difficult thing in structure is to create all necessary files and to connect them. &lt;/p&gt;
+
+&lt;p&gt;That is how a structure of our simple project looks like now.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;project  
+|___.git(folder, lots of things going on here)
+|___Gemfile
+|___Gemfile.lock
+|___app
+|   |__app.rb
+|   |__data_mapper_setup.rb
+|   |
+|   |__models
+|   |  |__first_model.rb
+|   |  |__second_model.rb
+|   |
+|   |__views
+|      |__index.erb
+|      |__first_page
+|         |__new.erb
+|         |__old.erb
+|
+|___config.ru
+|
+|___.rspec
+|___spec
+    |___features
+    |   |__first_feature_test_spec.spec
+    |   |__second_feature_test_spec.spec
+    |   |__third_feature_test_spec.spec
+    |
+    |___spec_helper.spec
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Only three weeks of learning and I understand what each file is needed for! Well, I think I do.&lt;/p&gt;
+
+&lt;p&gt;App folder is all about our app, spec folder is about tests (same as .rspec file), .git is a folder with version control files, Gemfiles are about gems and config is to start our program.&lt;/p&gt;
+
+&lt;p&gt;Connecting all these files is a separate story. We use &lt;code&gt;require&lt;/code&gt; or &lt;code&gt;require_relative&lt;/code&gt; to connect files:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;app.rb (our controller file for now) requires data_mapper_setup.rb, data_mapper_setup.rb requires model files (and that's how app.rb also knows about model files);&lt;/li&gt;
+&lt;li&gt;in .rspec we require spec_helper and spec_helper.rb  in its turn requires app.rb and also data_mapper_setup.rb (only now while writing this post I realised I can do that instead of requiring data_mapper_setup from each test!);&lt;/li&gt;
+&lt;li&gt;in addition we require sinatra in app.rb, data mapper in data_mapper_setup, capybara and database cleaner in spec_helper.spec.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All clear and very logical, right? &lt;/p&gt;
+
+&lt;p&gt;In addition we had a very nice adventure to deploy our little bookmark manager program to heroku!&lt;/p&gt;
+
+&lt;p&gt;Heroku is super cool and simple, but when you use it for the first time and your program needs a database... it might be not so straightforward.&lt;/p&gt;
+
+&lt;p&gt;And here we had to learn the importance of environment in Sinatra. By pure coincidence I read "Jump start Sinatra" in a tube in the morning, and there was a little chapter called 'Environments'. &lt;/p&gt;
+
+&lt;p&gt;So, "... there are three predefined environments: development, production(when your app is live on the server), and test... To check what environment the app is running in, the helper methods &lt;code&gt;production?&lt;/code&gt;, &lt;code&gt;development?&lt;/code&gt; and &lt;code&gt;test?&lt;/code&gt; will return &lt;code&gt;true&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt;..."&lt;/p&gt;
+
+&lt;p&gt;We used this couple of times in Gemfile, like this:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;group :test do  
+  gem 'rspec'
+  gem 'capybara'
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But I never paid attention. &lt;/p&gt;
+
+&lt;p&gt;What it actually means, is that depending on environment particular gems will or will not be used. &lt;/p&gt;
+
+&lt;p&gt;And when you use database it means, that depending on environment, path to a database will be different (when on local, database will be on your computer, when online using heroku database should be on ... heroku! Obvious, right?). So, we need to tell heroku to create database first, and in data_mapper_setup.rb we needed to indicate a path to a database depending on environment in which our program is running!&lt;/p&gt;
+
+&lt;p&gt;In our case:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;for test environment we used database postgres://localhost/bookmark_manager_test&lt;/li&gt;
+&lt;li&gt;for development environment we used database postgres://localhost/bookmark_manager_development&lt;/li&gt;
+&lt;li&gt;and for production environment in heroku it is &lt;code&gt;ENV['DATABASE_URL']&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To copy your database to heroku you do &lt;code&gt;heroku run console&lt;/code&gt; and...&lt;/p&gt;
+
+&lt;p&gt;Well, I am not sure, will check it tomorrow.&lt;/p&gt;
+
+&lt;p&gt;And &lt;a href="https://serene-scrubland-3780.herokuapp.com/"&gt;this is&lt;/a&gt; what we have so far.&lt;/p&gt;
+
+&lt;p&gt;Not much, but I am soooooooo proud!&lt;/p&gt;</content:encoded></item><item><title>Day 21</title><description>&lt;p&gt;The topic of this week is Databases. &lt;br&gt;
+We are going to build bookmark manager, so that a user could manage his links easily.&lt;/p&gt;
+
+&lt;p&gt;We will use SQL of course, PostgreSQL, DataMapper and many other cool stuff.&lt;/p&gt;
+
+&lt;p&gt;As for now it all seems pretty logical and intuitive, so hope to have&lt;/p&gt;</description><link>http://localhost:2368/day-21/</link><guid isPermaLink="false">eb90b3ac-05df-4240-8c9a-394d7abb8823</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Mon, 21 Sep 2015 17:40:54 GMT</pubDate><content:encoded>&lt;p&gt;The topic of this week is Databases. &lt;br&gt;
+We are going to build bookmark manager, so that a user could manage his links easily.&lt;/p&gt;
+
+&lt;p&gt;We will use SQL of course, PostgreSQL, DataMapper and many other cool stuff.&lt;/p&gt;
+
+&lt;p&gt;As for now it all seems pretty logical and intuitive, so hope to have another nice and productive week.&lt;/p&gt;</content:encoded></item><item><title>Days 19-20</title><description>&lt;p&gt;Weeeeekeeeeeeend!&lt;/p&gt;
+
+&lt;p&gt;Managed to write a very simple version of "rock, paper, scissors" in under couple of hours!&lt;/p&gt;
+
+&lt;p&gt;And then was refactoring it for 2 days. And playing for... 5 minutes. Very satisfying.&lt;/p&gt;
+
+&lt;p&gt;Great weekend anyway. 2 parties + 2 theatre evenings in 2 days! Seems that challenge was not so challenging&lt;/p&gt;</description><link>http://localhost:2368/days-19-20/</link><guid isPermaLink="false">e51f7179-1e5b-4781-8c51-73e1924bcf75</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 20 Sep 2015 20:10:03 GMT</pubDate><content:encoded>&lt;p&gt;Weeeeekeeeeeeend!&lt;/p&gt;
+
+&lt;p&gt;Managed to write a very simple version of "rock, paper, scissors" in under couple of hours!&lt;/p&gt;
+
+&lt;p&gt;And then was refactoring it for 2 days. And playing for... 5 minutes. Very satisfying.&lt;/p&gt;
+
+&lt;p&gt;Great weekend anyway. 2 parties + 2 theatre evenings in 2 days! Seems that challenge was not so challenging this time!&lt;/p&gt;</content:encoded></item><item><title>Days 16-18: Gone online!</title><description>&lt;p&gt;I learned a lot of new stuff this week:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;how a client (browser) communicates with server using request/response mechanism,&lt;/li&gt;
+&lt;li&gt;what server does when it receives request(in very simple words, request first gets to a particular port, then goes through security procedures, than middleware translates it from a string&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/days-16-18-gone-online/</link><guid isPermaLink="false">fe51bdc6-d306-4ce8-8caa-a58a85d1698c</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Fri, 18 Sep 2015 20:08:00 GMT</pubDate><content:encoded>&lt;p&gt;I learned a lot of new stuff this week:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;how a client (browser) communicates with server using request/response mechanism,&lt;/li&gt;
+&lt;li&gt;what server does when it receives request(in very simple words, request first gets to a particular port, then goes through security procedures, than middleware translates it from a string to ruby(in our case), then controller replies (with the help of model and views), and the response goes all the way back to the client(browser),&lt;/li&gt;
+&lt;li&gt;how a program works when a request received (first finds a requested method and a path in a controller, from there to a model(program logic) if needed, and then to views folder (where templates are, we use erb to write them), then you can see the result on your page. But if the result is a form, after you fill in the form and press a button, then the form probably will redirect you to a post method with a particular path, and from there probably to another get method, that will send you to another template in views, and then you will see the result on the screen),&lt;/li&gt;
+&lt;li&gt;how params hash and session hash work in Sinatra, how session is connected with cookies, and how you can make a multiplayer game using global variable (though it is not the best way to do it),&lt;/li&gt;
+&lt;li&gt;how to write tests in Capybara and how to force yourself to do it...&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And it is important to keep your program simple and readable! Seems impossible, right?&lt;/p&gt;
+
+&lt;p&gt;The result of the week: I can play my own battleships game with a computer. And sometimes I can even win. But I am not sure that anyone except a computer and myself would be able to read this code ever... &lt;/p&gt;</content:encoded></item><item><title>Day 15</title><description>&lt;p&gt;Today we learned a lot about communication between a client(mainly a browser) and a server, how a client(browser) sends request, a server receives it, executes some code and sends a response back to the client. Servers have to do the hardest work, I will try to write something&lt;/p&gt;</description><link>http://localhost:2368/day-15/</link><guid isPermaLink="false">b41c1a01-2523-40ce-9e4a-de346174b6d3</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 15 Sep 2015 21:38:17 GMT</pubDate><content:encoded>&lt;p&gt;Today we learned a lot about communication between a client(mainly a browser) and a server, how a client(browser) sends request, a server receives it, executes some code and sends a response back to the client. Servers have to do the hardest work, I will try to write something about it later this week.&lt;/p&gt;
+
+&lt;p&gt;Also when we write a program that server should execute on request from a client, we use ruby, html and css, and we should keep them in separate files, and it seems now as a rather tricky part, maybe will also write something about it later.&lt;/p&gt;
+
+&lt;p&gt;p.s. Capybara is unbelievably cool!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://www.rainforest-alliance.org/sites/default/files/styles/responsive_breakpoints_theme_rainforest_wide_1x/public/slideshow/header/capybara_0.jpg?itok=G1uvWT23" alt=""&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 14</title><description>&lt;p&gt;This week we are going online!&lt;/p&gt;
+
+&lt;p&gt;It means that by the end of the week we should be reasonably comfortable with HTML, CSS, erb, Sinatra and Capybara. And I might post a link to a beautiful Battleship game here! Or not so beautiful, but working. Or I will just have&lt;/p&gt;</description><link>http://localhost:2368/day-14/</link><guid isPermaLink="false">e51dc90c-0997-42ca-8e13-a26a713acb8d</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Mon, 14 Sep 2015 21:03:32 GMT</pubDate><content:encoded>&lt;p&gt;This week we are going online!&lt;/p&gt;
+
+&lt;p&gt;It means that by the end of the week we should be reasonably comfortable with HTML, CSS, erb, Sinatra and Capybara. And I might post a link to a beautiful Battleship game here! Or not so beautiful, but working. Or I will just have fun during the week.&lt;/p&gt;
+
+&lt;p&gt;Today also was the launch night for the October cohort. Which means there will be new juniors, which means we are becoming seniors, which means we will have our mentees soon! Unbelievable!&lt;/p&gt;
+
+&lt;p&gt;And our launch night was only 6 weeks ago! Good old days.. Only 6 weeks passed but I can not imagine myself without coding anymore.&lt;/p&gt;</content:encoded></item><item><title>Days 12-13 : Second weekend</title><description>&lt;p&gt;On the second weekend we had two weekend challenges! &lt;br&gt;
+And the only thing I hope, that it does not mean that we will have three on the third!&lt;/p&gt;
+
+&lt;p&gt;You can easily see everything that happened to me during this weekend in two previous posts. Blocks and procs happened and gems&lt;/p&gt;</description><link>http://localhost:2368/days-12-13-second-weekend/</link><guid isPermaLink="false">df174c6a-ed55-4481-ac9b-470804cae9f7</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 13 Sep 2015 22:03:51 GMT</pubDate><content:encoded>&lt;p&gt;On the second weekend we had two weekend challenges! &lt;br&gt;
+And the only thing I hope, that it does not mean that we will have three on the third!&lt;/p&gt;
+
+&lt;p&gt;You can easily see everything that happened to me during this weekend in two previous posts. Blocks and procs happened and gems happened.&lt;/p&gt;
+
+&lt;p&gt;Still, was a great weekend. And I love Sunday evenings now.&lt;/p&gt;</content:encoded></item><item><title>Gems</title><description>&lt;p&gt;Makers' pill on gems is very good. So I will write here in few words what I read there.&lt;/p&gt;
+
+&lt;p&gt;Gems are ruby libraries that can be easily reused. There are lots of ruby gems.&lt;/p&gt;
+
+&lt;p&gt;You can install ruby gem using a command &lt;code&gt;gem install &amp;lt;gem_name&amp;gt;&lt;/code&gt;. &lt;/p&gt;
+
+&lt;p&gt;But for&lt;/p&gt;</description><link>http://localhost:2368/gems/</link><guid isPermaLink="false">41c72686-12bb-4d84-884a-e4ef8f955d46</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 13 Sep 2015 21:38:40 GMT</pubDate><content:encoded>&lt;p&gt;Makers' pill on gems is very good. So I will write here in few words what I read there.&lt;/p&gt;
+
+&lt;p&gt;Gems are ruby libraries that can be easily reused. There are lots of ruby gems.&lt;/p&gt;
+
+&lt;p&gt;You can install ruby gem using a command &lt;code&gt;gem install &amp;lt;gem_name&amp;gt;&lt;/code&gt;. &lt;/p&gt;
+
+&lt;p&gt;But for real developers there is a better way! Bundler!&lt;/p&gt;
+
+&lt;p&gt;Bundler is a gem itself, and its purpose is to manage other gems (to install it write &lt;code&gt;gem install bundler&lt;/code&gt; in the command line).&lt;/p&gt;
+
+&lt;p&gt;To tell bundler what gems are needed for particular program, &lt;code&gt;Gemfile&lt;/code&gt; should be created in the root directory of the project. &lt;code&gt;Gemfile&lt;/code&gt; contains this self-explaining line &lt;code&gt;source 'https://rubygems.org'&lt;/code&gt; and a list of gems.&lt;/p&gt;
+
+&lt;p&gt;To use a gem in your code you should require gem, like this for example:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require 'dotenv'  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Gems are great, cause you can use other people's code. But they are not so great because of the same reason.&lt;/p&gt;</content:encoded></item><item><title>Blocks, procs and lambdas.</title><description>&lt;p&gt;This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
+
+&lt;h6 id="blocks"&gt;Blocks&lt;/h6&gt;
+
+&lt;p&gt;Block is everything between &lt;code&gt;do&lt;/code&gt; end &lt;code&gt;end&lt;/code&gt; or between &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; (if it is not a hash,&lt;/p&gt;</description><link>http://localhost:2368/blocks-procs-and-lambdas/</link><guid isPermaLink="false">a2c5448f-d8ae-493c-94a6-eb8cd5c0f0a2</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 13 Sep 2015 10:15:49 GMT</pubDate><content:encoded>&lt;p&gt;This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
+
+&lt;h6 id="blocks"&gt;Blocks&lt;/h6&gt;
+
+&lt;p&gt;Block is everything between &lt;code&gt;do&lt;/code&gt; end &lt;code&gt;end&lt;/code&gt; or between &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; (if it is not a hash, of course).&lt;/p&gt;
+
+&lt;p&gt;For example, in  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;arr = ["1", "2", "3", "4"]  
+arr.map {|digit| digit.to_i}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;{|digit| digit.to_i}&lt;/code&gt; is a block. It also could be written like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;arr.map do |digit|  
+          digit.to_i
+        end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Blocks can have arguments. Arguments of the block are always inside the pipes &lt;code&gt;|arg|&lt;/code&gt;. In this case it is &lt;code&gt;|digit|&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Block is not an object. And it is also not an argument of the map method! or any method. Because it is not an object.&lt;/p&gt;
+
+&lt;p&gt;But how do you pass a block to a method if it is not an object and can not be an argument? Is it even possible?&lt;/p&gt;
+
+&lt;p&gt;And yes, it is. In a way. But first few words about procs.&lt;/p&gt;
+
+&lt;h6 id="procs"&gt;Procs&lt;/h6&gt;
+
+&lt;p&gt;In simple words proc is a block with a name. A block assigned to a variable. Like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;p1 = Proc.new {|digit| digit.to_i}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;p2 = Proc.new do |m, n|  
+       (m+n)*2
+     end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In these examples digit, m and n are arguments of the procs.&lt;/p&gt;
+
+&lt;p&gt;Procs are objects, so they can be method arguments and you can easily pass procs to a method. And then activate (call) the proc inside the method. Like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def new_method(proc)  
+  proc.call
+end
+
+p = Proc.new {puts "I am a proc"}
+
+new_method(p)
+
+&amp;gt; I am a proc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or with arguments:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def new_method2(arg, proc)  
+  puts proc.call(arg)
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then you call the method with particular arguments and a particular proc (proc should already exist when you call a method):  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;new_method2("1", p1)  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And the result will be 1.&lt;/p&gt;
+
+&lt;p&gt;Now...&lt;/p&gt;
+
+&lt;h6 id="backtoblocks"&gt;Back to blocks&lt;/h6&gt;
+
+&lt;p&gt;To pass a block to a method you do something like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def another_method (&amp;amp;block)  
+  block.call
+end
+
+another_method {puts "I am a block or a proc.."}
+
+&amp;gt; I am a block or a proc..
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Very similar to procs, right? But note the &lt;strong&gt;&amp;amp;&lt;/strong&gt; sign. It is very important, will write about it soon.&lt;/p&gt;
+
+&lt;p&gt;Another difference is that to call the method you need to provide a block directly to the method (it was not and cannot be pre-written). You also see curly braces after the method name, inside them is a block, not an argument. &lt;/p&gt;
+
+&lt;p&gt;And if your block requires an argument, you might do  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def another_method2 (arg1, &amp;amp;block)  
+  block.call(arg1)
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Also very similar to proc. &lt;br&gt;
+To call this method you can do, for example:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;another_method2(5) {|num| puts num+2}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which is the same as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;another_method2(5) do |num|  
+                  puts num+2
+                end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and one more example with the same method  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;another_method2('good') {|word| puts word+'bye'}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Predictable outputs here are 7 and 'goodbye'.&lt;/p&gt;
+
+&lt;p&gt;Interesting thing is that actual method arguments are 5 in the first example and 'good' in the second example, they are in regular braces, and blocks are again in curly braces(because block is not an argument!).&lt;/p&gt;
+
+&lt;p&gt;Now about &lt;strong&gt;&amp;amp;&lt;/strong&gt; sign.&lt;/p&gt;
+
+&lt;p&gt;The purpose of this sign is to create a proc from your block! So when you call your method and provide a block to it, ruby makes a proc from this block, and then inside the method calls the proc that was just created! &lt;/p&gt;
+
+&lt;p&gt;&amp;amp; is equal to a method to_proc, but you cannot write block.to_proc while providing block to your method, ruby will not understand it. So you have to use &amp;amp; instead.&lt;/p&gt;
+
+&lt;p&gt;You can also use &lt;strong&gt;&amp;amp;&lt;/strong&gt; sign (which is "a wrapper around a method to_proc") to symbols.&lt;/p&gt;
+
+&lt;p&gt;So instead of writing  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;map {|digit| digit.to_i}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;you can wright  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;map(&amp;amp;:to_i)  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where &lt;code&gt;&amp;amp;&lt;/code&gt; is to_proc method, and &lt;code&gt;:to_i&lt;/code&gt; is a symbol, "that is interpreted as a message to be sent to each element of the array".&lt;/p&gt;
+
+&lt;h6 id="lambdas"&gt;Lambdas&lt;/h6&gt;
+
+&lt;p&gt;Lambda is a proc, but there are couple of differences:&lt;/p&gt;
+
+&lt;p&gt;1) Procs do not care much about their arguments. Lambdas do(the same way as methods).&lt;/p&gt;
+
+&lt;p&gt;So, if you make a proc  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;p1 = Proc.new {|digit| digit.to_i}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then do &lt;br&gt;
+&lt;code&gt;p1.call("1", "2", "3")&lt;/code&gt;, the result will be &lt;code&gt;1&lt;/code&gt;, proc will not inform you that there is wrong number of arguments, it will just run on the first one.&lt;/p&gt;
+
+&lt;p&gt;But if you do  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;l1 = lambda {|digit| digit.to_i}  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then &lt;code&gt;l1.call("1", "2", "3")&lt;/code&gt;, the result will be ArgumentError: wrong number of arguments.&lt;/p&gt;
+
+&lt;p&gt;2) You can not create lambda with &lt;code&gt;&amp;amp;&lt;/code&gt;, so if you need lambda, not a proc, you have to create it before passing it into a method.&lt;/p&gt;
+
+&lt;p&gt;3) Procs and lambdas treat &lt;code&gt;return&lt;/code&gt; differently. If you use &lt;code&gt;return&lt;/code&gt; inside lambda, it will take you out from the body of lambda to the code after lambda. If you use &lt;code&gt;return&lt;/code&gt; inside proc it will take you out from the method in which the proc was called(not only from the proc itself). &lt;/p&gt;
+
+&lt;p&gt;There is more about blocks, procs and lambdas, of course, but it is the next level of enlightenment. &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;And below... well.. maybe not so apparent visualisation of&lt;/p&gt;
+
+&lt;p&gt;a block&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://www.independent.co.uk/incoming/article10059835.ece/alternates/w620/chocolate.jpg" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;and a proc&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://cdn.chocolategourmet.co.uk/products/gold_box_lg_yellow.jpg" alt=""&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 11 - Party time</title><description>&lt;p&gt;This week was fantastic but also very exhausting.&lt;/p&gt;
+
+&lt;p&gt;And we had our first party at the Makers!&lt;/p&gt;
+
+&lt;p&gt;And... I have a feeling my Friday posts will always be very short...&lt;/p&gt;</description><link>http://localhost:2368/day-11-party-time/</link><guid isPermaLink="false">94091eb9-2267-42a4-9972-ff82ae308689</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Fri, 11 Sep 2015 21:56:00 GMT</pubDate><content:encoded>&lt;p&gt;This week was fantastic but also very exhausting.&lt;/p&gt;
+
+&lt;p&gt;And we had our first party at the Makers!&lt;/p&gt;
+
+&lt;p&gt;And... I have a feeling my Friday posts will always be very short...&lt;/p&gt;</content:encoded></item><item><title>Day 10</title><description>&lt;p&gt;My pair and I did so much together today! He is amazing! &lt;br&gt;
+We finished Bike version of BattleShips! &lt;br&gt;
+...my previous sentence does not make a lot of sense, right?...
+But just believe me - it is cool! &lt;br&gt;
+And most of our methods are not longer than 2-3 lines!&lt;/p&gt;
+
+&lt;p&gt;And I&lt;/p&gt;</description><link>http://localhost:2368/day-10/</link><guid isPermaLink="false">195600bc-a6d5-455f-a731-80fa04c60b85</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 10 Sep 2015 22:35:55 GMT</pubDate><content:encoded>&lt;p&gt;My pair and I did so much together today! He is amazing! &lt;br&gt;
+We finished Bike version of BattleShips! &lt;br&gt;
+...my previous sentence does not make a lot of sense, right?...
+But just believe me - it is cool! &lt;br&gt;
+And most of our methods are not longer than 2-3 lines!&lt;/p&gt;
+
+&lt;p&gt;And I cannot stop coding till now... &lt;br&gt;
+I finished Motobike version (also does not make a lot of sense, right? but it is even cooler than Bike!) and A LOT of refactoring, niiiiice refactoring.&lt;/p&gt;
+
+&lt;p&gt;Now it is a good place to tell a few words about MVP (that's the reason I write about Bikes and Motobikes here), but...&lt;/p&gt;
+
+&lt;p&gt;...I can not stop trying to refactor tests using verifying doubles. What a smart creatures... Now for each line of code, I have 15 lines of test... Crazy... Probably should come back to regular ones... or go to sleep ... or to regular ones... or to sleep... or ...&lt;/p&gt;</content:encoded></item></channel></rss>
