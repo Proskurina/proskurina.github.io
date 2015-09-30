@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 30 Sep 2015 11:00:57 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 28: JavaScript!</title><description>&lt;p&gt;Can we learn a new language in a week? I'll tell you on Friday!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 30 Sep 2015 14:36:19 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 30: test</title><description>&lt;p&gt;test&lt;/p&gt;</description><link>http://localhost:2368/day-30-test/</link><guid isPermaLink="false">8da6ec0d-5f0b-4ce8-ab77-5d2fcd6533fe</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Wed, 30 Sep 2015 14:36:04 GMT</pubDate><content:encoded>&lt;p&gt;test&lt;/p&gt;</content:encoded></item><item><title>Day 28: JavaScript!</title><description>&lt;p&gt;Can we learn a new language in a week? I'll tell you on Friday!&lt;/p&gt;
 
 &lt;p&gt;But I can feel already that comparing to Ruby JS is pain. Syntax is crazy, and errors... well, it does not know much about what went wrong... and I do not know either! was it a&lt;/p&gt;</description><link>http://localhost:2368/day-28/</link><guid isPermaLink="false">56df40b1-0903-4f0d-adcc-9bfdab448218</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Mon, 28 Sep 2015 21:43:00 GMT</pubDate><content:encoded>&lt;p&gt;Can we learn a new language in a week? I'll tell you on Friday!&lt;/p&gt;
 
@@ -428,21 +428,4 @@ To call this method you can do, for example:  &lt;/p&gt;
 
 &lt;p&gt;And we had our first party at the Makers!&lt;/p&gt;
 
-&lt;p&gt;And... I have a feeling my Friday posts will always be very short...&lt;/p&gt;</content:encoded></item><item><title>Day 10</title><description>&lt;p&gt;My pair and I did so much together today! He is amazing! &lt;br&gt;
-We finished Bike version of BattleShips! &lt;br&gt;
-...my previous sentence does not make a lot of sense, right?...
-But just believe me - it is cool! &lt;br&gt;
-And most of our methods are not longer than 2-3 lines!&lt;/p&gt;
-
-&lt;p&gt;And I&lt;/p&gt;</description><link>http://localhost:2368/day-10/</link><guid isPermaLink="false">195600bc-a6d5-455f-a731-80fa04c60b85</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 10 Sep 2015 22:35:55 GMT</pubDate><content:encoded>&lt;p&gt;My pair and I did so much together today! He is amazing! &lt;br&gt;
-We finished Bike version of BattleShips! &lt;br&gt;
-...my previous sentence does not make a lot of sense, right?...
-But just believe me - it is cool! &lt;br&gt;
-And most of our methods are not longer than 2-3 lines!&lt;/p&gt;
-
-&lt;p&gt;And I cannot stop coding till now... &lt;br&gt;
-I finished Motobike version (also does not make a lot of sense, right? but it is even cooler than Bike!) and A LOT of refactoring, niiiiice refactoring.&lt;/p&gt;
-
-&lt;p&gt;Now it is a good place to tell a few words about MVP (that's the reason I write about Bikes and Motobikes here), but...&lt;/p&gt;
-
-&lt;p&gt;...I can not stop trying to refactor tests using verifying doubles. What a smart creatures... Now for each line of code, I have 15 lines of test... Crazy... Probably should come back to regular ones... or go to sleep ... or to regular ones... or to sleep... or ...&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;And... I have a feeling my Friday posts will always be very short...&lt;/p&gt;</content:encoded></item></channel></rss>
