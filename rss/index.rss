@@ -1,4 +1,43 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 30 Sep 2015 14:36:19 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 30: test</title><description>&lt;p&gt;test&lt;/p&gt;</description><link>http://localhost:2368/day-30-test/</link><guid isPermaLink="false">8da6ec0d-5f0b-4ce8-ab77-5d2fcd6533fe</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Wed, 30 Sep 2015 14:36:04 GMT</pubDate><content:encoded>&lt;p&gt;test&lt;/p&gt;</content:encoded></item><item><title>Day 28: JavaScript!</title><description>&lt;p&gt;Can we learn a new language in a week? I'll tell you on Friday!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Mon, 05 Oct 2015 09:48:06 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 34</title><description>&lt;p&gt;Finally have time to think about lab week.&lt;/p&gt;
+
+&lt;p&gt;Lab week is a week when we are on our own. No fixed plan. Everyone does what he needs most: review of previous challenges, learn JS, explore new technologies or sleep.&lt;/p&gt;
+
+&lt;p&gt;My plan is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;to finish JS by Jon Duckett (at least&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/day-34/</link><guid isPermaLink="false">37845033-743b-458e-b424-b5ffd291c9cb</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 04 Oct 2015 09:39:00 GMT</pubDate><content:encoded>&lt;p&gt;Finally have time to think about lab week.&lt;/p&gt;
+
+&lt;p&gt;Lab week is a week when we are on our own. No fixed plan. Everyone does what he needs most: review of previous challenges, learn JS, explore new technologies or sleep.&lt;/p&gt;
+
+&lt;p&gt;My plan is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;to finish JS by Jon Duckett (at least 50-60 pages per day),&lt;/li&gt;
+&lt;li&gt;to learn more about MEAN (todo project from scotch.io? rps in JS? smth else?),&lt;/li&gt;
+&lt;li&gt;to pair program at least 3 days of the week,&lt;/li&gt;
+&lt;li&gt;to attend standups with my byte every day,&lt;/li&gt;
+&lt;li&gt;to post about my progress every day.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Too ambitious? May be. We'll see.&lt;/p&gt;</content:encoded></item><item><title>Day 33</title><description>&lt;p&gt;England lost&lt;/p&gt;</description><link>http://localhost:2368/day-33/</link><guid isPermaLink="false">6f5f4eba-2380-43b0-8b18-5f14f14ad37d</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sat, 03 Oct 2015 22:38:00 GMT</pubDate><content:encoded>&lt;p&gt;England lost&lt;/p&gt;</content:encoded></item><item><title>Day 32</title><description>&lt;p&gt;It was seniors graduation day today. &lt;br&gt;
+Their final projects were amazing.&lt;/p&gt;
+
+&lt;p&gt;It is the middle of the course (equator as they say in uni) for us, we are officially seniors now. Time to think what our final projects could be.&lt;/p&gt;
+
+&lt;p&gt;Next week is a lab week. So hope to have&lt;/p&gt;</description><link>http://localhost:2368/day-32/</link><guid isPermaLink="false">62000e20-06c6-43ef-a2a0-b3bc32c40cc4</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Fri, 02 Oct 2015 21:34:00 GMT</pubDate><content:encoded>&lt;p&gt;It was seniors graduation day today. &lt;br&gt;
+Their final projects were amazing.&lt;/p&gt;
+
+&lt;p&gt;It is the middle of the course (equator as they say in uni) for us, we are officially seniors now. Time to think what our final projects could be.&lt;/p&gt;
+
+&lt;p&gt;Next week is a lab week. So hope to have plenty of time to think about it.&lt;/p&gt;</content:encoded></item><item><title>Days 29-31</title><description>&lt;p&gt;By activity in a blog you can always see when friends are in town!&lt;/p&gt;
+
+&lt;p&gt;Will try to write more about new things learnt this week (JSON, ajax, jquery, APIs) later.&lt;/p&gt;
+
+&lt;p&gt;As for now more concerts, cocktails and fun!!!&lt;/p&gt;</description><link>http://localhost:2368/days-29-31/</link><guid isPermaLink="false">dc73c1e1-d068-425b-ab7e-42615dc3cb60</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 01 Oct 2015 18:30:00 GMT</pubDate><content:encoded>&lt;p&gt;By activity in a blog you can always see when friends are in town!&lt;/p&gt;
+
+&lt;p&gt;Will try to write more about new things learnt this week (JSON, ajax, jquery, APIs) later.&lt;/p&gt;
+
+&lt;p&gt;As for now more concerts, cocktails and fun!!!&lt;/p&gt;</content:encoded></item><item><title>Day 28: JavaScript!</title><description>&lt;p&gt;Can we learn a new language in a week? I'll tell you on Friday!&lt;/p&gt;
 
 &lt;p&gt;But I can feel already that comparing to Ruby JS is pain. Syntax is crazy, and errors... well, it does not know much about what went wrong... and I do not know either! was it a&lt;/p&gt;</description><link>http://localhost:2368/day-28/</link><guid isPermaLink="false">56df40b1-0903-4f0d-adcc-9bfdab448218</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Mon, 28 Sep 2015 21:43:00 GMT</pubDate><content:encoded>&lt;p&gt;Can we learn a new language in a week? I'll tell you on Friday!&lt;/p&gt;
 
@@ -218,214 +257,4 @@ And the only thing I hope, that it does not mean that we will have three on the 
 
 &lt;p&gt;You can easily see everything that happened to me during this weekend in two previous posts. Blocks and procs happened and gems happened.&lt;/p&gt;
 
-&lt;p&gt;Still, was a great weekend. And I love Sunday evenings now.&lt;/p&gt;</content:encoded></item><item><title>Gems</title><description>&lt;p&gt;Makers' pill on gems is very good. So I will write here in few words what I read there.&lt;/p&gt;
-
-&lt;p&gt;Gems are ruby libraries that can be easily reused. There are lots of ruby gems.&lt;/p&gt;
-
-&lt;p&gt;You can install ruby gem using a command &lt;code&gt;gem install &amp;lt;gem_name&amp;gt;&lt;/code&gt;. &lt;/p&gt;
-
-&lt;p&gt;But for&lt;/p&gt;</description><link>http://localhost:2368/gems/</link><guid isPermaLink="false">41c72686-12bb-4d84-884a-e4ef8f955d46</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 13 Sep 2015 21:38:40 GMT</pubDate><content:encoded>&lt;p&gt;Makers' pill on gems is very good. So I will write here in few words what I read there.&lt;/p&gt;
-
-&lt;p&gt;Gems are ruby libraries that can be easily reused. There are lots of ruby gems.&lt;/p&gt;
-
-&lt;p&gt;You can install ruby gem using a command &lt;code&gt;gem install &amp;lt;gem_name&amp;gt;&lt;/code&gt;. &lt;/p&gt;
-
-&lt;p&gt;But for real developers there is a better way! Bundler!&lt;/p&gt;
-
-&lt;p&gt;Bundler is a gem itself, and its purpose is to manage other gems (to install it write &lt;code&gt;gem install bundler&lt;/code&gt; in the command line).&lt;/p&gt;
-
-&lt;p&gt;To tell bundler what gems are needed for particular program, &lt;code&gt;Gemfile&lt;/code&gt; should be created in the root directory of the project. &lt;code&gt;Gemfile&lt;/code&gt; contains this self-explaining line &lt;code&gt;source 'https://rubygems.org'&lt;/code&gt; and a list of gems.&lt;/p&gt;
-
-&lt;p&gt;To use a gem in your code you should require gem, like this for example:  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;require 'dotenv'  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Gems are great, cause you can use other people's code. But they are not so great because of the same reason.&lt;/p&gt;</content:encoded></item><item><title>Blocks, procs and lambdas.</title><description>&lt;p&gt;This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
-
-&lt;h6 id="blocks"&gt;Blocks&lt;/h6&gt;
-
-&lt;p&gt;Block is everything between &lt;code&gt;do&lt;/code&gt; end &lt;code&gt;end&lt;/code&gt; or between &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; (if it is not a hash,&lt;/p&gt;</description><link>http://localhost:2368/blocks-procs-and-lambdas/</link><guid isPermaLink="false">a2c5448f-d8ae-493c-94a6-eb8cd5c0f0a2</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 13 Sep 2015 10:15:49 GMT</pubDate><content:encoded>&lt;p&gt;This is one of the topics I could not understand for a long time, so I decided to write a long post. Chapter 14 of The Well-Grounded Rubyist was of a great help!&lt;/p&gt;
-
-&lt;h6 id="blocks"&gt;Blocks&lt;/h6&gt;
-
-&lt;p&gt;Block is everything between &lt;code&gt;do&lt;/code&gt; end &lt;code&gt;end&lt;/code&gt; or between &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; (if it is not a hash, of course).&lt;/p&gt;
-
-&lt;p&gt;For example, in  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;arr = ["1", "2", "3", "4"]  
-arr.map {|digit| digit.to_i}  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;code&gt;{|digit| digit.to_i}&lt;/code&gt; is a block. It also could be written like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;arr.map do |digit|  
-          digit.to_i
-        end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Blocks can have arguments. Arguments of the block are always inside the pipes &lt;code&gt;|arg|&lt;/code&gt;. In this case it is &lt;code&gt;|digit|&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Block is not an object. And it is also not an argument of the map method! or any method. Because it is not an object.&lt;/p&gt;
-
-&lt;p&gt;But how do you pass a block to a method if it is not an object and can not be an argument? Is it even possible?&lt;/p&gt;
-
-&lt;p&gt;And yes, it is. In a way. But first few words about procs.&lt;/p&gt;
-
-&lt;h6 id="procs"&gt;Procs&lt;/h6&gt;
-
-&lt;p&gt;In simple words proc is a block with a name. A block assigned to a variable. Like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;p1 = Proc.new {|digit| digit.to_i}  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;p2 = Proc.new do |m, n|  
-       (m+n)*2
-     end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In these examples digit, m and n are arguments of the procs.&lt;/p&gt;
-
-&lt;p&gt;Procs are objects, so they can be method arguments and you can easily pass procs to a method. And then activate (call) the proc inside the method. Like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;def new_method(proc)  
-  proc.call
-end
-
-p = Proc.new {puts "I am a proc"}
-
-new_method(p)
-
-&amp;gt; I am a proc
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Or with arguments:  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;def new_method2(arg, proc)  
-  puts proc.call(arg)
-end  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then you call the method with particular arguments and a particular proc (proc should already exist when you call a method):  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;new_method2("1", p1)  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And the result will be 1.&lt;/p&gt;
-
-&lt;p&gt;Now...&lt;/p&gt;
-
-&lt;h6 id="backtoblocks"&gt;Back to blocks&lt;/h6&gt;
-
-&lt;p&gt;To pass a block to a method you do something like this&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;def another_method (&amp;amp;block)  
-  block.call
-end
-
-another_method {puts "I am a block or a proc.."}
-
-&amp;gt; I am a block or a proc..
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Very similar to procs, right? But note the &lt;strong&gt;&amp;amp;&lt;/strong&gt; sign. It is very important, will write about it soon.&lt;/p&gt;
-
-&lt;p&gt;Another difference is that to call the method you need to provide a block directly to the method (it was not and cannot be pre-written). You also see curly braces after the method name, inside them is a block, not an argument. &lt;/p&gt;
-
-&lt;p&gt;And if your block requires an argument, you might do  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;def another_method2 (arg1, &amp;amp;block)  
-  block.call(arg1)
-end  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Also very similar to proc. &lt;br&gt;
-To call this method you can do, for example:  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;another_method2(5) {|num| puts num+2}  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;which is the same as&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;another_method2(5) do |num|  
-                  puts num+2
-                end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and one more example with the same method  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;another_method2('good') {|word| puts word+'bye'}  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Predictable outputs here are 7 and 'goodbye'.&lt;/p&gt;
-
-&lt;p&gt;Interesting thing is that actual method arguments are 5 in the first example and 'good' in the second example, they are in regular braces, and blocks are again in curly braces(because block is not an argument!).&lt;/p&gt;
-
-&lt;p&gt;Now about &lt;strong&gt;&amp;amp;&lt;/strong&gt; sign.&lt;/p&gt;
-
-&lt;p&gt;The purpose of this sign is to create a proc from your block! So when you call your method and provide a block to it, ruby makes a proc from this block, and then inside the method calls the proc that was just created! &lt;/p&gt;
-
-&lt;p&gt;&amp;amp; is equal to a method to_proc, but you cannot write block.to_proc while providing block to your method, ruby will not understand it. So you have to use &amp;amp; instead.&lt;/p&gt;
-
-&lt;p&gt;You can also use &lt;strong&gt;&amp;amp;&lt;/strong&gt; sign (which is "a wrapper around a method to_proc") to symbols.&lt;/p&gt;
-
-&lt;p&gt;So instead of writing  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;map {|digit| digit.to_i}  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;you can wright  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;map(&amp;amp;:to_i)  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;where &lt;code&gt;&amp;amp;&lt;/code&gt; is to_proc method, and &lt;code&gt;:to_i&lt;/code&gt; is a symbol, "that is interpreted as a message to be sent to each element of the array".&lt;/p&gt;
-
-&lt;h6 id="lambdas"&gt;Lambdas&lt;/h6&gt;
-
-&lt;p&gt;Lambda is a proc, but there are couple of differences:&lt;/p&gt;
-
-&lt;p&gt;1) Procs do not care much about their arguments. Lambdas do(the same way as methods).&lt;/p&gt;
-
-&lt;p&gt;So, if you make a proc  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;p1 = Proc.new {|digit| digit.to_i}  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and then do &lt;br&gt;
-&lt;code&gt;p1.call("1", "2", "3")&lt;/code&gt;, the result will be &lt;code&gt;1&lt;/code&gt;, proc will not inform you that there is wrong number of arguments, it will just run on the first one.&lt;/p&gt;
-
-&lt;p&gt;But if you do  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;l1 = lambda {|digit| digit.to_i}  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and then &lt;code&gt;l1.call("1", "2", "3")&lt;/code&gt;, the result will be ArgumentError: wrong number of arguments.&lt;/p&gt;
-
-&lt;p&gt;2) You can not create lambda with &lt;code&gt;&amp;amp;&lt;/code&gt;, so if you need lambda, not a proc, you have to create it before passing it into a method.&lt;/p&gt;
-
-&lt;p&gt;3) Procs and lambdas treat &lt;code&gt;return&lt;/code&gt; differently. If you use &lt;code&gt;return&lt;/code&gt; inside lambda, it will take you out from the body of lambda to the code after lambda. If you use &lt;code&gt;return&lt;/code&gt; inside proc it will take you out from the method in which the proc was called(not only from the proc itself). &lt;/p&gt;
-
-&lt;p&gt;There is more about blocks, procs and lambdas, of course, but it is the next level of enlightenment. &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;And below... well.. maybe not so apparent visualisation of&lt;/p&gt;
-
-&lt;p&gt;a block&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://www.independent.co.uk/incoming/article10059835.ece/alternates/w620/chocolate.jpg" alt=""&gt;&lt;/p&gt;
-
-&lt;p&gt;and a proc&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://cdn.chocolategourmet.co.uk/products/gold_box_lg_yellow.jpg" alt=""&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 11 - Party time</title><description>&lt;p&gt;This week was fantastic but also very exhausting.&lt;/p&gt;
-
-&lt;p&gt;And we had our first party at the Makers!&lt;/p&gt;
-
-&lt;p&gt;And... I have a feeling my Friday posts will always be very short...&lt;/p&gt;</description><link>http://localhost:2368/day-11-party-time/</link><guid isPermaLink="false">94091eb9-2267-42a4-9972-ff82ae308689</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Fri, 11 Sep 2015 21:56:00 GMT</pubDate><content:encoded>&lt;p&gt;This week was fantastic but also very exhausting.&lt;/p&gt;
-
-&lt;p&gt;And we had our first party at the Makers!&lt;/p&gt;
-
-&lt;p&gt;And... I have a feeling my Friday posts will always be very short...&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Still, was a great weekend. And I love Sunday evenings now.&lt;/p&gt;</content:encoded></item></channel></rss>
