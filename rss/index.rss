@@ -1,4 +1,16 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 07 Oct 2015 19:23:20 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Days 35-37 Mainly MEAN</title><description>&lt;p&gt;Well, obviously I do not follow my plan...&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 11 Oct 2015 16:59:57 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Days 38-41: Strike!</title><description>&lt;p&gt;The end of the week and weekend I spent working mostly on our bowling challenge.&lt;/p&gt;
+
+&lt;p&gt;It seemed ok in the beginning, code looked nice, then became heavier, then unreadable and then... I followed one of our coaches advice: "It is always fun to throw everything away and  start from the&lt;/p&gt;</description><link>http://localhost:2368/days-38-41-strike/</link><guid isPermaLink="false">7baedf77-bd69-4974-8c75-7b0c92fd5f69</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 11 Oct 2015 16:55:49 GMT</pubDate><content:encoded>&lt;p&gt;The end of the week and weekend I spent working mostly on our bowling challenge.&lt;/p&gt;
+
+&lt;p&gt;It seemed ok in the beginning, code looked nice, then became heavier, then unreadable and then... I followed one of our coaches advice: "It is always fun to throw everything away and  start from the beginning". &lt;/p&gt;
+
+&lt;p&gt;I had another idea on how to build it. The task became ok again, I wrote a nice engine, it all worked so nicely, that I decided to make an interface. That was not wise. I stopped sleeping at nights. I even came back to the first version of the code, but it made things even worse. I went to a long long walk to a park. And the next day again.&lt;/p&gt;
+
+&lt;p&gt;And then suddenly I had a solution. And it worked! And it involved only reasonable amount of code! And I even had some time to write this post!&lt;/p&gt;
+
+&lt;p&gt;But the lesson was learned - if you need an interface, think about it from the beginning. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTvj8_Vboktwy3ik-ItlIzDSxXNU5Rb3P_59yRtGo6HTOY5OLG7" alt="bowling mess"&gt;&lt;/p&gt;</content:encoded></item><item><title>Days 35-37 Mainly MEAN</title><description>&lt;p&gt;Well, obviously I do not follow my plan...&lt;/p&gt;
 
 &lt;p&gt;At least I do not post here every day, but that is because I learn so many things simultaneously! &lt;/p&gt;
 
@@ -14,13 +26,15 @@
 
 &lt;p&gt;MEAN stays for Mongo, Express, Angular and Node.&lt;/p&gt;
 
-&lt;p&gt;Node helps you to run your JS program using terminal, just print &lt;code&gt;node &amp;lt;filename.js&amp;gt;&lt;/code&gt; in command line. If you type &lt;code&gt;node&lt;/code&gt; in terminal you can play with JS the same way as you play with Ruby using &lt;code&gt;irb&lt;/code&gt; (but I already got used to console and console.log()). It is not a server, but you can create one with it. And everything is in JS! So no need to switch from JS to Ruby and back. An important thing about Node is that it is asynchronous, which makes it very effective. But you have to use callbacks for that, and it is not so straight forward in the beginning.&lt;/p&gt;
+&lt;p&gt;Node helps you to run your JS program using terminal, just print &lt;code&gt;node &amp;lt;filename.js&amp;gt;&lt;/code&gt; in command line. If you type &lt;code&gt;node&lt;/code&gt; in terminal you can play with JS the same way as you play with Ruby using &lt;code&gt;irb&lt;/code&gt; (but I already got used to console and console.log()). It is not a server, but you can create one with it. And everything is in JS! So no need to switch from JS to Ruby (or another language) and back. An important thing about Node is that it is asynchronous, which makes it very effective. But you have to use callbacks for that, and it is not so straight forward in the beginning.&lt;/p&gt;
 
 &lt;p&gt;Express is something like Sinatra, but for Node JS. It seems easier and more intuitive, but may be it is because we already learned how to deal with Sinatra. For express template engine is not needed, it can handle html files directly, it is good for simple projects but for more complicated you can use Jade or ejs (they are like erb for ruby).&lt;/p&gt;
 
 &lt;p&gt;Mongo is a non SQL database, it stores information as JSON, and it seems a bit chaotic, but may be it is not, I just started to play with it.&lt;/p&gt;
 
-&lt;p&gt;And Angular... I am not sure yet. We will have the whole week dedicated to it, so I will write about it later.&lt;/p&gt;</content:encoded></item><item><title>Day 34</title><description>&lt;p&gt;Finally have time to think about lab week.&lt;/p&gt;
+&lt;p&gt;And Angular... I am not sure yet. We will have the whole week dedicated to it, so I will write about it later.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://blog.udemy.com/node-js-tutorial/#0"&gt;Here&lt;/a&gt; is fantastic blog post on the topic.&lt;/p&gt;</content:encoded></item><item><title>Day 34</title><description>&lt;p&gt;Finally have time to think about lab week.&lt;/p&gt;
 
 &lt;p&gt;Lab week is a week when we are on our own. No fixed plan. Everyone does what he needs most: review of previous challenges, learn JS, explore new technologies or sleep.&lt;/p&gt;
 
@@ -269,12 +283,4 @@ We are going to build bookmark manager, so that a user could manage his links ea
 
 &lt;p&gt;p.s. Capybara is unbelievably cool!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://www.rainforest-alliance.org/sites/default/files/styles/responsive_breakpoints_theme_rainforest_wide_1x/public/slideshow/header/capybara_0.jpg?itok=G1uvWT23" alt=""&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 14</title><description>&lt;p&gt;This week we are going online!&lt;/p&gt;
-
-&lt;p&gt;It means that by the end of the week we should be reasonably comfortable with HTML, CSS, erb, Sinatra and Capybara. And I might post a link to a beautiful Battleship game here! Or not so beautiful, but working. Or I will just have&lt;/p&gt;</description><link>http://localhost:2368/day-14/</link><guid isPermaLink="false">e51dc90c-0997-42ca-8e13-a26a713acb8d</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Mon, 14 Sep 2015 21:03:32 GMT</pubDate><content:encoded>&lt;p&gt;This week we are going online!&lt;/p&gt;
-
-&lt;p&gt;It means that by the end of the week we should be reasonably comfortable with HTML, CSS, erb, Sinatra and Capybara. And I might post a link to a beautiful Battleship game here! Or not so beautiful, but working. Or I will just have fun during the week.&lt;/p&gt;
-
-&lt;p&gt;Today also was the launch night for the October cohort. Which means there will be new juniors, which means we are becoming seniors, which means we will have our mentees soon! Unbelievable!&lt;/p&gt;
-
-&lt;p&gt;And our launch night was only 6 weeks ago! Good old days.. Only 6 weeks passed but I can not imagine myself without coding anymore.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;img src="http://www.rainforest-alliance.org/sites/default/files/styles/responsive_breakpoints_theme_rainforest_wide_1x/public/slideshow/header/capybara_0.jpg?itok=G1uvWT23" alt=""&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
