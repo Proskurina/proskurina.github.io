@@ -1,4 +1,34 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Mon, 12 Oct 2015 21:28:07 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 42</title><description>&lt;p&gt;In the morning we met our juniors for the first time! &lt;br&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 18 Oct 2015 21:38:39 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Days 47-48 Reinventing instagram</title><description>&lt;p&gt;Another weekend, another challenge.&lt;/p&gt;
+
+&lt;p&gt;Now our simple project starts with more than 30 folders and approximately 60 files. And finishes with twice as many...&lt;/p&gt;
+
+&lt;p&gt;For the inspiration on Saturday morning we went to Hockney exhibition first and then to Frieze. And then to Georgian restaurant! &lt;/p&gt;
+
+&lt;p&gt;And today I am proud&lt;/p&gt;</description><link>http://localhost:2368/days-47-48-reinventing-instagram/</link><guid isPermaLink="false">78d1ca1c-16ad-4079-95f0-bcdc264671f3</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 18 Oct 2015 21:28:13 GMT</pubDate><content:encoded>&lt;p&gt;Another weekend, another challenge.&lt;/p&gt;
+
+&lt;p&gt;Now our simple project starts with more than 30 folders and approximately 60 files. And finishes with twice as many...&lt;/p&gt;
+
+&lt;p&gt;For the inspiration on Saturday morning we went to Hockney exhibition first and then to Frieze. And then to Georgian restaurant! &lt;/p&gt;
+
+&lt;p&gt;And today I am proud to present a couple of photos from my weekend &lt;a href="https://calm-tundra-5324.herokuapp.com/pictures"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Not quite instagram, but if you try hard you can see some remote resemblance...&lt;/p&gt;</content:encoded></item><item><title>Days 44-46 - More magic</title><description>&lt;p&gt;Here I will write about creating a simple project in Rails, about MVC structure, REST, CRUD, routs, Rails command line, Active Record Associations, migrations and schema, and other important things to remember, as soon as I have at least 3 hours of a free time!&lt;/p&gt;
+
+&lt;p&gt;Now to bed.&lt;/p&gt;</description><link>http://localhost:2368/days-44-46-more-magic/</link><guid isPermaLink="false">7f1b2bc4-bafb-4d9c-a792-a8f18a366b9a</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Fri, 16 Oct 2015 14:21:00 GMT</pubDate><content:encoded>&lt;p&gt;Here I will write about creating a simple project in Rails, about MVC structure, REST, CRUD, routs, Rails command line, Active Record Associations, migrations and schema, and other important things to remember, as soon as I have at least 3 hours of a free time!&lt;/p&gt;
+
+&lt;p&gt;Now to bed.&lt;/p&gt;</content:encoded></item><item><title>Day 43 - Ada Lovelace Day</title><description>&lt;p&gt;Today is Ada Lovelace day.&lt;/p&gt;
+
+&lt;p&gt;Every girl in tech knows that she was the first computer programmer in the world! It might be true. At least it is nice to believe it. &lt;a href="http://mentalfloss.com/article/53131/ada-lovelace-first-computer-programmer"&gt;Here&lt;/a&gt; is a good article about her.&lt;/p&gt;
+
+&lt;p&gt;There are other great women in tech like &lt;a href="http://www.wired.com/2015/10/margaret-hamilton-nasa-apollo/"&gt;Margaret Hamilton&lt;/a&gt; and&lt;/p&gt;</description><link>http://localhost:2368/day-43-ada-lovelace-day/</link><guid isPermaLink="false">ca41274e-1e0b-431a-9fdc-9be397d7bab7</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 13 Oct 2015 14:21:00 GMT</pubDate><content:encoded>&lt;p&gt;Today is Ada Lovelace day.&lt;/p&gt;
+
+&lt;p&gt;Every girl in tech knows that she was the first computer programmer in the world! It might be true. At least it is nice to believe it. &lt;a href="http://mentalfloss.com/article/53131/ada-lovelace-first-computer-programmer"&gt;Here&lt;/a&gt; is a good article about her.&lt;/p&gt;
+
+&lt;p&gt;There are other great women in tech like &lt;a href="http://www.wired.com/2015/10/margaret-hamilton-nasa-apollo/"&gt;Margaret Hamilton&lt;/a&gt; and &lt;a href="http://www.sandimetz.com/"&gt;Sandi Metz&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And there are also men. &lt;/p&gt;
+
+&lt;p&gt;And I do not see any reasons to believe that gender somehow influences the abilities to code. It is equal pain and fun for both.&lt;/p&gt;</content:encoded></item><item><title>Day 42</title><description>&lt;p&gt;In the morning we met our juniors for the first time! &lt;br&gt;
 Only 6 weeks ago we were on their place. 6 weeks! Like the whole life! And a good one!&lt;/p&gt;
 
 &lt;p&gt;Now we have new coaches, they are very cool, but I will miss our old ones, they were geniuses. &lt;/p&gt;
@@ -255,42 +285,4 @@ end
 
 &lt;p&gt;And &lt;a href="https://serene-scrubland-3780.herokuapp.com/"&gt;this is&lt;/a&gt; what we have so far.&lt;/p&gt;
 
-&lt;p&gt;Not much, but I am soooooooo proud!&lt;/p&gt;</content:encoded></item><item><title>Day 21</title><description>&lt;p&gt;The topic of this week is Databases. &lt;br&gt;
-We are going to build bookmark manager, so that a user could manage his links easily.&lt;/p&gt;
-
-&lt;p&gt;We will use SQL of course, PostgreSQL, DataMapper and many other cool stuff.&lt;/p&gt;
-
-&lt;p&gt;As for now it all seems pretty logical and intuitive, so hope to have&lt;/p&gt;</description><link>http://localhost:2368/day-21/</link><guid isPermaLink="false">eb90b3ac-05df-4240-8c9a-394d7abb8823</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Mon, 21 Sep 2015 17:40:54 GMT</pubDate><content:encoded>&lt;p&gt;The topic of this week is Databases. &lt;br&gt;
-We are going to build bookmark manager, so that a user could manage his links easily.&lt;/p&gt;
-
-&lt;p&gt;We will use SQL of course, PostgreSQL, DataMapper and many other cool stuff.&lt;/p&gt;
-
-&lt;p&gt;As for now it all seems pretty logical and intuitive, so hope to have another nice and productive week.&lt;/p&gt;</content:encoded></item><item><title>Days 19-20</title><description>&lt;p&gt;Weeeeekeeeeeeend!&lt;/p&gt;
-
-&lt;p&gt;Managed to write a very simple version of "rock, paper, scissors" in under couple of hours!&lt;/p&gt;
-
-&lt;p&gt;And then was refactoring it for 2 days. And playing for... 5 minutes. Very satisfying.&lt;/p&gt;
-
-&lt;p&gt;Great weekend anyway. 2 parties + 2 theatre evenings in 2 days! Seems that challenge was not so challenging&lt;/p&gt;</description><link>http://localhost:2368/days-19-20/</link><guid isPermaLink="false">e51f7179-1e5b-4781-8c51-73e1924bcf75</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 20 Sep 2015 20:10:03 GMT</pubDate><content:encoded>&lt;p&gt;Weeeeekeeeeeeend!&lt;/p&gt;
-
-&lt;p&gt;Managed to write a very simple version of "rock, paper, scissors" in under couple of hours!&lt;/p&gt;
-
-&lt;p&gt;And then was refactoring it for 2 days. And playing for... 5 minutes. Very satisfying.&lt;/p&gt;
-
-&lt;p&gt;Great weekend anyway. 2 parties + 2 theatre evenings in 2 days! Seems that challenge was not so challenging this time!&lt;/p&gt;</content:encoded></item><item><title>Days 16-18: Gone online!</title><description>&lt;p&gt;I learned a lot of new stuff this week:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;how a client (browser) communicates with server using request/response mechanism,&lt;/li&gt;
-&lt;li&gt;what server does when it receives request(in very simple words, request first gets to a particular port, then goes through security procedures, than middleware translates it from a string&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/days-16-18-gone-online/</link><guid isPermaLink="false">fe51bdc6-d306-4ce8-8caa-a58a85d1698c</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Fri, 18 Sep 2015 20:08:00 GMT</pubDate><content:encoded>&lt;p&gt;I learned a lot of new stuff this week:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;how a client (browser) communicates with server using request/response mechanism,&lt;/li&gt;
-&lt;li&gt;what server does when it receives request(in very simple words, request first gets to a particular port, then goes through security procedures, than middleware translates it from a string to ruby(in our case), then controller replies (with the help of model and views), and the response goes all the way back to the client(browser),&lt;/li&gt;
-&lt;li&gt;how a program works when a request received (first finds a requested method and a path in a controller, from there to a model(program logic) if needed, and then to views folder (where templates are, we use erb to write them), then you can see the result on your page. But if the result is a form, after you fill in the form and press a button, then the form probably will redirect you to a post method with a particular path, and from there probably to another get method, that will send you to another template in views, and then you will see the result on the screen),&lt;/li&gt;
-&lt;li&gt;how params hash and session hash work in Sinatra, how session is connected with cookies, and how you can make a multiplayer game using global variable (though it is not the best way to do it),&lt;/li&gt;
-&lt;li&gt;how to write tests in Capybara and how to force yourself to do it...&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And it is important to keep your program simple and readable! Seems impossible, right?&lt;/p&gt;
-
-&lt;p&gt;The result of the week: I can play my own battleships game with a computer. And sometimes I can even win. But I am not sure that anyone except a computer and myself would be able to read this code ever... &lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Not much, but I am soooooooo proud!&lt;/p&gt;</content:encoded></item></channel></rss>
