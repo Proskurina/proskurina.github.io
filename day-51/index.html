@@ -1,0 +1,221 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Day 51</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=c62ef3dff3">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    
+    <meta property="og:site_name" content="Learn to code">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Day 51">
+    <meta property="og:description" content="Now I have my little, but nice and working one page web-site built with Angular, but it is working only in my browser. Of course I want to deploy it to heroku. But I need to build a server first....">
+    <meta property="og:url" content="http://localhost:2368/day-51/">
+    <meta property="article:published_time" content="2015-10-21T18:50:52.220Z">
+    <meta property="article:modified_time" content="2015-10-21T20:22:25.955Z">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Day 51">
+    <meta name="twitter:description" content="Now I have my little, but nice and working one page web-site built with Angular, but it is working only in my browser. Of course I want to deploy it to heroku. But I need to build a server first....">
+    <meta name="twitter:url" content="http://localhost:2368/day-51/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Learn to code",
+    "author": {
+        "@type": "Person",
+        "name": "Yana Proskurina",
+        "url": "http://localhost:2368/author/yana",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "Day 51",
+    "url": "http://localhost:2368/day-51/",
+    "datePublished": "2015-10-21T18:50:52.220Z",
+    "dateModified": "2015-10-21T20:22:25.955Z",
+    "description": "Now I have my little, but nice and working one page web-site built with Angular, but it is working only in my browser. Of course I want to deploy it to heroku. But I need to build a server first...."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.6">
+    <link rel="alternate" type="application/rss+xml" title="Learn to code" href="../rss/index.html">
+</head>
+<body class="post-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../">Home</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">Day 51</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-10-21">21 October 2015</time> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>Now I have my little, but nice and working one page web-site built with Angular, but it is working only in my browser.</p>
+
+<p>Of course I want to deploy it to heroku. But I need to build a server first.</p>
+
+<p>I could do it with Sinatra, but it is JS and Angular... So why not use NodeJS and Express. It seems more natural, right?</p>
+
+<p>And it is easy!</p>
+
+<p>So my app now is something like this:  </p>
+
+<pre><code>project  
+|___.git(folder, lots of things going on here)
+|___bower_components
+|___node_modules
+|
+|___js
+|   |__app.js
+|   |__gitUserSearchController.js
+|   |__searchFactory.js
+|
+|___test
+|   |__gitSearchController.spec.js
+|   |__karma.conf.js
+|   |__searchFactory.spec.js
+|
+|___bower.json
+|___index.html
+|___package.json
+</code></pre>
+
+<p>First, install node and <a href="http://expressjs.com/starter/installing.html">express</a>.</p>
+
+<p>And then in a root directory make a little server, for example, <code>server.js</code>, that looks something like this:  </p>
+
+<pre><code>var express = require('express');  
+var app = express();
+
+app.use(express.static(__dirname + '/public'));
+
+app.get('/', function (req, res) {  
+  res.sendFile(__dirname + '/index.html');
+});
+
+app.listen(process.env.PORT || 3000, function() {  
+  console.log("listening on 3000");
+});
+</code></pre>
+
+<p>That's it!</p>
+
+<p>Most of it is just a simple example from <a href="http://expressjs.com/starter/hello-world.html">here</a>.</p>
+
+<p>Things I changed are:</p>
+
+<ul>
+<li>made direct reference to my <code>index.html</code> file (yes, there in no need to render html here!),</li>
+<li>added <code>process.env.PORT</code> (for Heroku). </li>
+</ul>
+
+<p>I also moved my <code>js</code> and <code>bower_components</code> folders to <code>public</code> folder (no need to even change pathes to files in <code>index.html</code> file! Though if you have secrets in js folder, don't forget to change path in <code>.gitignore</code>).</p>
+
+<p>Now do <code>node server.js</code> and enjoy!</p>
+
+<p>While deploying to heroku remember about </p>
+
+<ul>
+<li>dependencies to be listed (and installed) </li>
+<li>secrets</li>
+<li>not deploying node_modules and bower_components. </li>
+</ul>
+        </section>
+
+        <footer class="post-footer">
+
+
+
+            <section class="author">
+                <h4><a href="../author/yana/">Yana Proskurina</a></h4>
+
+                    <p>Read <a href="../author/yana/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=Day%2051&amp;url=http://localhost:2368/day-51/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/day-51/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/day-51/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story prev no-cover" href="../days-49-50/">
+        <section class="post">
+            <h2>Days 49-50</h2>
+            <p>This week is Angular week. Angular is very powerful, but is always a bit tricky in the beginning. The…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">Learn to code</a> © 2015</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script src="../public/jquery.js?v=c62ef3dff3"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=c62ef3dff3"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=c62ef3dff3"></script>
+
+</body>

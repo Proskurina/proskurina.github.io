@@ -1,4 +1,85 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Sun, 18 Oct 2015 21:42:23 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Days 47-48 Reinventing instagram</title><description>&lt;p&gt;Another weekend, another challenge.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 21 Oct 2015 20:23:55 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 51</title><description>&lt;p&gt;Now I have my little, but nice and working one page web-site built with Angular, but it is working only in my browser.&lt;/p&gt;
+
+&lt;p&gt;Of course I want to deploy it to heroku. But I need to build a server first.&lt;/p&gt;
+
+&lt;p&gt;I could do it with Sinatra, but it is JS&lt;/p&gt;</description><link>http://localhost:2368/day-51/</link><guid isPermaLink="false">10d4456c-6c94-4215-b7cf-0e93e319f655</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Wed, 21 Oct 2015 18:50:52 GMT</pubDate><content:encoded>&lt;p&gt;Now I have my little, but nice and working one page web-site built with Angular, but it is working only in my browser.&lt;/p&gt;
+
+&lt;p&gt;Of course I want to deploy it to heroku. But I need to build a server first.&lt;/p&gt;
+
+&lt;p&gt;I could do it with Sinatra, but it is JS and Angular... So why not use NodeJS and Express. It seems more natural, right?&lt;/p&gt;
+
+&lt;p&gt;And it is easy!&lt;/p&gt;
+
+&lt;p&gt;So my app now is something like this:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;project  
+|___.git(folder, lots of things going on here)
+|___bower_components
+|___node_modules
+|
+|___js
+|   |__app.js
+|   |__gitUserSearchController.js
+|   |__searchFactory.js
+|
+|___test
+|   |__gitSearchController.spec.js
+|   |__karma.conf.js
+|   |__searchFactory.spec.js
+|
+|___bower.json
+|___index.html
+|___package.json
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;First, install node and &lt;a href="http://expressjs.com/starter/installing.html"&gt;express&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And then in a root directory make a little server, for example, &lt;code&gt;server.js&lt;/code&gt;, that looks something like this:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var express = require('express');  
+var app = express();
+
+app.use(express.static(__dirname + '/public'));
+
+app.get('/', function (req, res) {  
+  res.sendFile(__dirname + '/index.html');
+});
+
+app.listen(process.env.PORT || 3000, function() {  
+  console.log("listening on 3000");
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That's it!&lt;/p&gt;
+
+&lt;p&gt;Most of it is just a simple example from &lt;a href="http://expressjs.com/starter/hello-world.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Things I changed are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;made direct reference to my &lt;code&gt;index.html&lt;/code&gt; file (yes, there in no need to render html here!),&lt;/li&gt;
+&lt;li&gt;added &lt;code&gt;process.env.PORT&lt;/code&gt; (for Heroku). &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also moved my &lt;code&gt;js&lt;/code&gt; and &lt;code&gt;bower_components&lt;/code&gt; folders to &lt;code&gt;public&lt;/code&gt; folder (no need to even change pathes to files in &lt;code&gt;index.html&lt;/code&gt; file! Though if you have secrets in js folder, don't forget to change path in &lt;code&gt;.gitignore&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;Now do &lt;code&gt;node server.js&lt;/code&gt; and enjoy!&lt;/p&gt;
+
+&lt;p&gt;While deploying to heroku remember about &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;dependencies to be listed (and installed) &lt;/li&gt;
+&lt;li&gt;secrets&lt;/li&gt;
+&lt;li&gt;not deploying node_modules and bower_components. &lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>Days 49-50</title><description>&lt;p&gt;This week is Angular week. Angular is very powerful, but is always a bit tricky in the beginning.&lt;/p&gt;
+
+&lt;p&gt;The best tutorial to start with is &lt;a href="http://campus.codeschool.com/courses/shaping-up-with-angular-js/contents"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And here I should have written an example... Later this week maybe?&lt;/p&gt;</description><link>http://localhost:2368/days-49-50/</link><guid isPermaLink="false">13e2f96b-a736-43f0-b82d-f5b54cdfa260</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 20 Oct 2015 17:25:00 GMT</pubDate><content:encoded>&lt;p&gt;This week is Angular week. Angular is very powerful, but is always a bit tricky in the beginning.&lt;/p&gt;
+
+&lt;p&gt;The best tutorial to start with is &lt;a href="http://campus.codeschool.com/courses/shaping-up-with-angular-js/contents"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And here I should have written an example... Later this week maybe?&lt;/p&gt;</content:encoded></item><item><title>Days 47-48 Reinventing instagram</title><description>&lt;p&gt;Another weekend, another challenge.&lt;/p&gt;
 
 &lt;p&gt;Now our simple project starts with more than 30 folders and approximately 60 files. And finishes with twice as many...&lt;/p&gt;
 
@@ -159,130 +240,4 @@ Their final projects were amazing.&lt;/p&gt;
 
 &lt;p&gt;Now our project has two times more folders, and files, and gems, etc.&lt;/p&gt;
 
-&lt;p&gt;I am amazed by the speed we learn things.&lt;/p&gt;</content:encoded></item><item><title>Day 23-24: Bugs days</title><description>&lt;p&gt;It all started with Apple iPhone Software Update (to version 9.0). iPhone just stuck and did not want to move anywhere from the page 'slide to upgrade'.&lt;/p&gt;
-
-&lt;p&gt;Bugs that we make and catch during our learning process are not so epic of course, but sometimes an extra letter, a&lt;/p&gt;</description><link>http://localhost:2368/day-23-24-bug-days/</link><guid isPermaLink="false">ef32a28d-f47e-4ec8-8f6e-8b5f842aa8f8</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 24 Sep 2015 14:49:08 GMT</pubDate><content:encoded>&lt;p&gt;It all started with Apple iPhone Software Update (to version 9.0). iPhone just stuck and did not want to move anywhere from the page 'slide to upgrade'.&lt;/p&gt;
-
-&lt;p&gt;Bugs that we make and catch during our learning process are not so epic of course, but sometimes an extra letter, a typo, lack of a dot or comma can easily ruin several hours of your life.&lt;/p&gt;
-
-&lt;p&gt;And now I got a flue bug, had to stay at home and decided to write this post.&lt;/p&gt;
-
-&lt;p&gt;So, how to find a bug?&lt;/p&gt;
-
-&lt;p&gt;For me, as a beginner, the easiest way to catch a bug is to print out everything that's going on in my code. I put a print (&lt;code&gt;p&lt;/code&gt; or &lt;code&gt;puts&lt;/code&gt;) statement before and after every line of my code, with a short explanation of what I am printing. Then I literally can read when and where a bug appears.&lt;/p&gt;
-
-&lt;p&gt;But there are better ways. For example, using &lt;code&gt;pry&lt;/code&gt; or &lt;code&gt;byebug&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Pry is very similar to irb, but has some extra features. &lt;br&gt;
-To use pry, first you need to install it using &lt;code&gt;gem install pry&lt;/code&gt; or include &lt;code&gt;gem 'pry'&lt;/code&gt; to your &lt;code&gt;Gemfile&lt;/code&gt; and run &lt;code&gt;bundle install&lt;/code&gt;. &lt;/p&gt;
-
-&lt;p&gt;Then you need to &lt;code&gt;require pry&lt;/code&gt; in a file, where you want to find a bug, and print &lt;code&gt;binding.pry&lt;/code&gt; before the place where you think the bug can be. When you run your program, it will stop at &lt;code&gt;binding.pry&lt;/code&gt; point. And then you can print next lines in pry, receiving feedback on what is going on after each line.&lt;/p&gt;
-
-&lt;p&gt;Using byebug is similar. You install it using &lt;code&gt;gem install byebug&lt;/code&gt; or include it into your &lt;code&gt;Gemfile&lt;/code&gt; and run &lt;code&gt;bundle install&lt;/code&gt;. Then you &lt;code&gt;require byebug&lt;/code&gt; in a file anf print &lt;code&gt;byebug&lt;/code&gt; in your file where you want your program to stop running. And then you can play with byebug, the same way as you play with irb or pry. &lt;/p&gt;
-
-&lt;p&gt;Bugs have no chances!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://etm.freshegg.com/customModules/apuldramRoses/products/images/PROVADO%20ULTIMATE%20BUG%20KILLER%20CONCENTRATE.jpg" alt=""&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 22: It gets serious!</title><description>&lt;p&gt;2 main things I learned today are:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;how to structure your program,&lt;/li&gt;
-&lt;li&gt;how to deploy it to heroku.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The most difficult thing in structure is to create all necessary files and to connect them. &lt;/p&gt;
-
-&lt;p&gt;That is how a structure of our simple project looks like now.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;project  
-|___.git(folder, lots&lt;/code&gt;&lt;/pre&gt;</description><link>http://localhost:2368/day-22/</link><guid isPermaLink="false">8203f8cd-0a1f-4ae1-955d-771c1f0fe808</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 22 Sep 2015 20:53:24 GMT</pubDate><content:encoded>&lt;p&gt;2 main things I learned today are:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;how to structure your program,&lt;/li&gt;
-&lt;li&gt;how to deploy it to heroku.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The most difficult thing in structure is to create all necessary files and to connect them. &lt;/p&gt;
-
-&lt;p&gt;That is how a structure of our simple project looks like now.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;project  
-|___.git(folder, lots of things going on here)
-|___Gemfile
-|___Gemfile.lock
-|___app
-|   |__app.rb
-|   |__data_mapper_setup.rb
-|   |
-|   |__models
-|   |  |__first_model.rb
-|   |  |__second_model.rb
-|   |
-|   |__views
-|      |__index.erb
-|      |__first_page
-|         |__new.erb
-|         |__old.erb
-|
-|___config.ru
-|
-|___.rspec
-|___spec
-    |___features
-    |   |__first_feature_test_spec.spec
-    |   |__second_feature_test_spec.spec
-    |   |__third_feature_test_spec.spec
-    |
-    |___spec_helper.spec
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Only three weeks of learning and I understand what each file is needed for! Well, I think I do.&lt;/p&gt;
-
-&lt;p&gt;App folder is all about our app, spec folder is about tests (same as .rspec file), .git is a folder with version control files, Gemfiles are about gems and config is to start our program.&lt;/p&gt;
-
-&lt;p&gt;Connecting all these files is a separate story. We use &lt;code&gt;require&lt;/code&gt; or &lt;code&gt;require_relative&lt;/code&gt; to connect files:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;app.rb (our controller file for now) requires data_mapper_setup.rb, data_mapper_setup.rb requires model files (and that's how app.rb also knows about model files);&lt;/li&gt;
-&lt;li&gt;in .rspec we require spec_helper and spec_helper.rb  in its turn requires app.rb and also data_mapper_setup.rb (only now while writing this post I realised I can do that instead of requiring data_mapper_setup from each test!);&lt;/li&gt;
-&lt;li&gt;in addition we require sinatra in app.rb, data mapper in data_mapper_setup, capybara and database cleaner in spec_helper.spec.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;All clear and very logical, right? &lt;/p&gt;
-
-&lt;p&gt;In addition we had a very nice adventure to deploy our little bookmark manager program to heroku!&lt;/p&gt;
-
-&lt;p&gt;Heroku is super cool and simple, but when you use it for the first time and your program needs a database... it might be not so straightforward.&lt;/p&gt;
-
-&lt;p&gt;And here we had to learn the importance of environment in Sinatra. By pure coincidence I read "Jump start Sinatra" in a tube in the morning, and there was a little chapter called 'Environments'. &lt;/p&gt;
-
-&lt;p&gt;So, "... there are three predefined environments: development, production(when your app is live on the server), and test... To check what environment the app is running in, the helper methods &lt;code&gt;production?&lt;/code&gt;, &lt;code&gt;development?&lt;/code&gt; and &lt;code&gt;test?&lt;/code&gt; will return &lt;code&gt;true&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt;..."&lt;/p&gt;
-
-&lt;p&gt;We used this couple of times in Gemfile, like this:  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;group :test do  
-  gem 'rspec'
-  gem 'capybara'
-end  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;But I never paid attention. &lt;/p&gt;
-
-&lt;p&gt;What it actually means, is that depending on environment particular gems will or will not be used. &lt;/p&gt;
-
-&lt;p&gt;And when you use database it means, that depending on environment, path to a database will be different (when on local, database will be on your computer, when online using heroku database should be on ... heroku! Obvious, right?). So, we need to tell heroku to create database first, and in data_mapper_setup.rb we needed to indicate a path to a database depending on environment in which our program is running!&lt;/p&gt;
-
-&lt;p&gt;In our case:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;for test environment we used database postgres://localhost/bookmark_manager_test&lt;/li&gt;
-&lt;li&gt;for development environment we used database postgres://localhost/bookmark_manager_development&lt;/li&gt;
-&lt;li&gt;and for production environment in heroku it is &lt;code&gt;ENV['DATABASE_URL']&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To copy your database to heroku you do &lt;code&gt;heroku run console&lt;/code&gt; and...&lt;/p&gt;
-
-&lt;p&gt;Well, I am not sure, will check it tomorrow.&lt;/p&gt;
-
-&lt;p&gt;And &lt;a href="https://serene-scrubland-3780.herokuapp.com/"&gt;this is&lt;/a&gt; what we have so far.&lt;/p&gt;
-
-&lt;p&gt;Not much, but I am soooooooo proud!&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;I am amazed by the speed we learn things.&lt;/p&gt;</content:encoded></item></channel></rss>
