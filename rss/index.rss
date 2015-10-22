@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Wed, 21 Oct 2015 20:23:55 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 51</title><description>&lt;p&gt;Now I have my little, but nice and working one page web-site built with Angular, but it is working only in my browser.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 22 Oct 2015 19:43:19 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 51</title><description>&lt;p&gt;Now I have my little, but nice and working one page web-site built with Angular, but it is working only in my browser.&lt;/p&gt;
 
 &lt;p&gt;Of course I want to deploy it to heroku. But I need to build a server first.&lt;/p&gt;
 
@@ -91,7 +91,7 @@ app.listen(process.env.PORT || 3000, function() {
 
 &lt;p&gt;For the inspiration on Saturday morning we went to Hockney exhibition first and then to Frieze. And then to Georgian restaurant! &lt;/p&gt;
 
-&lt;p&gt;And today I am proud to present a couple of photos from my weekend &lt;a href="https://calm-tundra-5324.herokuapp.com/pictures"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And today I am proud to present a couple of photos from my weekend &lt;a href="https://floating-headland-7222.herokuapp.com/pictures"&gt;here&lt;/a&gt;. And some old ones from Dismaland.&lt;/p&gt;
 
 &lt;p&gt;Not quite instagram, but if you use your imagination you can see some remote resemblance...&lt;/p&gt;</content:encoded></item><item><title>Days 44-46 - More magic</title><description>&lt;p&gt;Here I will write about creating a simple project in Rails, about MVC structure, REST, CRUD, routs, Rails command line, Active Record Associations, migrations and schema, and other important things to remember, as soon as I have at least couple of hours...&lt;/p&gt;
 
