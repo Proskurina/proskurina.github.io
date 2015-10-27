@@ -1,4 +1,116 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 22 Oct 2015 19:43:19 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Day 51</title><description>&lt;p&gt;Now I have my little, but nice and working one page web-site built with Angular, but it is working only in my browser.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Learn to code</title><description>Based on a true story</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Tue, 27 Oct 2015 22:44:58 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Days 56-57</title><description>&lt;p&gt;This week we have Makerthon!&lt;/p&gt;
+
+&lt;p&gt;It is a warm-up before our final projects.&lt;/p&gt;
+
+&lt;p&gt;In the beginning of the week we had a brainstorming session on sharing various ideas of what could be done during the week. Some of the ideas were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;to make a todolist that can be used by&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/days-56-57/</link><guid isPermaLink="false">98dacf70-19f7-46c7-9c5c-38abd040c1c6</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Tue, 27 Oct 2015 20:43:00 GMT</pubDate><content:encoded>&lt;p&gt;This week we have Makerthon!&lt;/p&gt;
+
+&lt;p&gt;It is a warm-up before our final projects.&lt;/p&gt;
+
+&lt;p&gt;In the beginning of the week we had a brainstorming session on sharing various ideas of what could be done during the week. Some of the ideas were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;to make a todolist that can be used by several people, with shared goals,&lt;/li&gt;
+&lt;li&gt;to write a twitter with messenger,&lt;/li&gt;
+&lt;li&gt;do something Halloween themed,&lt;/li&gt;
+&lt;li&gt;to make a plug-in for Chrome that will let you close opened windows/tabs by whistling,&lt;/li&gt;
+&lt;li&gt;to make an on-line game,&lt;/li&gt;
+&lt;li&gt;make it possible to open the entrance door from Slack,
+and many-many others.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I loved the idea about whistling, but I had no clue how to approach it and if it is even doable! &lt;/p&gt;
+
+&lt;p&gt;There were two more guys who loved the idea and we formed an absolute dream team!&lt;/p&gt;
+
+&lt;p&gt;Guess what? We did it!&lt;/p&gt;
+
+&lt;p&gt;Try it &lt;a href="https://chrome.google.com/webstore/detail/whistle-stop/lhngddjdgdjkeccbdjfapfconjkhbaed?hl=en-GB"&gt;here&lt;/a&gt;. Add it to Chrome, open a new window, allow mic, open more tabs, browse in Internet and if someone enters the room... whistle! All tabs will be closed in a moment! Of course you were not procrastinating in Facebook!&lt;/p&gt;</content:encoded></item><item><title>Days 54-55</title><description>&lt;p&gt;Last Friday formal part of the course have finished. We still have 4 weeks ahead, but no fixed agenda, we will choose what to learn by ourselves depending on our final projects. &lt;/p&gt;
+
+&lt;p&gt;So I decided to make the list of books that helped me a lot during these 8 weeks.&lt;/p&gt;</description><link>http://localhost:2368/days-54-55/</link><guid isPermaLink="false">e44cc5b1-b07a-4486-8ffd-f23b10fd188f</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 25 Oct 2015 20:43:00 GMT</pubDate><content:encoded>&lt;p&gt;Last Friday formal part of the course have finished. We still have 4 weeks ahead, but no fixed agenda, we will choose what to learn by ourselves depending on our final projects. &lt;/p&gt;
+
+&lt;p&gt;So I decided to make the list of books that helped me a lot during these 8 weeks. I am sure I will come back to these books many times after the course.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Well-grounded Rubyist by David A. Black (pre-course) &lt;/li&gt;
+&lt;li&gt;Practical object oriented design in Ruby aka POODR by great Sandi Metz (1st and 2nd weeks) &lt;/li&gt;
+&lt;li&gt;Jump start Sinatra by Darren Jones (3rd and 4th weeks)&lt;/li&gt;
+&lt;li&gt;HTML/CSS and JavaScript/jQuery by Jon Duckett (5th and 6th weeks) - good books, but too many pictures, and as a result no kindle version and too heavy to carry&lt;/li&gt;
+&lt;li&gt;Ruby on rails tutorial  by Michael Hartl and The rails 4 way by Obie Fernandez, Kevin Faustino (7th week)&lt;/li&gt;
+&lt;li&gt;AngularJS Up &amp;amp; Running by Shyam Seshadri, Brad Green (8th week)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Have a good read!&lt;/p&gt;</content:encoded></item><item><title>Day 53</title><description>&lt;p&gt;Today Evgeniy (Makers founder and CEO) gave a great talk on Teal companies.&lt;/p&gt;
+
+&lt;p&gt;The talk was based on Frédéric Laloux book Reinventing Organizations.  &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In this book the author uses a colour scheme to describe the historical development of human organizations: Red &gt; Orange &gt; Green &gt; Teal. &lt;/p&gt;
+  
+  &lt;p&gt;Laloux lists three breakthroughs of Teal&lt;/p&gt;&lt;/blockquote&gt;</description><link>http://localhost:2368/day-53/</link><guid isPermaLink="false">d317d4ea-f661-480d-8be3-5fe92b57bd1b</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Fri, 23 Oct 2015 19:42:00 GMT</pubDate><content:encoded>&lt;p&gt;Today Evgeniy (Makers founder and CEO) gave a great talk on Teal companies.&lt;/p&gt;
+
+&lt;p&gt;The talk was based on Frédéric Laloux book Reinventing Organizations.  &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In this book the author uses a colour scheme to describe the historical development of human organizations: Red &gt; Orange &gt; Green &gt; Teal. &lt;/p&gt;
+  
+  &lt;p&gt;Laloux lists three breakthroughs of Teal organizations:&lt;/p&gt;
+  
+  &lt;p&gt;Self-management: driven by peer relationships&lt;/p&gt;
+  
+  &lt;p&gt;Wholeness: involving the whole person at work&lt;/p&gt;
+  
+  &lt;p&gt;Evolutionary purpose: let the organization adapt and grow, not be driven&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In simple words Teal companies are based on trust, responsible and proactive approach to work. No one tells you what to do and you do things only if you believe that these things are worth doing. And at work you are the same person as in "real" life, because work IS your real life and you do not have to pretend to be someone else. So the main idea is to work and enjoy life at the same time.&lt;/p&gt;
+
+&lt;p&gt;Sounds like a dream! But it is real.&lt;/p&gt;
+
+&lt;p&gt;It seems that Makers Academy is fantastic not only for students but also for people who work there.&lt;/p&gt;</content:encoded></item><item><title>Day 52</title><description>&lt;p&gt;This is a short addition to my previous post.&lt;/p&gt;
+
+&lt;p&gt;So, you are deploying your app to heroku. &lt;/p&gt;
+
+&lt;p&gt;But you do not want to push bower_components folder to github or heroku (so bower_components is in your .gitignore file).&lt;/p&gt;
+
+&lt;p&gt;How to make heroku run &lt;code&gt;bower install&lt;/code&gt; and install bower_components&lt;/p&gt;</description><link>http://localhost:2368/day-52/</link><guid isPermaLink="false">e7804234-173f-460a-803d-702af1663fce</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 22 Oct 2015 19:41:00 GMT</pubDate><content:encoded>&lt;p&gt;This is a short addition to my previous post.&lt;/p&gt;
+
+&lt;p&gt;So, you are deploying your app to heroku. &lt;/p&gt;
+
+&lt;p&gt;But you do not want to push bower_components folder to github or heroku (so bower_components is in your .gitignore file).&lt;/p&gt;
+
+&lt;p&gt;How to make heroku run &lt;code&gt;bower install&lt;/code&gt; and install bower_components to the right folder?&lt;/p&gt;
+
+&lt;p&gt;3 simple steps:&lt;/p&gt;
+
+&lt;p&gt;1) Include bower as dependency into your &lt;code&gt;package.json&lt;/code&gt; file like this:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  "dependencies": {
+    "bower": "^1.6.3"
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It will tell heroku to install bower in the first place.&lt;/p&gt;
+
+&lt;p&gt;2) In the same &lt;code&gt;package.json&lt;/code&gt; file tell heroku to run &lt;code&gt;bower install&lt;/code&gt;. You do it like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  "scripts": {
+    "postinstall": "bower install"
+  },
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;3) Indicate where you want bower_components to be installed. By default this folder will appear in your root directory, if you want it to be in another place you need &lt;code&gt;.bowerrc&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;p&gt;For example, if you want it to be in &lt;code&gt;public&lt;/code&gt; folder you indicate it in your &lt;code&gt;.bowerrc&lt;/code&gt; file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  "directory" : "public/bower_components"
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now heroku knows what to do!&lt;/p&gt;</content:encoded></item><item><title>Day 51</title><description>&lt;p&gt;Now I have my little, but nice and working one page web-site built with Angular, but it is working only in my browser.&lt;/p&gt;
 
 &lt;p&gt;Of course I want to deploy it to heroku. But I need to build a server first.&lt;/p&gt;
 
@@ -198,46 +310,4 @@ Their final projects were amazing.&lt;/p&gt;
 
 &lt;p&gt;It is the middle of the course (equator as they say in uni) for us, we are officially seniors now. Time to think what our final projects could be.&lt;/p&gt;
 
-&lt;p&gt;Next week is a lab week. So hope to have plenty of time to think about it.&lt;/p&gt;</content:encoded></item><item><title>Days 29-31</title><description>&lt;p&gt;By activity in a blog you can always see when friends are in town!&lt;/p&gt;
-
-&lt;p&gt;Will try to write more about new things learnt this week (JSON, ajax, jquery, APIs) later.&lt;/p&gt;
-
-&lt;p&gt;As for now more concerts, cocktails and fun!!!&lt;/p&gt;</description><link>http://localhost:2368/days-29-31/</link><guid isPermaLink="false">dc73c1e1-d068-425b-ab7e-42615dc3cb60</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Thu, 01 Oct 2015 18:30:00 GMT</pubDate><content:encoded>&lt;p&gt;By activity in a blog you can always see when friends are in town!&lt;/p&gt;
-
-&lt;p&gt;Will try to write more about new things learnt this week (JSON, ajax, jquery, APIs) later.&lt;/p&gt;
-
-&lt;p&gt;As for now more concerts, cocktails and fun!!!&lt;/p&gt;</content:encoded></item><item><title>Day 28: JavaScript!</title><description>&lt;p&gt;Can we learn a new language in a week? I'll tell you on Friday!&lt;/p&gt;
-
-&lt;p&gt;But I can feel already that comparing to Ruby JS is pain. Syntax is crazy, and errors... well, it does not know much about what went wrong... and I do not know either! was it a&lt;/p&gt;</description><link>http://localhost:2368/day-28/</link><guid isPermaLink="false">56df40b1-0903-4f0d-adcc-9bfdab448218</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Mon, 28 Sep 2015 21:43:00 GMT</pubDate><content:encoded>&lt;p&gt;Can we learn a new language in a week? I'll tell you on Friday!&lt;/p&gt;
-
-&lt;p&gt;But I can feel already that comparing to Ruby JS is pain. Syntax is crazy, and errors... well, it does not know much about what went wrong... and I do not know either! was it a test, a code or just a stupid typo! 'Expect undefined to be true'...&lt;/p&gt;
-
-&lt;p&gt;console.log() is my best friend for the next 4 days!&lt;/p&gt;</content:encoded></item><item><title>Days 26-27. Proper weekend!</title><description>&lt;p&gt;This week we built a clone of Twitter!&lt;/p&gt;
-
-&lt;p&gt;Well, very simple version of it, but still...&lt;/p&gt;
-
-&lt;p&gt;I think it was the most difficult weekend challenge so far. I started on Saturday at 9 am.&lt;/p&gt;
-
-&lt;p&gt;At 2 pm I had to have a break as I had tickets to Dismaland and&lt;/p&gt;</description><link>http://localhost:2368/days-26-27-proper-weekend/</link><guid isPermaLink="false">c3515be9-3498-4bec-b3db-bb6e0608cf13</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Sun, 27 Sep 2015 13:37:51 GMT</pubDate><content:encoded>&lt;p&gt;This week we built a clone of Twitter!&lt;/p&gt;
-
-&lt;p&gt;Well, very simple version of it, but still...&lt;/p&gt;
-
-&lt;p&gt;I think it was the most difficult weekend challenge so far. I started on Saturday at 9 am.&lt;/p&gt;
-
-&lt;p&gt;At 2 pm I had to have a break as I had tickets to Dismaland and needed to catch 3pm train from Paddington.&lt;/p&gt;
-
-&lt;p&gt;I continued in a train. And a couple of times I was so stuck that I was literally ready to cry. When you have an error and you have no clue how to deal with it! And so many files and folders so you cannot figure out which one could be failing...  And no internet connection... And you do not know where you are and at what station you need to change the train!&lt;/p&gt;
-
-&lt;p&gt;But I finished it on my way back! And I have the whole Sunday for myself! For the first time since the course has started!&lt;/p&gt;
-
-&lt;p&gt;It was not so bad after all!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.imgur.com/IluepGs.jpg" alt="Imgur"&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 25</title><description>&lt;p&gt;By Friday I  realised that everything I wrote on Tuesday about project structure and connecting files was just a kids stuff.&lt;/p&gt;
-
-&lt;p&gt;Now our project has two times more folders, and files, and gems, etc.&lt;/p&gt;
-
-&lt;p&gt;I am amazed by the speed we learn things.&lt;/p&gt;</description><link>http://localhost:2368/day-25/</link><guid isPermaLink="false">6ad4aa8b-15de-4b13-af5e-0c56cea81ef4</guid><dc:creator>Yana Proskurina</dc:creator><pubDate>Fri, 25 Sep 2015 11:43:00 GMT</pubDate><content:encoded>&lt;p&gt;By Friday I  realised that everything I wrote on Tuesday about project structure and connecting files was just a kids stuff.&lt;/p&gt;
-
-&lt;p&gt;Now our project has two times more folders, and files, and gems, etc.&lt;/p&gt;
-
-&lt;p&gt;I am amazed by the speed we learn things.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Next week is a lab week. So hope to have plenty of time to think about it.&lt;/p&gt;</content:encoded></item></channel></rss>
